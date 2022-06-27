@@ -1,0 +1,855 @@
+	Unnamed: 0	tweet_id	type	begin	end	span	tweet
+0	0	SMM4H2022yW4mXhmCE9gh1B7b	ADE	28	37	allergies	"do you have any medication allergies? ""asthma!!!"" me: ""........"" pt: ""no wait. avelox, that's it!"" ""so no other allergies?"" ""right!"" *cont"
+1	1	SMM4H2022afMxPjtHKyItF0n3	ADE	31	46	HURT YOUR Liver	@USER_________ if #avelox has hurt your liver, avoid tylenol always, as it further damages liver, eat grapefruit unless taking cardiac drugs
+2	2	SMM4H2022dc1lWHnZeBy441B8	ADE	48	50	AD	"apparently, baclofen greatly exacerbates the ""ad"" part of my adhd. average length of focus today: about 30 seconds."
+3	3	SMM4H2022dc1lWHnZeBy441B8	ADE	88	93	focus	"apparently, baclofen greatly exacerbates the ""ad"" part of my adhd. average length of focus today: about 30 seconds."
+4	4	SMM4H2022ExV2GXXaqhGjJNFM	ADE	11	15	died	pt of mine died from cipro rt @USER_________: @USER_____ if only more doctors thought like you! i lost my entire life to 12 cipro pills
+5	5	SMM4H2022dZ7ZqyvGqxh0jKeH	ADE	40	44	died	@USER_____ The only pt of mine who ever died was one age 21 profound autism chronic underwt & GI issues, given lots of Cipro. Terrible
+6	6	SMM4H202221svYY3nNe8z5jdE	ADE	66	79	tendon damage	owww. i hurt my foot. &amp; am concerned. 1st warning on cipro is tendon damage. :-/ it certainly wasn't a rupture. i'm sure i'm just paranoid.
+7	7	SMM4H2022TktK7f4NNPqLzVWl	ADE	26	32	dreams	@USER______ oh robitussin dreams are notorious. although what will really turn 'em into a bunuel movie is cipro.
+8	8	SMM4H2022E8PLU8eznkYN0dlx	ADE	84	98	tendon rupture	#eds friends! anybody taken #cipro? (antibiotic) complications?? big side effect is tendon rupture...figured my dr would know better?
+9	9	SMM4H2022FxzK9r9cEII1gmaJ	ADE	101	111	withdrawal	@USER___________ Umm, are you being a smart-ass? Dont mess with me right now. Going through Cymbalta withdrawal I think & Im VERY depressed.
+10	10	SMM4H20222QPvF36FzxCLJe8l	ADE	13	27	emotional mess	today i'm an emotional mess. that's what happens when i think i could wean myself off of cymbalta.
+11	11	SMM4H2022o9R8zCvDwlfSI87k	ADE	17	29	not remember	losing it. could not remember the word power strip. wonder which drug is doing this memory lapse thing. my guess the cymbalta. #helps
+12	12	SMM4H2022o9R8zCvDwlfSI87k	ADE	84	96	memory lapse	losing it. could not remember the word power strip. wonder which drug is doing this memory lapse thing. my guess the cymbalta. #helps
+13	13	SMM4H20224CdAz4uAODp4fESt	ADE	5	8	nap	that nap was on point.... cymbalta did that shit cuz i dont take naps...ever
+14	14	SMM4H2022aJS4BaMKlXI0KeI5	ADE	71	82	psychedelic	@USER___________ cymbalta. 3x the dosage i was once on...everything is psychedelic and yuck. still grateful for meds!
+15	15	SMM4H2022LsJR4tzc0A5eTQB4	ADE	94	100	mashed	@USER____ @USER________ i'm taking 700mg pregablin and 60 mg duloxetine hence why i'm totally mashed
+16	16	SMM4H2022H46enMioMkbcxr0A	ADE	66	77	space cadet	note to self: do not take #fluoxetine and #aleved together. i'm a space cadet today!  #druginteractions
+17	17	SMM4H202247Y6GjkNElgjxDKM	ADE	38	51	illness worse	I'm sure this fluoxetine is making my illness worse, especially since I can't eat..
+18	18	SMM4H202247Y6GjkNElgjxDKM	ADE	72	81	can't eat	I'm sure this fluoxetine is making my illness worse, especially since I can't eat..
+19	19	SMM4H2022nAYZ3hTd7VxYMKZC	ADE	30	38	allergic	rt @USER___: finding out i'm allergic to fluoxetine was a bit of a shock tho. mind, only someone from yorkshire could be actually allergic '
+20	20	SMM4H2022pJ8eplYSKrDUKhBg	ADE	127	138	withdrawals	i took 11 pills of geodon i was rushed to the hospital they had to stick a tube up my nose ugh never again i feel so bad today withdrawals.
+21	21	SMM4H2022VlNSwqfn2B6lekK9	ADE	41	47	hungry	so the geodon is what made me so frickin hungry all the time cause i've eaten very little these past few days.
+22	22	SMM4H2022q1fnCS4S7ckk1qUv	ADE	104	114	joint pain	@USER___________ it was explained to me that all the anti-tnfs can bring out other issues. i had severe joint pain on humira &amp; remicaid
+23	23	SMM4H2022uycEAFWkndlu2r3e	ADE	61	68	fistula	@USER__________ @USER____ i feel your pain :(  just got 1st #fistula urgh ! humira worked for me for just 3months then got painful reactions
+24	24	SMM4H2022uycEAFWkndlu2r3e	ADE	123	140	painful reactions	@USER__________ @USER____ i feel your pain :(  just got 1st #fistula urgh ! humira worked for me for just 3months then got painful reactions
+25	25	SMM4H2022LCONWDHIHZaerIEz	ADE	98	105	fatigue	The day after Humira used to be a great one, full of energy, low pain. After a month, it is now a fatigue filled achy day. #rheum
+26	26	SMM4H2022LCONWDHIHZaerIEz	ADE	113	117	achy	The day after Humira used to be a great one, full of energy, low pain. After a month, it is now a fatigue filled achy day. #rheum
+27	27	SMM4H20220Fn1PRrRkP70pjI5	ADE	112	119	fatigue	rt @USER___: the day after humira used to be a great one, full of energy, low pain. after a month, it is now a fatigue filled achy day. #rh'
+28	28	SMM4H20220Fn1PRrRkP70pjI5	ADE	127	131	achy	rt @USER___: the day after humira used to be a great one, full of energy, low pain. after a month, it is now a fatigue filled achy day. #rh'
+29	29	SMM4H2022XbBn71ec15IlmpA6	ADE	39	48	no immune	humira + thioguanine + preds = me have no immune lol.. thankgod i on anti biotics for a bit... then preds drop off #crohns
+30	30	SMM4H2022Bi2Q3tParwQAMrQw	ADE	12	24	nerve damage	anyone have nerve damage symptoms (ms like) from enbrel or humira? #rheum
+31	31	SMM4H2022Bi2Q3tParwQAMrQw	ADE	35	42	MS like	anyone have nerve damage symptoms (ms like) from enbrel or humira? #rheum
+32	32	SMM4H20222nZuTHzcSXK4tHEI	ADE	89	93	pain	well. i abruptly stopped taking lamotrigine (lamictal), and that is why i am having the pain and weakness. possible seizure. oops.
+33	33	SMM4H20222nZuTHzcSXK4tHEI	ADE	98	106	weakness	well. i abruptly stopped taking lamotrigine (lamictal), and that is why i am having the pain and weakness. possible seizure. oops.
+34	34	SMM4H20222nZuTHzcSXK4tHEI	ADE	117	124	seizure	well. i abruptly stopped taking lamotrigine (lamictal), and that is why i am having the pain and weakness. possible seizure. oops.
+35	35	SMM4H2022WPMAm8luy2rAnnkt	ADE	52	58	rashes	So while I'm letting the thoughts of Lamictal/fatal rashes/tonsillectomy/spinal tap settle, I'm going to go rescue a budgie.
+36	36	SMM4H202223uXsizc5NBoDgvf	ADE	12	45	hair is... definitely falling out	oh... oh my hair is... definitely falling out. ._. i just noticed it starting tonight. google tells me other people on lamictal have this.
+37	37	SMM4H2022DZZGRzJU8WWUg9Fk	ADE	90	94	sick	@USER________ it's called lamotrigine, i'm pretty sure the mix of them both is making me sick. i don't think bipolar &amp; add mix very well..
+38	38	SMM4H2022to1NDtQK9OtX5hbL	ADE	63	72	depressed	what is this weird feeling i've been having all day? i've felt depressed yet oddly happy. this is the second day of bid #lamotrigine
+39	39	SMM4H20224RFxlkutkRb6Rr0v	ADE	36	45	addictive	@USER___ didnt know Lamotrigine was addictive Stopped as didnt think were helping @USER________ 3 days of hell before realized, back on now
+40	40	SMM4H20224RFxlkutkRb6Rr0v	ADE	98	110	days of hell	@USER___ didnt know Lamotrigine was addictive Stopped as didnt think were helping @USER________ 3 days of hell before realized, back on now
+41	41	SMM4H2022wM2cmNxhBwLShHOr	ADE	38	46	allergic	@USER__________ i feel your pain, im allergic to penicillin, ammoxicillin, levaquin, doxycycline. it sucks
+42	42	SMM4H2022zwCw5i9D4QwcpoJB	ADE	53	64	can't think	@USER_____ nicotine lozenges. if i go cold turkey i can't think (or see) straight, so i can't work.
+43	43	SMM4H2022zwCw5i9D4QwcpoJB	ADE	69	82	see) straight	@USER_____ nicotine lozenges. if i go cold turkey i can't think (or see) straight, so i can't work.
+44	44	SMM4H2022RpwkbQu6C4iXgfED	ADE	31	41	starvation	he said he is 'slowly dying of starvation'. i don't want to be the one to say stop taking the aricept and namenda...
+45	45	SMM4H2022TOpE89MiTeVZO5vc	ADE	27	43	increases hunger	@USER______ coz olanzapine increases hunger strains u all day dosile unless u get up when ur accilies still wud n coffee 5am fog frost
+46	46	SMM4H2022nT2Q2V7WhOgsnPtn	ADE	45	51	dreams	@USER______ olanzapine is amazing srsly, the dreams are immense, no addiction, its gorgeous, like brave new world soma to me
+47	47	SMM4H2022T285CGUbAztuICzu	ADE	37	40	fat	olanzapine is supposed to make you a fat bastard i got off lucky. lithium makes my hand shake. bipolar or schizo drugs.
+48	48	SMM4H2022T285CGUbAztuICzu	ADE	83	93	hand shake	olanzapine is supposed to make you a fat bastard i got off lucky. lithium makes my hand shake. bipolar or schizo drugs.
+49	49	SMM4H2022txhtlGpbJiWfmpXF	ADE	110	125	stopped working	"@USER______ that's the problem with most of them - side effects. i was on paxil after my mom died and ""it"" stopped working. fuck that."
+50	50	SMM4H2022mGz22Q36Ay7iZyFM	ADE	91	119	Getting out of bed is haaard	anemia, hormones, depression &amp; paxil are totally getting the best of me this morning. getting out of bed is haaard.
+51	51	SMM4H2022XEeq5GabAipd8xoh	ADE	3	25	creativity was blocked	my creativity was blocked by lithium and prozac and wellbutrin and paxil and zoloft and effexor and lexapro and cymbalta and abilify-
+52	52	SMM4H2022b7AKevauj96s00f5	ADE	43	46	w/d	the #zombieapocalypse will stem from paxil w/d symptoms. mark my words.
+53	53	SMM4H2022uaeS5t9HRmRkv0HA	ADE	36	42	drowsy	For anxiety to penetrate through my drowsy haze (a result of the triumvirate of fluoxetine, pregabalin, amoxicillin?) is pretty good going.
+54	54	SMM4H2022uaeS5t9HRmRkv0HA	ADE	43	47	haze	For anxiety to penetrate through my drowsy haze (a result of the triumvirate of fluoxetine, pregabalin, amoxicillin?) is pretty good going.
+55	55	SMM4H2022Qo22ZzlKgHszxhmQ	ADE	64	74	brain zaps	@USER________ i came off pristiq in july last year. i still get brain zaps when tired. my genitals aren't numb now tho - swings/roundabouts
+56	56	SMM4H2022Qo22ZzlKgHszxhmQ	ADE	90	110	genitals aren't numb	@USER________ i came off pristiq in july last year. i still get brain zaps when tired. my genitals aren't numb now tho - swings/roundabouts
+57	57	SMM4H20220SEypP61C1BmCZC3	ADE	102	107	detox	@USER______ anxiety has been so high. But yeah, if your dosage is high its hard to come off. I had to detox from pristiq (its cousin drug)
+58	58	SMM4H2022Oa6I8EtPkyDJd41n	ADE	24	37	facial spasms	anybody get involuntary facial spasms with prozac? mine is my right eye. does it go away or is time to try something else?
+59	59	SMM4H2022Oa6I8EtPkyDJd41n	ADE	68	71	eye	anybody get involuntary facial spasms with prozac? mine is my right eye. does it go away or is time to try something else?
+60	60	SMM4H2022NI5d1UHevv5Gy02R	ADE	51	56	awake	@USER____ if i don't take my quetiapine i can stay awake for days!
+61	61	SMM4H2022QAxE14vIZVwsF3QR	ADE	17	26	out of it	new meds have me out of it. i want therapy not doping up! i was highly functioning now have trouble standing! #quetiapine #bipolar
+62	62	SMM4H2022QAxE14vIZVwsF3QR	ADE	47	56	doping up	new meds have me out of it. i want therapy not doping up! i was highly functioning now have trouble standing! #quetiapine #bipolar
+63	63	SMM4H2022D8UrISRBTtsFUR7I	ADE	0	7	-9.5lbs	-9.5lbs in 14 days. obvious now that i should have stopped the quetiapine a long long time ago before i got in this state
+64	64	SMM4H20227Rn12JLGfr7YzqFT	ADE	107	132	horrid intrusive thoughts	extra quetiapine and two zopiclone still aren't helping me sleep. head full of broken biscuits at 4am with horrid intrusive thoughts
+65	65	SMM4H20222xKrdNCWviBUA9Iy	ADE	71	79	allergic	(triggering) so... i'm taking quetiapine and tramadol pre-cutting. i'm allergic to tramadol...this should be interesting #selfharm
+66	66	SMM4H2022benpjPl9VmEGvKI9	ADE	25	30	sleep	all i have done today is sleep. and i still need to sleep more. this is a welcome change. #quetiapine
+67	67	SMM4H2022yO9PYUGtKH9L26Qa	ADE	123	136	hallucinating	toothache. discovered that somewhere in the paracetamol, codeine, sertraline #quetiapine combination there is a bad mix. #hallucinating
+68	68	SMM4H20228boNxgDfjPD6Ck9v	ADE	89	98	dry mouth	@USER_______ quetiapine made me eat all the sweets, the sour ones seem to help with the dry mouth
+69	69	SMM4H2022CGCQVPPRqdgWYdT0	ADE	116	138	20 hours a day, asleep	@USER_________ Quetiapine perhaps gives most dramatic effect for single low dose. No, pts are not being lazy in bed 20 hours a day, asleep!
+70	70	SMM4H2022nijIhNIpAFwzFAv3	ADE	55	71	prolactin levels	rt @USER__________: since quetiapine's messed with my prolactin levels, making my boobs humungous &amp; my bras so expensive, i want a lingerie'
+71	71	SMM4H2022nijIhNIpAFwzFAv3	ADE	83	98	boobs humungous	rt @USER__________: since quetiapine's messed with my prolactin levels, making my boobs humungous &amp; my bras so expensive, i want a lingerie'
+72	72	SMM4H2022QDw0RUIGiiSF06Si	ADE	57	75	knee still painful	rivaroxaban diary day 8. left knee is much better. right knee still painful. back ache receding but suspect it will come back once in bed.
+73	73	SMM4H2022QDw0RUIGiiSF06Si	ADE	77	86	Back ache	rivaroxaban diary day 8. left knee is much better. right knee still painful. back ache receding but suspect it will come back once in bed.
+74	74	SMM4H2022mJE7B68NciZl6Ec3	ADE	32	47	Lower back ache	08.15 day 13 Rivaroxaban diary. Lower back ache, neck ache, hips and knees ache, short of breath, (am asthmatic) taken 2paracetamol, to bed.
+75	75	SMM4H2022mJE7B68NciZl6Ec3	ADE	49	58	neck ache	08.15 day 13 Rivaroxaban diary. Lower back ache, neck ache, hips and knees ache, short of breath, (am asthmatic) taken 2paracetamol, to bed.
+76	76	SMM4H2022mJE7B68NciZl6Ec3	ADE	60	64	hips	08.15 day 13 Rivaroxaban diary. Lower back ache, neck ache, hips and knees ache, short of breath, (am asthmatic) taken 2paracetamol, to bed.
+77	77	SMM4H2022mJE7B68NciZl6Ec3	ADE	69	79	knees ache	08.15 day 13 Rivaroxaban diary. Lower back ache, neck ache, hips and knees ache, short of breath, (am asthmatic) taken 2paracetamol, to bed.
+78	78	SMM4H2022mJE7B68NciZl6Ec3	ADE	81	96	short of breath	08.15 day 13 Rivaroxaban diary. Lower back ache, neck ache, hips and knees ache, short of breath, (am asthmatic) taken 2paracetamol, to bed.
+79	79	SMM4H2022ztEzLQkm4v7rc5Xy	ADE	42	50	backache	13.24 day 15 rivaroxaban diary. atrocious backache despite having taken paracetamol an hour ago. gone back to bed.
+80	80	SMM4H2022fE3HMexQbOOyry9r	ADE	26	49	muscle &amp; back pains	rivaroxaban diary day 25 muscle &amp; back pains were due to being on rvxbn for 10 days, on it + losartan for 8 days, + losartan only for 4 days
+81	81	SMM4H2022fE3HMexQbOOyry9r	ADE	39	49	back pains	rivaroxaban diary day 25 muscle &amp; back pains were due to being on rvxbn for 10 days, on it + losartan for 8 days, + losartan only for 4 days
+82	82	SMM4H2022D8p9FUdZH4VNqDvl	ADE	109	124	not remembering	@USER___________ is my memory really bad due to 900mg seroquel and 120mg cymbalta or the bipolar itself? i'm not remembering conversations
+83	83	SMM4H2022qeMxbvH69elnrSxO	ADE	81	91	drowsiness	@USER_________ @USER________ I'm pretty lucid in all my dreams, and the Seroquel drowsiness carried over into the dream. LOLOL.
+84	84	SMM4H2022bf8sD2fJDMAUkHoQ	ADE	34	78	sleep on my own. but i got at least 16 hours	i can only get about 7-8 hours of sleep on my own. but i got at least 16 hours with seroquel. i now see how people can get addicted.
+85	85	SMM4H2022VCgadl0A1WwurEKR	ADE	67	80	sugar crashes	maybe cos of the insulin blocking effect of seroquel but i do feel sugar crashes when eat fast carbs. will feel ill. so avoid where poss.
+86	86	SMM4H2022VCgadl0A1WwurEKR	ADE	107	115	feel ill	maybe cos of the insulin blocking effect of seroquel but i do feel sugar crashes when eat fast carbs. will feel ill. so avoid where poss.
+87	87	SMM4H2022OHXhXMEFXXeB5ckX	ADE	61	74	won't wake up	trazodone isn't working. can't take seroquel at 430 am or i won't wake up until after 2 pm. stuck, painfully awake.
+88	88	SMM4H2022EHC8K4XsHVygHMUn	ADE	9	21	not remember	why do i not remember going to bed or waking up (the answer: probably seroquel)
+89	89	SMM4H2022LLbPKQqYcsYyYceo	ADE	91	126	feels like I have raw nerve endings	i can't take this:( i thought having seroquel would make it easier but nope. my whole body feels like i have raw nerve endings going crazy
+90	90	SMM4H2022dWRKt5ZNZcqhL3og	ADE	88	115	sleep for 12 straight hours	@USER________ and with seroquel i take half of a 25mg pill. and it knocks me out; i can sleep for 12 straight hours
+91	91	SMM4H2022BeKCxEcFC6g1Yf7S	ADE	84	104	urge to procure food	waitt..here it comes..the #seroquel is pulling me under..also i now have the sudden urge to procure food.. #fmlimugly
+92	92	SMM4H2022OMnjRitKpo8qpeNJ	ADE	92	102	dependence	but i don't want to take an ambien or trazodone or anything because i dint wanna restart my dependence upon them
+93	93	SMM4H2022VWLdzAhteSRi8nTA	ADE	50	56	asleep	i think it's bad i'm consistently in bed by 9 and asleep by 9:15. #trazodone
+94	94	SMM4H2022ucQBccE7i5PwWhb1	ADE	36	59	knocked me the fuck out	holy shit, that trazodone actually knocked me the fuck out and took me for a ride
+95	95	SMM4H2022BH7beYzUpJkRyFpx	ADE	34	38	high	trazodone is fun because you get high, slowly fade into sleep, then wake up drunk as hell.
+96	96	SMM4H2022BH7beYzUpJkRyFpx	ADE	77	82	drunk	trazodone is fun because you get high, slowly fade into sleep, then wake up drunk as hell.
+97	97	SMM4H2022eIJ54Zcr9Nca3JD7	ADE	104	113	tolerance	i wish xanax made me tired. i also wish ambien, trazodone, lorazepam, lunesta, and temazepam did too. #tolerance #fml
+98	98	SMM4H20223J3KkZVhEMca3bYB	ADE	28	42	sleep schedule	trazodone has screwed up my sleep schedule. its helping tho.
+99	99	SMM4H2022dulneTTVNOwSbAPl	ADE	77	111	felt like I.had a frontal lobotomy	@USER__________ it works otherwise. my pcp started me on trazodone before. i felt like i.had a frontal lobotomy the following day
+100	100	SMM4H2022Uh7y5V22RVHTsXlc	ADE	58	62	sick	My Philly dr prescribed me Trazodone,1pill made me so fkn sick, couldnt move 2day.Xtreme migraine, puke, shakes. Any1else get that react?
+101	101	SMM4H2022Uh7y5V22RVHTsXlc	ADE	64	76	couldnt move	My Philly dr prescribed me Trazodone,1pill made me so fkn sick, couldnt move 2day.Xtreme migraine, puke, shakes. Any1else get that react?
+102	102	SMM4H2022Uh7y5V22RVHTsXlc	ADE	89	97	migraine	My Philly dr prescribed me Trazodone,1pill made me so fkn sick, couldnt move 2day.Xtreme migraine, puke, shakes. Any1else get that react?
+103	103	SMM4H2022Uh7y5V22RVHTsXlc	ADE	99	103	puke	My Philly dr prescribed me Trazodone,1pill made me so fkn sick, couldnt move 2day.Xtreme migraine, puke, shakes. Any1else get that react?
+104	104	SMM4H2022Uh7y5V22RVHTsXlc	ADE	105	111	shakes	My Philly dr prescribed me Trazodone,1pill made me so fkn sick, couldnt move 2day.Xtreme migraine, puke, shakes. Any1else get that react?
+105	105	SMM4H2022iKOb7fTQc87fxthS	ADE	49	59	nightmares	i went down to 100 mg of trazodone at night. the nightmares are gone but my insomnia got worse.
+106	106	SMM4H2022iKOb7fTQc87fxthS	ADE	76	84	insomnia	i went down to 100 mg of trazodone at night. the nightmares are gone but my insomnia got worse.
+107	107	SMM4H2022EgnWPzzeZU2KWyKc	ADE	16	21	tired	sick of feeling tired. fed up of meds not working. loads to do today &amp; no freaking motivation or energy #venlafaxine #day9
+108	108	SMM4H2022EgnWPzzeZU2KWyKc	ADE	75	97	no freaking motivation	sick of feeling tired. fed up of meds not working. loads to do today &amp; no freaking motivation or energy #venlafaxine #day9
+109	109	SMM4H2022EgnWPzzeZU2KWyKc	ADE	101	107	energy	sick of feeling tired. fed up of meds not working. loads to do today &amp; no freaking motivation or energy #venlafaxine #day9
+110	110	SMM4H20224b4uMAJCbrZyURvB	ADE	9	14	sleep	11 hours sleep and still i feel tired and dizzy #venlafaxine #day10
+111	111	SMM4H20224b4uMAJCbrZyURvB	ADE	32	37	tired	11 hours sleep and still i feel tired and dizzy #venlafaxine #day10
+112	112	SMM4H20224b4uMAJCbrZyURvB	ADE	42	47	dizzy	11 hours sleep and still i feel tired and dizzy #venlafaxine #day10
+113	113	SMM4H2022lJa05ogltSExO4Jd	ADE	52	58	drowsy	so it seems that  if i take #venlafaxine in am i am drowsy all day. if i take in pm i don't sleep well. go figure.  #day14
+114	114	SMM4H2022lJa05ogltSExO4Jd	ADE	86	102	don't sleep well	so it seems that  if i take #venlafaxine in am i am drowsy all day. if i take in pm i don't sleep well. go figure.  #day14
+115	115	SMM4H2022g8QKcmebPc1oDvt6	ADE	0	23	Feel crap every morning	feel crap every morning. wake up after another restless night and just want to cry. #venlafaxine #day16
+116	116	SMM4H2022g8QKcmebPc1oDvt6	ADE	47	61	restless night	feel crap every morning. wake up after another restless night and just want to cry. #venlafaxine #day16
+117	117	SMM4H2022Qk1JPnuWRE3B5g4A	ADE	80	93	carb cravings	i low carb but have just eaten my body weight in freakin carbs! i only hope the carb cravings are because i'm coming off the #venlafaxine
+118	118	SMM4H2022bkrj19PBcARmknPv	ADE	0	6	Dreamt	dreamt i was squirting acid at wood lice - i woke screaming when they came at me. i do hope the dreams are the #venlafaxine withdrawal.
+119	119	SMM4H2022bkrj19PBcARmknPv	ADE	96	102	dreams	dreamt i was squirting acid at wood lice - i woke screaming when they came at me. i do hope the dreams are the #venlafaxine withdrawal.
+120	120	SMM4H2022bkrj19PBcARmknPv	ADE	124	134	withdrawal	dreamt i was squirting acid at wood lice - i woke screaming when they came at me. i do hope the dreams are the #venlafaxine withdrawal.
+121	121	SMM4H2022SwS4YelEVMuklFb0	ADE	95	109	dreamt colours	@USER_________ i tried that going cold turkey on venlafaxine and depakote is not a good idea i dreamt colours and lost my fucking mind aghh!
+122	122	SMM4H2022SwS4YelEVMuklFb0	ADE	114	134	lost my fucking mind	@USER_________ i tried that going cold turkey on venlafaxine and depakote is not a good idea i dreamt colours and lost my fucking mind aghh!
+123	123	SMM4H2022o7kegQpkLFULWVX8	ADE	57	71	falling asleep	high off tramadol and venlafaxine in school omg help i'm falling asleep here
+124	124	SMM4H2022RSKvAYDJl8dwaIuq	ADE	113	120	sickest	holy shit no more xanax or risperidone. i will have withdrawals. still on viibryd but it's next. it makes me the sickest.
+125	125	SMM4H2022WvedEsS1LDvasqyW	ADE	32	39	ZOMBIES	@USER___ VYVANSE GOT ME UP LIKE ZOMBIES.. XAN'S PUT ME DOWN, THEM BITCHES CALL ME ROMNEY.. THE WAY I STEADY CLOWN #txfreestyle #barrdout
+126	126	SMM4H2022jCqj2okGd5TN8OHm	ADE	78	103	eat because I just forget	@USER___________ yeah, i'm on vyvanse and sometimes i have to be reminded to eat because i just forget.
+127	127	SMM4H2022mbTDmWYLFo7sRtRK	ADE	19	24	hyper	vyvanse make me so hyper and creative and i think of so many tweets
+128	128	SMM4H2022YuW8f8FaAmgQSVTd	ADE	27	46	Can't. Stop. Moving	vyvanse = 5 lines of coke. can't. stop. moving.
+129	129	SMM4H2022Oz4Ui95iikJ6A6ii	ADE	17	29	felt drugged	@USER_________ i felt drugged on ritalin. i love vyvanse. i can't tell i'm on it except for feeling better and calmer and more structured
+130	130	SMM4H2022CNijOKiujM889zKU	ADE	85	95	lose focus	when im tweaked off vyvanse  i cant go into my room...cuse if i look at my shoes ill lose focus of everything and just think bout them
+131	131	SMM4H2022mw6oi18SKs3Efa2I	ADE	4	13	come down	the come down on vyvanse kicks my ass every time
+132	132	SMM4H2022sxTvQVz54AtfAPk5	ADE	45	71	feel like crying but can't	thought of work is overwhelming me so much i feel like crying but can't because olanzapine has me trapped in a zombie state #strugglewithin
+133	133	SMM4H2022sxTvQVz54AtfAPk5	ADE	111	117	zombie	thought of work is overwhelming me so much i feel like crying but can't because olanzapine has me trapped in a zombie state #strugglewithin
+134	134	SMM4H2022GeA41Hjjzv1DS4lE	ADE	46	55	Lethargic	5hrs sleep last night but stayed awake today. lethargic &amp; low still. in bed &amp; can feel myself going hot &amp; cold :(  #venlafaxine #day7
+135	135	SMM4H2022GeA41Hjjzv1DS4lE	ADE	108	122	hot &amp; cold	5hrs sleep last night but stayed awake today. lethargic &amp; low still. in bed &amp; can feel myself going hot &amp; cold :(  #venlafaxine #day7
+136	136	SMM4H2022SGHHuKJriEkstZJb	ADE	26	32	hungry	@USER_________ q makes me hungry. olanzapine made me want to eat my own arm!
+137	137	SMM4H2022SGHHuKJriEkstZJb	ADE	53	75	want to eat my own arm	@USER_________ q makes me hungry. olanzapine made me want to eat my own arm!
+138	138	SMM4H2022E6s3ZSYAJmXlFOc0	ADE	105	137	 parody of an actual human being	Wellbutrin, Zyprexa, Xanax, Effexor, Lamotrigine, Valium. Every day. I'm not even a person anymore. I'm a parody of an actual human being.
+139	139	SMM4H20226IQoqqYKTmEUbM8A	ADE	13	26	try for sleep	i'm going to try for sleep. real sleep. not that light bastard that #venlafaxine brings me.
+140	140	SMM4H20226IQoqqYKTmEUbM8A	ADE	49	62	light bastard	i'm going to try for sleep. real sleep. not that light bastard that #venlafaxine brings me.
+141	141	SMM4H2022SViZRNF7h8tK7NJt	ADE	62	75	wiping me out	cannot decide whether to take meds today. the #venlafaxine is wiping me out like the #citalopram did. i can't function on them. #day11
+142	142	SMM4H2022SViZRNF7h8tK7NJt	ADE	104	118	can't function	cannot decide whether to take meds today. the #venlafaxine is wiping me out like the #citalopram did. i can't function on them. #day11
+143	143	SMM4H2022lGYAsqPsFh769cYN	ADE	38	73	feel like I am in a straight jacket	after taking olanzapine i wake up and feel like i am in a straight jacket because my muscles feel stiff
+144	144	SMM4H2022lGYAsqPsFh769cYN	ADE	85	103	muscles feel stiff	after taking olanzapine i wake up and feel like i am in a straight jacket because my muscles feel stiff
+145	145	SMM4H2022SLEqUomWLd15oEe1	ADE	18	30	light' sleep	another night of 'light' sleep. feel low. subdued. sad.  #venlafaxine #day12
+146	146	SMM4H2022SLEqUomWLd15oEe1	ADE	32	40	Feel low	another night of 'light' sleep. feel low. subdued. sad.  #venlafaxine #day12
+147	147	SMM4H2022SLEqUomWLd15oEe1	ADE	42	49	Subdued	another night of 'light' sleep. feel low. subdued. sad.  #venlafaxine #day12
+148	148	SMM4H2022SLEqUomWLd15oEe1	ADE	51	54	Sad	another night of 'light' sleep. feel low. subdued. sad.  #venlafaxine #day12
+149	149	SMM4H2022uKCKtFPRRhCxKquD	ADE	75	89	sleep problems	if i become high i will not increase the lamotrigine as this will fuel the sleep problems
+150	150	SMM4H2022p43TLs5lPY0L3PsP	ADE	86	101	 tired daytimes	tonight i am taking my #venlafaxine in the evening in pursuit of better sleep and less tired daytimes. wish me luck.
+151	151	SMM4H202252dACVASDA9kdjfv	ADE	0	10	Over-eaten	over-eaten again just before bed. stuffed. good chance i will choke on my own vomit during sleep. i blame #olanzapine #timetochange #bipolar
+152	152	SMM4H2022UQ0dETyqhj5QZBp8	ADE	58	69	interaction	ooooop. anyone know if amoxicillin and pregabalin have an interaction? never had one with fluoxetine and losartan... so dizzy!
+153	153	SMM4H2022UQ0dETyqhj5QZBp8	ADE	120	125	dizzy	ooooop. anyone know if amoxicillin and pregabalin have an interaction? never had one with fluoxetine and losartan... so dizzy!
+154	154	SMM4H2022crHrK2qNiPTkoa8l	ADE	120	126	sleepy	husband said i was a little 'high' tonight so encouraged me to take 7.5mg of olanzapine. now feel really really really sleepy, zzzz....
+155	155	SMM4H2022Cos7EsH4952z381p	ADE	90	98	comatose	@USER_______ not getting any better here so dragging myself to gp. i'd rather be mad than comatose! hope ur doing ok #quetiapine
+156	156	SMM4H2022em9D7vcTx57ysY1J	ADE	128	133	manic	@USER_____ jus Gt bck myself, hes puT me on citalopram in addition 2 the quetiapine! Im a bit worried as citalopram has made me manic before
+157	157	SMM4H2022qfOgv9ifWEP76eKV	ADE	90	96	dreams	RP McMurphy was right about the trazodone being my new favorite bed-buddy. RIP, melatonin dreams. You were getting too weird - even for me.
+158	158	SMM4H2022UsugDFbDS0YHUztc	ADE	0	7	Tearful	tearful this morning. desperately poor nights sleep. utterly fucked up by withdrawing so quickly from lamotrigine
+159	159	SMM4H2022UsugDFbDS0YHUztc	ADE	34	51	poor nights sleep	tearful this morning. desperately poor nights sleep. utterly fucked up by withdrawing so quickly from lamotrigine
+160	160	SMM4H2022UsugDFbDS0YHUztc	ADE	74	85	withdrawing	tearful this morning. desperately poor nights sleep. utterly fucked up by withdrawing so quickly from lamotrigine
+161	161	SMM4H2022qBRUMmkAUYpgFJNU	ADE	0	17	Joints killing me	joints killing me now i have gone back up on the lamotrigine. sick of side effects. sick of meds. want my own self back. knackered today
+162	162	SMM4H2022qBRUMmkAUYpgFJNU	ADE	121	130	Knackered	joints killing me now i have gone back up on the lamotrigine. sick of side effects. sick of meds. want my own self back. knackered today
+163	163	SMM4H2022VrhzcNa9dG607KoK	ADE	100	108	addicted	me: why have i been sectioned, what psychotic symptoms do i have? psychiatrist: dancing.  i am now addicted to the antipsychotic olanzapine
+164	164	SMM4H2022f8J69GmzgANwsntm	ADE	0	10	coming off	coming off #quetiapine is harder than u think. nausea sickness hot and cold shivers twitching headache #bipolar #mentalhealth #medication
+165	165	SMM4H2022f8J69GmzgANwsntm	ADE	47	53	nausea	coming off #quetiapine is harder than u think. nausea sickness hot and cold shivers twitching headache #bipolar #mentalhealth #medication
+166	166	SMM4H2022f8J69GmzgANwsntm	ADE	54	62	sickness	coming off #quetiapine is harder than u think. nausea sickness hot and cold shivers twitching headache #bipolar #mentalhealth #medication
+167	167	SMM4H2022f8J69GmzgANwsntm	ADE	63	75	hot and cold	coming off #quetiapine is harder than u think. nausea sickness hot and cold shivers twitching headache #bipolar #mentalhealth #medication
+168	168	SMM4H2022f8J69GmzgANwsntm	ADE	76	83	shivers	coming off #quetiapine is harder than u think. nausea sickness hot and cold shivers twitching headache #bipolar #mentalhealth #medication
+169	169	SMM4H2022f8J69GmzgANwsntm	ADE	84	93	twitching	coming off #quetiapine is harder than u think. nausea sickness hot and cold shivers twitching headache #bipolar #mentalhealth #medication
+170	170	SMM4H2022f8J69GmzgANwsntm	ADE	94	102	headache	coming off #quetiapine is harder than u think. nausea sickness hot and cold shivers twitching headache #bipolar #mentalhealth #medication
+171	171	SMM4H2022DMwDP4573ynJ0KAP	ADE	35	45	withdrawal	@USER____ attempts at lamotrigine withdrawal, commuting by train every day and being back at work in a new role
+172	172	SMM4H2022fmdLiGScAG2h1uEu	ADE	67	73	zombie	Round 2 trazodone. Please just put me to sleep, not make me into a zombie the whole next day.
+173	173	SMM4H2022la9fA7fCchC09G4c	ADE	17	26	addictive	@USER_______ not addictive? 'ssri discontinuation syndrome.' i know someone who has been trying to come off venlafaxine for over two years &gt;
+174	174	SMM4H2022la9fA7fCchC09G4c	ADE	34	58	discontinuation syndrome	@USER_______ not addictive? 'ssri discontinuation syndrome.' i know someone who has been trying to come off venlafaxine for over two years &gt;
+175	175	SMM4H2022OyLm6aAxpCuGYbmc	ADE	77	81	high	#trazodone is one hell of a sleeping pill. it also makes you feel incredibly high.
+176	176	SMM4H20228SQzH96Fh6VXXWTP	ADE	2	26	feel like a pile of shit	i feel like a pile of shit #sick #cold #stomach reacting to some antibiotics. i will never again take #ciprofloxacin
+177	177	SMM4H20228SQzH96Fh6VXXWTP	ADE	28	32	sick	i feel like a pile of shit #sick #cold #stomach reacting to some antibiotics. i will never again take #ciprofloxacin
+178	178	SMM4H20228SQzH96Fh6VXXWTP	ADE	34	38	cold	i feel like a pile of shit #sick #cold #stomach reacting to some antibiotics. i will never again take #ciprofloxacin
+179	179	SMM4H20228SQzH96Fh6VXXWTP	ADE	40	56	stomach reacting	i feel like a pile of shit #sick #cold #stomach reacting to some antibiotics. i will never again take #ciprofloxacin
+180	180	SMM4H2022ML2qpJC5MECRmBcO	ADE	0	5	Slept	slept! really slept! i think i can assume from that that the venlafaxine is now nearly out of my system :))
+181	181	SMM4H2022NsTYFsUdFWV9IRcJ	ADE	41	62	breastmilk production	@USER____ I think I'm that too! Had rare breastmilk production on quetiapine, ultra rare hallucinations (not psychosis) on valproate.
+182	182	SMM4H2022NsTYFsUdFWV9IRcJ	ADE	89	103	hallucinations	@USER____ I think I'm that too! Had rare breastmilk production on quetiapine, ultra rare hallucinations (not psychosis) on valproate.
+183	183	SMM4H2022IbJsyI5SxGYDmQ52	ADE	29	46	allergic reaction	@USER_________ i once had an allergic reaction to the anti-convulsant lamotrigine.  i got a rash all over my body that looked like burns.
+184	184	SMM4H2022IbJsyI5SxGYDmQ52	ADE	92	96	rash	@USER_________ i once had an allergic reaction to the anti-convulsant lamotrigine.  i got a rash all over my body that looked like burns.
+185	185	SMM4H2022Y6gaJk1bYGl9Ktck	ADE	19	23	burp	morning fluoxetine burp makes me want to ralph.
+186	186	SMM4H2022Y6gaJk1bYGl9Ktck	ADE	33	46	want to ralph	morning fluoxetine burp makes me want to ralph.
+187	187	SMM4H2022Zyx8aITw9XPTq2DX	ADE	71	77	Groggy	i love when my #trazodone kicks in after i've forgotten i've taken it. groggy tweets commence.
+188	188	SMM4H2022Jnw3BLBdjuRfP7Fz	ADE	23	34	withdrawing	Please be careful when withdrawing from any anti deps, benzos and/or hypnotics. Venlafaxine was a bad choice for me and worse withdrawl.
+189	189	SMM4H20227KTjU7spXUHtHLC7	ADE	85	104	knocks me right out	@USER______ I keep telling myself 8 am, but I think the Trazodone fucks it up. :( It knocks me right out and won't let me wake up.
+190	190	SMM4H20227KTjU7spXUHtHLC7	ADE	109	129	won't let me wake up	@USER______ I keep telling myself 8 am, but I think the Trazodone fucks it up. :( It knocks me right out and won't let me wake up.
+191	191	SMM4H2022fYpI7flCVarhg45r	ADE	37	51	muscle tremors	can't sleep, but i'm afraid that the muscle tremors keep me awake even worse if i take promethazine in combination with fluoxetine...
+192	192	SMM4H2022fYpI7flCVarhg45r	ADE	103	114	combination	can't sleep, but i'm afraid that the muscle tremors keep me awake even worse if i take promethazine in combination with fluoxetine...
+193	193	SMM4H2022H4IsG7zJnBbjXjx3	ADE	42	53	withdrawals	little did i know that i would go through withdrawals when coming off of effexor xr. #antidepressants
+194	194	SMM4H2022LCt1kA9OSmjjbXjA	ADE	71	80	withdraws	@USER__________ take paxil then. no anxiety just happiness. but you et withdraws if you forget to take it.
+195	195	SMM4H2022eWdHWyjD58MGochf	ADE	134	138	sick	@USER_________ @USER_______ @USER____ @USER_____ ant take anti seizure meds or anti depressants and cymbalta and savella made me very sick:(
+196	196	SMM4H2022jzz4sgK4lNUyl3mI	ADE	59	68	delirious	i reaaaallly need to take my paxil but it makes me feel so delirious and just messed up.
+197	197	SMM4H2022jzz4sgK4lNUyl3mI	ADE	78	87	messed up	i reaaaallly need to take my paxil but it makes me feel so delirious and just messed up.
+198	198	SMM4H2022xYKOrePtFK50BLeI	ADE	65	74	delirious	@USER___ @USER___________ oh that was only last night when i was delirious on quetiapine - you took advantage of the situation.
+199	199	SMM4H2022peEFis1EK2zVGjtG	ADE	68	77	back pain	i'd rather be on the effexor that made me happy though i had severe back pain from it.. than sad and crying for no reason on lexapro....
+200	200	SMM4H2022peEFis1EK2zVGjtG	ADE	93	96	sad	i'd rather be on the effexor that made me happy though i had severe back pain from it.. than sad and crying for no reason on lexapro....
+201	201	SMM4H2022peEFis1EK2zVGjtG	ADE	101	121	crying for no reason	i'd rather be on the effexor that made me happy though i had severe back pain from it.. than sad and crying for no reason on lexapro....
+202	202	SMM4H2022peEFis1EK2zVGjtG	ADE	101	107	crying	i'd rather be on the effexor that made me happy though i had severe back pain from it.. than sad and crying for no reason on lexapro....
+203	203	SMM4H2022Fzb0wBdSzkULinux	ADE	33	41	allergic	@USER_____ need to switch bc def allergic to cymbalta :(
+204	204	SMM4H2022CG0C1XlqHdGFZt02	ADE	68	74	nausea	has anyone ever had to take avelox?  i need some tricks to curb the nausea and help me with the hypotension.  #avelox #antibiotic #evil
+205	205	SMM4H2022CG0C1XlqHdGFZt02	ADE	96	107	hypotension	has anyone ever had to take avelox?  i need some tricks to curb the nausea and help me with the hypotension.  #avelox #antibiotic #evil
+206	206	SMM4H2022oqTFIvPgMq2qNwno	ADE	69	78	biffiness	@USER_____ bum.  i was worried about mania on them, but i think the biffiness is going to be worse, especially coupled with quetiapine.
+207	207	SMM4H202223DXQE58ZWouYbQU	ADE	111	134	sleep for fifteen hours	i can't decide if i should watch mind-numbing reality tv on netflix or abuse my prescription for trazodone and sleep for fifteen hours
+208	208	SMM4H2022RRPo6ukUpAn334nG	ADE	46	55	addictive	narcotic, benzo, etc rx's arent the only meds addictive. if i miss a dose of wellbutrin or effexor, my hands shake crazy & i get brain zaps
+209	209	SMM4H2022RRPo6ukUpAn334nG	ADE	103	114	hands shake	narcotic, benzo, etc rx's arent the only meds addictive. if i miss a dose of wellbutrin or effexor, my hands shake crazy & i get brain zaps
+210	210	SMM4H2022RRPo6ukUpAn334nG	ADE	129	139	brain zaps	narcotic, benzo, etc rx's arent the only meds addictive. if i miss a dose of wellbutrin or effexor, my hands shake crazy & i get brain zaps
+211	211	SMM4H2022DSxYRwdHlt4CRXKV	ADE	75	86	parasthesia	@USER________ sometimes it never ends. So sorry. Topomax is miserable with parasthesia, cognitive problems, kidney stones. Lamictal's good
+212	212	SMM4H2022DSxYRwdHlt4CRXKV	ADE	75	86	parasthesia	@USER________ sometimes it never ends. So sorry. Topomax is miserable with parasthesia, cognitive problems, kidney stones. Lamictal's good
+213	213	SMM4H2022DSxYRwdHlt4CRXKV	ADE	88	106	cognitive problems	@USER________ sometimes it never ends. So sorry. Topomax is miserable with parasthesia, cognitive problems, kidney stones. Lamictal's good
+214	214	SMM4H2022DSxYRwdHlt4CRXKV	ADE	108	121	kidney stones	@USER________ sometimes it never ends. So sorry. Topomax is miserable with parasthesia, cognitive problems, kidney stones. Lamictal's good
+215	215	SMM4H202226aLT5ApjXCgax1i	ADE	122	130	migraine	@USER________ lamictal has a black box warning for rash? and they titrate you slowly. no side effects at all for me.  bad migraine today.
+216	216	SMM4H20223CWv2JEBnGz0Bai1	ADE	100	117	going though hell	i need help twitter. i was gradually coming off venlafaxine and now i'm completely off it i've been going though hell.
+217	217	SMM4H2022XgHR7owclVoPiV0E	ADE	81	94	put on weight	today was hard - arguing with a professional. was told seroquel doesn't make you put on weight - i and my extra 20kg beg to differ.
+218	218	SMM4H2022XgHR7owclVoPiV0E	ADE	106	116	extra 20kg	today was hard - arguing with a professional. was told seroquel doesn't make you put on weight - i and my extra 20kg beg to differ.
+219	219	SMM4H2022tikvSt13ECmbtlge	ADE	89	111	Coming off venlafaxine	@USER________ It's ok, I guess it's just a case of trial and error with antidepressants. Coming off venlafaxine has been so nasty :(
+220	220	SMM4H2022tikvSt13ECmbtlge	ADE	124	129	nasty	@USER________ It's ok, I guess it's just a case of trial and error with antidepressants. Coming off venlafaxine has been so nasty :(
+221	221	SMM4H2022MnDj4GvgNWdD8LDA	ADE	52	64	symptom free	@USER______ i can't believe how long it takes to be symptom free from this shit #paxil
+222	222	SMM4H2022UsQOREUBkMZlbbta	ADE	13	28	wake up at 2:30	seroquel aka wake up at 2:30 and waste half your day sleeping.
+223	223	SMM4H2022UsQOREUBkMZlbbta	ADE	39	61	half your day sleeping	seroquel aka wake up at 2:30 and waste half your day sleeping.
+224	224	SMM4H2022zmHe1GV0O4mNTk1H	ADE	63	83	eyes are outta focus	took 25 pills of lamictal cause that shit will fuck you up. yo eyes are outta focus and you can't walk straight but your happy as hell.
+225	225	SMM4H2022zmHe1GV0O4mNTk1H	ADE	92	111	can't walk straight	took 25 pills of lamictal cause that shit will fuck you up. yo eyes are outta focus and you can't walk straight but your happy as hell.
+226	226	SMM4H2022BTPhZAHRwGfIDXHV	ADE	40	60	ruined my creativity	@USER_____ i had a year on prozac which ruined my creativity too - my memory now is awful - pregabalin does it but it's worth it!!!
+227	227	SMM4H2022BTPhZAHRwGfIDXHV	ADE	70	89	memory now is awful	@USER_____ i had a year on prozac which ruined my creativity too - my memory now is awful - pregabalin does it but it's worth it!!!
+228	228	SMM4H2022BTPhZAHRwGfIDXHV	ADE	70	76	memory	@USER_____ i had a year on prozac which ruined my creativity too - my memory now is awful - pregabalin does it but it's worth it!!!
+229	229	SMM4H2022OHvwxzXABnNPgNw4	ADE	42	51	revved up	"i hate #zoloft because it makes me crazy revved up but i also hate #lamictal because it gives me ""stupid head"". ah, bipolar i disorder ?"
+230	230	SMM4H2022OHvwxzXABnNPgNw4	ADE	100	111	stupid head	"i hate #zoloft because it makes me crazy revved up but i also hate #lamictal because it gives me ""stupid head"". ah, bipolar i disorder ?"
+231	231	SMM4H2022jfY4aDThAwMD1srm	ADE	86	93	bloated	@USER_____ i started out with lyrica but i could no longer afford it &amp; it made me bloated. tried cymbalta &amp; my heart was beating wicked fast
+232	232	SMM4H2022jfY4aDThAwMD1srm	ADE	119	148	heart was beating wicked fast	@USER_____ i started out with lyrica but i could no longer afford it &amp; it made me bloated. tried cymbalta &amp; my heart was beating wicked fast
+233	233	SMM4H2022TbAtd2AAkAnE1RSa	ADE	8	13	tired	i am so tired right now. like i feel like i used to when i used to take seroquel and lithium. i haven't been this tired naturally ever
+234	234	SMM4H2022QqJMFPK7Xu56YfD5	ADE	62	78	holes in my head	i eat my trazodone and go to bed; wake up in the morning with holes in my head
+235	235	SMM4H2022B6CI5q0kQ2Dvjaay	ADE	62	70	crippled	@USER_______ sure is!  i no longer even own a car after being crippled by cipro (a bayer product!).  who needs a car when you can't walk!?
+236	236	SMM4H2022B6CI5q0kQ2Dvjaay	ADE	126	136	can't walk	@USER_______ sure is!  i no longer even own a car after being crippled by cipro (a bayer product!).  who needs a car when you can't walk!?
+237	237	SMM4H2022bD08yjz8skq2ETbI	ADE	90	102	not sleeping	@USER______ yeah, i couldn't function without sleep so i understand. with fluoxetine, im not sleeping as well, but still sleeping x
+238	238	SMM4H2022JO58fZKqgaIKsE6k	ADE	52	76	hypo manic mixed episode	@USER_____ @USER_____ wow paxil sent me into a huge hypo manic mixed episode.
+239	239	SMM4H2022ynObKHFE6C0WET6E	ADE	75	89	falling asleep	@USER_______ i take quetiapine and it's supposed to just relax me i end up falling asleep within 2 hours. my brain's always scattered haha
+240	240	SMM4H2022ynObKHFE6C0WET6E	ADE	109	133	brain's always scattered	@USER_______ i take quetiapine and it's supposed to just relax me i end up falling asleep within 2 hours. my brain's always scattered haha
+241	241	SMM4H2022oUZsg1dXBbQLJZZs	ADE	20	29	Achille's	i do wonder of that achille's will ever recover fully from the cipro.
+242	242	SMM4H2022PTBh5iZbI31xfF2W	ADE	109	140	shitty feeling when you wake up	i feel like a drug addict taking seroquel every night.. but oh well, great sleep beats no sleep. except the shitty feeling when you wake up
+243	243	SMM4H2022zSQPD8e9xfSX4bvt	ADE	30	34	pain	@USER_________ I'm in so much pain now... tendonitis, headaches, cognitive issues... I feel violated. #Cipro
+244	244	SMM4H2022zSQPD8e9xfSX4bvt	ADE	42	52	tendonitis	@USER_________ I'm in so much pain now... tendonitis, headaches, cognitive issues... I feel violated. #Cipro
+245	245	SMM4H2022zSQPD8e9xfSX4bvt	ADE	54	63	headaches	@USER_________ I'm in so much pain now... tendonitis, headaches, cognitive issues... I feel violated. #Cipro
+246	246	SMM4H2022zSQPD8e9xfSX4bvt	ADE	65	81	cognitive issues	@USER_________ I'm in so much pain now... tendonitis, headaches, cognitive issues... I feel violated. #Cipro
+247	247	SMM4H2022Z8Fvz33mgSrzCZcp	ADE	73	77	pain	@USER__________ coming off the lamotrigine. it's not acceptable to be in pain most of the time. struggled to get out of the bath on sat
+248	248	SMM4H2022Z8Fvz33mgSrzCZcp	ADE	96	128	Struggled to get out of the bath	@USER__________ coming off the lamotrigine. it's not acceptable to be in pain most of the time. struggled to get out of the bath on sat
+249	249	SMM4H2022E9JVOH0ABIlKbmPz	ADE	36	44	hobbling	the drugs don't work!!! from fit to hobbling in a few days. off the pills but may need wks to recover &amp; be prone to ruptures #ciprofloxacin
+250	250	SMM4H2022E9JVOH0ABIlKbmPz	ADE	120	128	ruptures	the drugs don't work!!! from fit to hobbling in a few days. off the pills but may need wks to recover &amp; be prone to ruptures #ciprofloxacin
+251	251	SMM4H2022Cby2j3FfnXZQhi0b	ADE	102	113	itchy scalp	@USER________ my mom is aged 72. she changed anti-depressants from aspen trazodone to zoloft. she has itchy scalp &amp; hairloss. could this be
+252	252	SMM4H2022Cby2j3FfnXZQhi0b	ADE	120	128	hairloss	@USER________ my mom is aged 72. she changed anti-depressants from aspen trazodone to zoloft. she has itchy scalp &amp; hairloss. could this be
+253	253	SMM4H2022nFroSLt9PcIKzoNr	ADE	82	87	tired	weird thing about paxil: feeling fully awake and energized and feeling completely tired and half-asleep at the same time.
+254	254	SMM4H2022nFroSLt9PcIKzoNr	ADE	92	103	half-asleep	weird thing about paxil: feeling fully awake and energized and feeling completely tired and half-asleep at the same time.
+255	255	SMM4H2022lszKypsFsuOs0dm2	ADE	17	29	takes it out	#tysabri  really takes it out on me. spent most of the day sleeping.
+256	256	SMM4H2022lszKypsFsuOs0dm2	ADE	59	67	sleeping	#tysabri  really takes it out on me. spent most of the day sleeping.
+257	257	SMM4H20220eQo57gjLeHjehJN	ADE	31	39	addicted	i wish everyone i loved wasn't addicted to nicotine.
+258	258	SMM4H2022ysTnmwFd5gYXKuba	ADE	44	54	withdrawal	you guys are going to have to hear about my withdrawal from paxil. unfollow while you have the chance!!!  day one....
+259	259	SMM4H2022i1DxrP98PelFDx31	ADE	44	50	poison	the nicotine in chewing tobacco is a deadly poison and it kills your taste buds.
+260	260	SMM4H2022i1DxrP98PelFDx31	ADE	58	79	kills your taste buds	the nicotine in chewing tobacco is a deadly poison and it kills your taste buds.
+261	261	SMM4H2022Ew3S4cNAKmAOLvAS	ADE	22	28	poison	nicotine is literally poison. but sometimes you gotta find out the hard way. #headache
+262	262	SMM4H2022Ew3S4cNAKmAOLvAS	ADE	78	86	headache	nicotine is literally poison. but sometimes you gotta find out the hard way. #headache
+263	263	SMM4H2022KnQdcQOmOHVWCNRf	ADE	4	40	nicotine beast has me firmly gripped	the nicotine beast has me firmly gripped in it's gnarled yellow claw. #resistanceisfutile
+264	264	SMM4H2022KnQdcQOmOHVWCNRf	ADE	26	68	firmly gripped in it's gnarled yellow claw	the nicotine beast has me firmly gripped in it's gnarled yellow claw. #resistanceisfutile
+265	265	SMM4H2022deP8Dwnzl2KeclJ6	ADE	3	12	shivering	i shivering like mad , time to have nicotine . muahahhaha .
+266	266	SMM4H2022TNHhV7oQfNa3o1ya	ADE	21	25	high	@USER______ nicotine high lol i'm like fragile or s/t and it gets to me
+267	267	SMM4H2022i9irLKtl5Qx7bHHb	ADE	38	44	sadvil	what idiot named it prozac instead of sadvil
+268	268	SMM4H2022jnEQaxaxUESnQ6CV	ADE	65	71	addict	@USER___________ count kum hai, can't avoid it being a nicotine addict. :/
+269	269	SMM4H2022EfYSGNZiQAY1UNo2	ADE	40	50	cold sweat	day seven off the baclofen and i've got cold sweats and constant insomnia... i'm running on fumes at this point.
+270	270	SMM4H2022EfYSGNZiQAY1UNo2	ADE	65	73	insomnia	day seven off the baclofen and i've got cold sweats and constant insomnia... i'm running on fumes at this point.
+271	271	SMM4H2022DPzCrH3NOe5X8MUY	ADE	63	68	 numb	i should just start taking my prozac again so i can stfu and go numb and maybe i won't cry anymore cos i'll be too fucking lifeless
+272	272	SMM4H2022DPzCrH3NOe5X8MUY	ADE	123	131	lifeless	i should just start taking my prozac again so i can stfu and go numb and maybe i won't cry anymore cos i'll be too fucking lifeless
+273	273	SMM4H2022wUeY3YILI8vCR4n6	ADE	97	105	THROWING	i'm crazy! gee i wonder why! thats it! i got a whole canister of seroquel xr! i'm going to start throwing them at higher educated people!
+274	274	SMM4H2022VnNaGroPv4j9NKbD	ADE	106	133	trying to function normally	@USER_______ i hate to hear that.  taking seroquel is like swallowing a sleeping pill when u wake up then trying to function normally
+275	275	SMM4H20221VfhJqIiaOAmBkiU	ADE	120	135	can't take both	took a percocet for my tooth. feel like i'm about to die cause of the prozac thats already in my system. apparently you can't take both. fml
+276	276	SMM4H2022elVsVPqcXorKuNMq	ADE	39	48	withdrawl	Not that anyone noticed, but my #ambienwithdrawl only lasted a few days. Why? Because I got another scrip. I need it while I'm on Levaquin.
+277	277	SMM4H2022hkeHIUGElMp4GJ3q	ADE	50	58	Toxicity	@USER______ please advise if you know of levaquin toxicity/adverse reactions. i am a 4+ year sufferer and chronic pain every day=can u help
+278	278	SMM4H2022hkeHIUGElMp4GJ3q	ADE	106	118	chronic pain	@USER______ please advise if you know of levaquin toxicity/adverse reactions. i am a 4+ year sufferer and chronic pain every day=can u help
+279	279	SMM4H2022QDVilisNO9fplXdS	ADE	65	74	legs ache	ran on an antibiotic this morning (having missed 4 days) and my legs ache like hell, not jsut the soft tissue either. levofloxacin is awful!
+280	280	SMM4H2022OqJXgOxq3iLHJ7eV	ADE	14	34	suicidally depressed	paxil made me suicidally depressed to the point where a voice screamed inside my brain about my own worthlessness
+281	281	SMM4H2022OqJXgOxq3iLHJ7eV	ADE	56	61	voice	paxil made me suicidally depressed to the point where a voice screamed inside my brain about my own worthlessness
+282	282	SMM4H2022OqJXgOxq3iLHJ7eV	ADE	100	113	worthlessness	paxil made me suicidally depressed to the point where a voice screamed inside my brain about my own worthlessness
+283	283	SMM4H2022wJGNHJfJ0QyUCt2g	ADE	97	117	shaking like ur cold	@USER_____ yeah,it can be caused by swelling from around a nerve from ra,but the effexor causes shaking like ur cold(shivering)
+284	284	SMM4H2022wJGNHJfJ0QyUCt2g	ADE	118	127	shivering	@USER_____ yeah,it can be caused by swelling from around a nerve from ra,but the effexor causes shaking like ur cold(shivering)
+285	285	SMM4H2022hz0FQ8r0MLm3S9VX	ADE	26	34	munchies	mann i've been having the munchies all day eatin weird shxt ahaha my zyprexa gotta nigga tearin up food
+286	286	SMM4H2022hz0FQ8r0MLm3S9VX	ADE	43	54	eatin weird	mann i've been having the munchies all day eatin weird shxt ahaha my zyprexa gotta nigga tearin up food
+287	287	SMM4H2022hz0FQ8r0MLm3S9VX	ADE	89	103	tearin up food	mann i've been having the munchies all day eatin weird shxt ahaha my zyprexa gotta nigga tearin up food
+288	288	SMM4H2022fKUyiGt8tcWnb8vC	ADE	97	102	worse	@USER______ yeah, that was a great fucking year. that's when paxil entered my life, and made it worse. 10 years time sure helps, though.
+289	289	SMM4H2022XyJLNJX4itmryS7I	ADE	47	61	tongue is numb	i'm sick so i had a difflam lozenge and now my tongue is numb and i'm on tv aaahhhhhh
+290	290	SMM4H2022VA6qHWeGbMkODdKf	ADE	31	49	damage ALL tendons	@USER___ Cipro can permanently damage ALL tendons in the body.  If you enjoy being able to walk, you need to find a safer antibiotic!
+291	291	SMM4H2022VA6qHWeGbMkODdKf	ADE	91	95	walk	@USER___ Cipro can permanently damage ALL tendons in the body.  If you enjoy being able to walk, you need to find a safer antibiotic!
+292	292	SMM4H2022u9AIlS5pbl0xBr03	ADE	42	53	been in bed	@USER______ did you get floxed too?  i've been in bed since 2009 thanks to just 12 cipro pills!  they never told me this can be permanent!!!
+293	293	SMM4H2022nmIhXCXcKweDOQkU	ADE	35	43	crippled	@USER______ @USER___________ Cipro crippled me. You should also stay away from all other antibiotics in the same class (Levaquin, Avelox...)
+294	294	SMM4H2022uNfmgmd6yJZmLX2j	ADE	88	98	disability	@USER_______ @USER_________ cipro is real bad on your entire body!  take it from me (on disability since '09 thanks to just 12 pills).
+295	295	SMM4H20220pvNAlRHKXqaqXK1	ADE	34	40	stupid	plus this antibiotic is making me stupid and clumsy. cipro is evil but the fever is gone.
+296	296	SMM4H20220pvNAlRHKXqaqXK1	ADE	45	51	clumsy	plus this antibiotic is making me stupid and clumsy. cipro is evil but the fever is gone.
+297	297	SMM4H2022BpEBLQSTVv00AF3A	ADE	98	111	feeling awful	@USER______ Anybody know anything about side effects of venlafaxine? Come off 'em 6wks ago, still feeling awful. physical withdrawal awful
+298	298	SMM4H2022BpEBLQSTVv00AF3A	ADE	122	132	withdrawal	@USER______ Anybody know anything about side effects of venlafaxine? Come off 'em 6wks ago, still feeling awful. physical withdrawal awful
+299	299	SMM4H2022OmD5f1RIEtqgWeDx	ADE	89	112	brain is a sack of NOPE	remind me to get my prescription earlier next time. eight days without fluoxetine and my brain is a sack of nope.
+300	300	SMM4H2022piVDuKqKVzyhbqn8	ADE	79	89	depression	a comprehensive and accurate list of trazodone side effects HTTPURL___________ depression #antidepressant ocd insomnia
+301	301	SMM4H2022piVDuKqKVzyhbqn8	ADE	106	109	ocd	a comprehensive and accurate list of trazodone side effects HTTPURL___________ depression #antidepressant ocd insomnia
+302	302	SMM4H2022piVDuKqKVzyhbqn8	ADE	110	118	insomnia	a comprehensive and accurate list of trazodone side effects HTTPURL___________ depression #antidepressant ocd insomnia
+303	303	SMM4H2022XwzxHWBy7eLZBndZ	ADE	13	18	tired	i've been so tired since i started the cymbalta. i sleep so much. case in point: just slept an hour before bed.
+304	304	SMM4H2022XwzxHWBy7eLZBndZ	ADE	51	64	sleep so much	i've been so tired since i started the cymbalta. i sleep so much. case in point: just slept an hour before bed.
+305	305	SMM4H2022DFucVhSrQ3HkDlwK	ADE	82	92	depression	they put me on cymbalta for my joint pain with hashis. now the pain is better but depression is worse. *sigh*
+306	306	SMM4H2022kKKVfS7HzXPW5ne5	ADE	47	61	eating all day	i need vyvanse ugh i ran out and now i've been eating all day and i feel weird without it
+307	307	SMM4H2022kKKVfS7HzXPW5ne5	ADE	68	78	feel weird	i need vyvanse ugh i ran out and now i've been eating all day and i feel weird without it
+308	308	SMM4H2022EyPwgHUBJhuj5bg7	ADE	58	67	depressed	off of my metoprolol medication!! hopefully i won't be so depressed anymore! #thankyoujesus
+309	309	SMM4H2022Bx9T6EL3aoHotDAi	ADE	3	20	feeling so shitty	im feeling so shitty. been out of prozac for four days:(((
+310	310	SMM4H20224Vxnk8IeZ7Uh3oe4	ADE	31	40	headaches	i've been getting almost daily headaches for the past 3 weeks ?? side effects of #enbrel ? i've been on it for months now though #rheum
+311	311	SMM4H2022tNWUy3yDn6QdXzrQ	ADE	73	95	put a gun in your hand	Depression hurts, cymbalta can help. Jk. Cymbalta doesn't do shit except put a gun in your hand
+312	312	SMM4H20223FKF9cFKvXgAJf3o	ADE	50	56	drowsy	i took some baclofen and i dont feel a little but drowsy! #wtf #backspasms
+313	313	SMM4H2022eeGXGtxt2JjwxHa1	ADE	0	14	Feels dreadful	feels dreadful - how do u over come a #virus when on #humira? gp gave antibiotics to help me out' but it's #viral!! making #lung pain worse
+314	314	SMM4H2022eeGXGtxt2JjwxHa1	ADE	124	133	lung pain	feels dreadful - how do u over come a #virus when on #humira? gp gave antibiotics to help me out' but it's #viral!! making #lung pain worse
+315	315	SMM4H2022ERFVevnYLwfXhNJb	ADE	86	102	rid myself of it	@USER_______ I was on muscle relaxant Baclofen for two weeks, then 2 months trying to rid myself of it. 11 days in without and no sleep. :/
+316	316	SMM4H2022ERFVevnYLwfXhNJb	ADE	127	135	no sleep	@USER_______ I was on muscle relaxant Baclofen for two weeks, then 2 months trying to rid myself of it. 11 days in without and no sleep. :/
+317	317	SMM4H20225EAL8yUF3xVREHU6	ADE	20	28	allergic	i think i might be allergic to effexor. i just woke up feeling sick, meh.
+318	318	SMM4H20225EAL8yUF3xVREHU6	ADE	64	68	sick	i think i might be allergic to effexor. i just woke up feeling sick, meh.
+319	319	SMM4H20226r5VLTRDgCETyAIF	ADE	30	37	nauseas	venlafaxine makes me feel  so nauseas hahahaha oh god i'm going to chunder in my geography lesson help
+320	320	SMM4H20226r5VLTRDgCETyAIF	ADE	67	74	chunder	venlafaxine makes me feel  so nauseas hahahaha oh god i'm going to chunder in my geography lesson help
+321	321	SMM4H2022IHsK32BMyADCWmu3	ADE	105	118	tummy trouble	@USER________ i'm good been on 25mg mtx for years then switched to leflunomide back mtx the other caused tummy trouble. why r u off enbrel
+322	322	SMM4H202219IBDJje4CkGBL4t	ADE	31	41	withdrawal	how anyone can say there is no withdrawal from prozac withdrawal is beyond me.  their answer is to go back on it and up the dose.
+323	323	SMM4H2022crwbPXu6zRp9Cx7Q	ADE	54	81	perspective time and people	i really feel like this fluoxetine is messing with my perspective time and people.
+324	324	SMM4H20225cYptlWXb1XHgW9S	ADE	25	44	losing every breath	how do u do it? u got me losing every breath. what did u give me to make my heart beat out my chest? #vyvanse
+325	325	SMM4H20225cYptlWXb1XHgW9S	ADE	75	99	 heart beat out my chest	how do u do it? u got me losing every breath. what did u give me to make my heart beat out my chest? #vyvanse
+326	326	SMM4H2022pHeiGKZ4gldWSQ3Z	ADE	68	77	up till 4	seriously if you are getting off cymbalta tape alot if movies i was up till 4 and feel and look like a zombie just to tired to growl !!!
+327	327	SMM4H2022pHeiGKZ4gldWSQ3Z	ADE	103	109	zombie	seriously if you are getting off cymbalta tape alot if movies i was up till 4 and feel and look like a zombie just to tired to growl !!!
+328	328	SMM4H2022pHeiGKZ4gldWSQ3Z	ADE	118	123	tired	seriously if you are getting off cymbalta tape alot if movies i was up till 4 and feel and look like a zombie just to tired to growl !!!
+329	329	SMM4H2022cPDqMtutZzXHE1Wu	ADE	40	53	schizophrenia	vyvanse literally causes me to get like schizophrenia but i hear answers idk but i like it
+330	330	SMM4H2022cPDqMtutZzXHE1Wu	ADE	60	72	hear answers	vyvanse literally causes me to get like schizophrenia but i hear answers idk but i like it
+331	331	SMM4H2022J1NOhYaCW6AeMJmb	ADE	36	45	thick fog	woah even 50mg seroquel hits like a thick fog
+332	332	SMM4H2022SusEvHSO36LgqgSz	ADE	31	39	TooChill	no one likes me on my vyvanse #toochill #zombiemode
+333	333	SMM4H2022SusEvHSO36LgqgSz	ADE	41	47	Zombie	no one likes me on my vyvanse #toochill #zombiemode
+334	334	SMM4H2022wBWqLm9VlTJwwzrN	ADE	70	78	weakness	@USER___ my mom used rivaroxaban and it gave her a terrible time with weakness and muscle pain.
+335	335	SMM4H2022wBWqLm9VlTJwwzrN	ADE	83	94	muscle pain	@USER___ my mom used rivaroxaban and it gave her a terrible time with weakness and muscle pain.
+336	336	SMM4H2022Dn1ZD3IhYkbel50k	ADE	23	36	Weirdo dreams	quetiapine - i slept!! weirdo dreams and very drowsy this morning but i slept!!!
+337	337	SMM4H2022Dn1ZD3IhYkbel50k	ADE	46	52	drowsy	quetiapine - i slept!! weirdo dreams and very drowsy this morning but i slept!!!
+338	338	SMM4H2022UdqJmqdlmoB0HA5y	ADE	7	24	hearing the words	"I keep hearing the words ""Chris tucker, money talk mufucka"" over and over in my head it's been happening for like an hour too. Fuck vyvanse"
+339	339	SMM4H2022HELwSPiHdiSMV7zp	ADE	51	59	suicidal	@USER___ stopped Zoloft cold turkey after I became suicidal, stopped Effexor because I was numb.
+340	340	SMM4H2022HELwSPiHdiSMV7zp	ADE	91	95	numb	@USER___ stopped Zoloft cold turkey after I became suicidal, stopped Effexor because I was numb.
+341	341	SMM4H2022xnO2YmXSKEibBGZW	ADE	102	111	headaches	why can't i sleep like a normal person. oh yeah because i suffer from insomnia and trazodone gives me headaches #suffering #reality
+342	342	SMM4H2022Ohbcow2EeDw6HroB	ADE	34	43	got me up	gonna watch the sunrise.. vyvanse got me up. i have only slept about 2 hours in the past 48 hours. 150mg got me fucked up
+343	343	SMM4H2022Ohbcow2EeDw6HroB	ADE	52	76	only slept about 2 hours	gonna watch the sunrise.. vyvanse got me up. i have only slept about 2 hours in the past 48 hours. 150mg got me fucked up
+344	344	SMM4H2022DaePdpENqKjoEoVq	ADE	54	64	withdrawal	Hmm, interesting. I may have been undergoing Baclofen withdrawal hence the anxiety for the past few months… #hypochondria
+345	345	SMM4H2022DaePdpENqKjoEoVq	ADE	75	82	anxiety	Hmm, interesting. I may have been undergoing Baclofen withdrawal hence the anxiety for the past few months… #hypochondria
+346	346	SMM4H2022DaePdpENqKjoEoVq	ADE	109	121	hypochondria	Hmm, interesting. I may have been undergoing Baclofen withdrawal hence the anxiety for the past few months… #hypochondria
+347	347	SMM4H2022Hx1wOpdKc4af1CRY	ADE	11	14	low	i hate the low after the high on vyvanse
+348	348	SMM4H2022Kzh2CswWjNlzIK7u	ADE	34	45	weight gain	on a related note: tysabri causes weight gain. as does body pain/inability to exercise. sigh. #fuckms
+349	349	SMM4H2022Wu3KVAhiqr9RkcPZ	ADE	10	20	withdrawal	#cymbalta withdrawal has reached a peak, lost vision and almost crashed my car from a brain zap. thanks a zillion #elililly #bigpharma
+350	350	SMM4H2022Wu3KVAhiqr9RkcPZ	ADE	41	52	lost vision	#cymbalta withdrawal has reached a peak, lost vision and almost crashed my car from a brain zap. thanks a zillion #elililly #bigpharma
+351	351	SMM4H2022Wu3KVAhiqr9RkcPZ	ADE	86	95	brain zap	#cymbalta withdrawal has reached a peak, lost vision and almost crashed my car from a brain zap. thanks a zillion #elililly #bigpharma
+352	352	SMM4H20229JEt7NgnllVf5GtN	ADE	27	35	nauseous	i hate cipro! #antibiotic #nauseous #cf #hospitallife #cysticfibrosis
+353	353	SMM4H2022XGWgtEdHxedV094c	ADE	71	84	gainin weight	@USER_______ reppin zoloft&amp;seroquel since last november. i'm hella gainin weight too awesome i'm fat and can't cum i own
+354	354	SMM4H2022XGWgtEdHxedV094c	ADE	101	104	fat	@USER_______ reppin zoloft&amp;seroquel since last november. i'm hella gainin weight too awesome i'm fat and can't cum i own
+355	355	SMM4H2022XGWgtEdHxedV094c	ADE	109	118	can't cum	@USER_______ reppin zoloft&amp;seroquel since last november. i'm hella gainin weight too awesome i'm fat and can't cum i own
+356	356	SMM4H2022VThNowbcA4NEiKHq	ADE	21	29	headache	i've had a trazodone headache all day. i heard they go away within a week. #hopeso #iactuallyslept
+357	357	SMM4H20220Ogf8Qtxi6P8BEuG	ADE	72	83	exacerbates	i've had ocd symptoms like that for a while but seems like the seroquel exacerbates things and now this. :\
+358	358	SMM4H20221cJSVYyXJNFRRWVh	ADE	55	75	WON'T YOU LET ME EAT	I finally had an appetite, made food, gone. HUMIRA WHY WON'T YOU LET ME EAT
+359	359	SMM4H20221PPoVLgQJReOQCWh	ADE	40	45	toxic	@USER_________ i don't care if they are toxic haha putting the cipro drops in is essentially equivalent to torture #oww
+360	360	SMM4H20221PPoVLgQJReOQCWh	ADE	93	114	equivalent to torture	@USER_________ i don't care if they are toxic haha putting the cipro drops in is essentially equivalent to torture #oww
+361	361	SMM4H20221PPoVLgQJReOQCWh	ADE	116	119	oww	@USER_________ i don't care if they are toxic haha putting the cipro drops in is essentially equivalent to torture #oww
+362	362	SMM4H202246g9j4I35Um7PYkp	ADE	43	49	rashes	@USER______ cause humira gives me a lot of rashes and like most of these drugs.. skin sensitivity happens
+363	363	SMM4H202246g9j4I35Um7PYkp	ADE	81	97	Skin sensitivity	@USER______ cause humira gives me a lot of rashes and like most of these drugs.. skin sensitivity happens
+364	364	SMM4H2022HnJTtBPZpDenshuo	ADE	110	115	wonky	@USER_______ @USER___________ @USER___________ *buts in* you don't wanna miss venlafaxine no no it made me so wonky missing one day! ouch
+365	365	SMM4H2022VliYWVinQbqXcZjE	ADE	25	43	makes me nocturnal	'@USER______: my vyvanse makes me nocturnal ??'
+366	366	SMM4H2022VliYWVinQbqXcZjE	ADE	34	43	nocturnal	'@USER______: my vyvanse makes me nocturnal ??'
+367	367	SMM4H2022h2NAtMWVDyD76smv	ADE	27	35	headache	i'd gladly trade the #mtx  headache for #humira but after 5 months i still don't have the prescription. i function through vitamins &amp; motrin
+368	368	SMM4H20228DNrgxK8H6AXzHjv	ADE	56	60	balm	thank god i was born with so much hair; i wouldn't been balm by now. #crohnsproblems #teamibd #hairloss #humira #chronic #illness #gratitude
+369	369	SMM4H20228DNrgxK8H6AXzHjv	ADE	95	103	hairloss	thank god i was born with so much hair; i wouldn't been balm by now. #crohnsproblems #teamibd #hairloss #humira #chronic #illness #gratitude
+370	370	SMM4H2022eJogdzGCmyIpcHhI	ADE	28	58	sleeping schedule of a vampire	vyvanse makes me having the sleeping schedule of a vampire.
+371	371	SMM4H2022mTxdbQdZcoNlKEjE	ADE	4	25	Vitamin D malsorption	1/2 vitamin d malsorption and damaged photosynthesis of sun shine in to vitamin d from levaquin toxicity leading to calcium problems.
+372	372	SMM4H2022mTxdbQdZcoNlKEjE	ADE	116	132	calcium problems	1/2 vitamin d malsorption and damaged photosynthesis of sun shine in to vitamin d from levaquin toxicity leading to calcium problems.
+373	373	SMM4H2022aXG1dfzTFUBVkMG8	ADE	136	145	depressed	"but still dr. maria jasinskas was right &amp; would have been if not for pharmacy; she said, ""you know sometimes vyvanse can make you depressed"""
+374	374	SMM4H2022wJy8y8RmXNacZuFM	ADE	59	68	wait gain	@USER_______ quetiapine was horrific for me in relation to wait gain. such a horror story. but the weight will come off one day at a time.
+375	375	SMM4H2022wJy8y8RmXNacZuFM	ADE	99	105	weight	@USER_______ quetiapine was horrific for me in relation to wait gain. such a horror story. but the weight will come off one day at a time.
+376	376	SMM4H2022rKdNDa8DxUSJBtDR	ADE	103	121	destroyed my liver	@USER______ what problems did you have with humira, if you don't mind me asking. I tried infliximab it destroyed my liver.
+377	377	SMM4H2022R5JoWow5TWIWU2tF	ADE	78	95	allergic reaction	@USER__________ @USER________ Me too, Remicade for a year, Humira, and had an allergic reaction to Cimzia, almost killed me in November.
+378	378	SMM4H2022R5JoWow5TWIWU2tF	ADE	107	123	almost killed me	@USER__________ @USER________ Me too, Remicade for a year, Humira, and had an allergic reaction to Cimzia, almost killed me in November.
+379	379	SMM4H2022yX2dvdLYJkBSqyGG	ADE	56	70	mixed episodes	@USER_______ @USER___________ lexapro gave me the worst mixed episodes. i have some instability with pristiq but i can manage it ok.
+380	380	SMM4H2022yX2dvdLYJkBSqyGG	ADE	84	95	instability	@USER_______ @USER___________ lexapro gave me the worst mixed episodes. i have some instability with pristiq but i can manage it ok.
+381	381	SMM4H2022d927ZRaq8oqf7RAH	ADE	130	134	high	@USER__________ (( when i used to take trazodone to sleep, people would make me stay up after i took it so they could watch me be high ))
+382	382	SMM4H20224uGcw5cza8yicY3R	ADE	21	32	WITHDRAWALS	im having paroxetine withdrawals but thats ok cuz i still aint takin no moe fuck behavioral health ill be iight
+383	383	SMM4H20224ggjI0EW9enpNnjk	ADE	8	24	blew out my arms	almost blew out my arms &amp; heels @ work. they hurt like hell. &amp; the pain is spreading, damned cipro.
+384	384	SMM4H20224ggjI0EW9enpNnjk	ADE	31	36	heels	almost blew out my arms &amp; heels @ work. they hurt like hell. &amp; the pain is spreading, damned cipro.
+385	385	SMM4H20224ggjI0EW9enpNnjk	ADE	50	54	hurt	almost blew out my arms &amp; heels @ work. they hurt like hell. &amp; the pain is spreading, damned cipro.
+386	386	SMM4H20224ggjI0EW9enpNnjk	ADE	76	80	pain	almost blew out my arms &amp; heels @ work. they hurt like hell. &amp; the pain is spreading, damned cipro.
+387	387	SMM4H2022cBh1eQg5wuDb3ZEX	ADE	18	23	vomit	adderall makes me vomit and vyvanse gives me migraines.. the struggle
+388	388	SMM4H2022cBh1eQg5wuDb3ZEX	ADE	45	54	migraines	adderall makes me vomit and vyvanse gives me migraines.. the struggle
+389	389	SMM4H2022xz8j6sHRsh2TMJxR	ADE	31	47	Bizarre thoughts	the #quetiapine is kicking in. bizarre thoughts tonight. tempted to take the whole lot. i won't - don't worry people. just odd thoughts.
+390	390	SMM4H20224r68wOQ1TFY0T6fW	ADE	11	20	irritated	i'm always irritated on vyvanse because people can't think as fast as i can. it's like every conversation is with someone at a nursing home
+391	391	SMM4H20224r68wOQ1TFY0T6fW	ADE	47	66	can't think as fast	i'm always irritated on vyvanse because people can't think as fast as i can. it's like every conversation is with someone at a nursing home
+392	392	SMM4H2022Qt6yyV889onnyv43	ADE	86	92	zombie	@USER_____ @USER__ try something like wellbutrin - there are many better than zoloft (zombie-loft) and paxil for anxiety imo
+393	393	SMM4H2022eNoXBMQllynOqQlA	ADE	28	45	flu Iike symptoms	Does anyone on #tysabri get flu Iike symptoms, aches and pains, shivers a sweats I seem to get it about a week or so after I've had infusion
+394	394	SMM4H2022eNoXBMQllynOqQlA	ADE	47	62	aches and pains	Does anyone on #tysabri get flu Iike symptoms, aches and pains, shivers a sweats I seem to get it about a week or so after I've had infusion
+395	395	SMM4H2022eNoXBMQllynOqQlA	ADE	64	71	shivers	Does anyone on #tysabri get flu Iike symptoms, aches and pains, shivers a sweats I seem to get it about a week or so after I've had infusion
+396	396	SMM4H2022eNoXBMQllynOqQlA	ADE	74	80	sweats	Does anyone on #tysabri get flu Iike symptoms, aches and pains, shivers a sweats I seem to get it about a week or so after I've had infusion
+397	397	SMM4H2022eVCfpDwjILkvZqei	ADE	101	105	rage	rt @USER_______: if this fuckin emt looks at me one more time hes gonna feel the wrath of my vyvanse rage
+398	398	SMM4H2022JqxDSECM3knLYFu5	ADE	31	36	Aches	21.55 Rivaroxaban diary day 8. Aches easing, back pain easing. Swollen lower legs like fluid retention. I take 20mg. Furosemide every a.m.
+399	399	SMM4H2022JqxDSECM3knLYFu5	ADE	45	54	back pain	21.55 Rivaroxaban diary day 8. Aches easing, back pain easing. Swollen lower legs like fluid retention. I take 20mg. Furosemide every a.m.
+400	400	SMM4H2022JqxDSECM3knLYFu5	ADE	63	81	Swollen lower legs	21.55 Rivaroxaban diary day 8. Aches easing, back pain easing. Swollen lower legs like fluid retention. I take 20mg. Furosemide every a.m.
+401	401	SMM4H2022JqxDSECM3knLYFu5	ADE	87	102	fluid retention	21.55 Rivaroxaban diary day 8. Aches easing, back pain easing. Swollen lower legs like fluid retention. I take 20mg. Furosemide every a.m.
+402	402	SMM4H2022BUZVwA4AhjFwIc5k	ADE	31	47	comedown is hell	@USER________ @USER___________ comedown is hell. when i went cold turkey from effexor it was about two weeks before the zap noises stopped
+403	403	SMM4H2022BUZVwA4AhjFwIc5k	ADE	120	130	zap noises	@USER________ @USER___________ comedown is hell. when i went cold turkey from effexor it was about two weeks before the zap noises stopped
+404	404	SMM4H20221h0rCQQIZ8uneVfj	ADE	32	48	inability to cry	"My Effexor has left me with the inability to cry. I was dry eyed watching ""Into the Wild"" and even one of those Sarah Mclachlan commercials"
+405	405	SMM4H20221h0rCQQIZ8uneVfj	ADE	56	64	dry eyed	"My Effexor has left me with the inability to cry. I was dry eyed watching ""Into the Wild"" and even one of those Sarah Mclachlan commercials"
+406	406	SMM4H2022XHWOXPzFbhXym1pA	ADE	28	38	over think	i hate how vyvanse makes me over think everything and it makes me angry about things that i shouldn't even be angry about
+407	407	SMM4H2022XHWOXPzFbhXym1pA	ADE	66	71	angry	i hate how vyvanse makes me over think everything and it makes me angry about things that i shouldn't even be angry about
+408	408	SMM4H2022x3nbWxlZNKzyztqU	ADE	4	9	tired	Too tired to function right now, thanks Humira. #naptime
+409	409	SMM4H2022x3nbWxlZNKzyztqU	ADE	49	56	naptime	Too tired to function right now, thanks Humira. #naptime
+410	410	SMM4H2022xZM2CDZyUCTfsM2a	ADE	27	43	blew out my arms	rt @USER_________: almost blew out my arms &amp; heels @ work. they hurt like hell. &amp; the pain is spreading, damned cipro.
+411	411	SMM4H2022xZM2CDZyUCTfsM2a	ADE	50	55	heels	rt @USER_________: almost blew out my arms &amp; heels @ work. they hurt like hell. &amp; the pain is spreading, damned cipro.
+412	412	SMM4H2022xZM2CDZyUCTfsM2a	ADE	69	73	hurt	rt @USER_________: almost blew out my arms &amp; heels @ work. they hurt like hell. &amp; the pain is spreading, damned cipro.
+413	413	SMM4H2022xZM2CDZyUCTfsM2a	ADE	95	99	pain	rt @USER_________: almost blew out my arms &amp; heels @ work. they hurt like hell. &amp; the pain is spreading, damned cipro.
+414	414	SMM4H2022ZqvKsQEsr0Iq0Pcj	ADE	7	12	wired	fuckin wired! not sleeping tonight. #vyvanse #whatdoido #yuuuuup
+415	415	SMM4H2022ZqvKsQEsr0Iq0Pcj	ADE	14	26	Not sleeping	fuckin wired! not sleeping tonight. #vyvanse #whatdoido #yuuuuup
+416	416	SMM4H20225QzXooOeZjdePvSv	ADE	16	40	 tendons in lots of pain	had 2 quit job: tendons in lots of pain,  almost ruptured, hands barely usable now. damned cipro.
+417	417	SMM4H20225QzXooOeZjdePvSv	ADE	60	79	hands barely usable	had 2 quit job: tendons in lots of pain,  almost ruptured, hands barely usable now. damned cipro.
+418	418	SMM4H20227DXTMFhwp9ejjxBw	ADE	56	69	brain shivers	No med orders til Effexor is fully exited. Still having brain shivers, but mostly when I don't eat. #effexor #withdrawal #depression
+419	419	SMM4H20227DXTMFhwp9ejjxBw	ADE	110	120	withdrawal	No med orders til Effexor is fully exited. Still having brain shivers, but mostly when I don't eat. #effexor #withdrawal #depression
+420	420	SMM4H2022t5xoRjKv7l52kTGP	ADE	116	131	barely function	@USER______ did i read in a blog post that you took venlafaxine? i am on 300mg and if i forget it for one day i can barely function the next
+421	421	SMM4H2022XmLA51zbG2WrvYNh	ADE	0	13	Restless arms	restless arms &amp; legs! blood quetiapine :-/
+422	422	SMM4H2022XmLA51zbG2WrvYNh	ADE	0	24	restless arms &amp; legs	restless arms &amp; legs! blood quetiapine :-/
+423	423	SMM4H2022ZRsMTUj6RpbtQWe9	ADE	10	18	sleeping	i've been sleeping most of my day away thanks to my humira shot. some days i feel like just giving up. #sick&amp;tired
+424	424	SMM4H2022k25IXYL24MogWtUX	ADE	101	112	gain weight	at my old weight my bmi was 18.4. i hate seroquel and prozac and my new pill, i don't eat but still gain weight.
+425	425	SMM4H2022Bsi55XfbbUXKKP33	ADE	74	80	zombie	@USER_______ glad to here it's keppra over the others. lamictal made me a zombie. first seizure is a bitch eh?
+426	426	SMM4H2022sYMdXL20LaqcUote	ADE	43	50	ab pain	RT @USER________: @USER___ even w/ Humira: ab pain, cramps,nausea,vomitting, skin&joint problems, ulcers in mouth&fatique #uclaibdnurses2013
+427	427	SMM4H2022sYMdXL20LaqcUote	ADE	52	58	cramps	RT @USER________: @USER___ even w/ Humira: ab pain, cramps,nausea,vomitting, skin&joint problems, ulcers in mouth&fatique #uclaibdnurses2013
+428	428	SMM4H2022sYMdXL20LaqcUote	ADE	59	65	nausea	RT @USER________: @USER___ even w/ Humira: ab pain, cramps,nausea,vomitting, skin&joint problems, ulcers in mouth&fatique #uclaibdnurses2013
+429	429	SMM4H2022sYMdXL20LaqcUote	ADE	66	75	vomitting	RT @USER________: @USER___ even w/ Humira: ab pain, cramps,nausea,vomitting, skin&joint problems, ulcers in mouth&fatique #uclaibdnurses2013
+430	430	SMM4H2022sYMdXL20LaqcUote	ADE	77	81	skin	RT @USER________: @USER___ even w/ Humira: ab pain, cramps,nausea,vomitting, skin&joint problems, ulcers in mouth&fatique #uclaibdnurses2013
+431	431	SMM4H2022sYMdXL20LaqcUote	ADE	82	96	joint problems	RT @USER________: @USER___ even w/ Humira: ab pain, cramps,nausea,vomitting, skin&joint problems, ulcers in mouth&fatique #uclaibdnurses2013
+432	432	SMM4H2022sYMdXL20LaqcUote	ADE	98	113	ulcers in mouth	RT @USER________: @USER___ even w/ Humira: ab pain, cramps,nausea,vomitting, skin&joint problems, ulcers in mouth&fatique #uclaibdnurses2013
+433	433	SMM4H2022sYMdXL20LaqcUote	ADE	114	121	fatique	RT @USER________: @USER___ even w/ Humira: ab pain, cramps,nausea,vomitting, skin&joint problems, ulcers in mouth&fatique #uclaibdnurses2013
+434	434	SMM4H2022Ic6cwEtFeJB2T9K1	ADE	85	98	reacted badly	@USER____ they probably would have offered me the full anti psychotic menu had i not reacted badly to seroquel #handy #bonus
+435	435	SMM4H2022PdRePYtGlDEhRo9q	ADE	77	80	ill	@USER________ i was prescribed victoza for obesity in july 2010. i have been ill ever since. evil drug #diabetes
+436	436	SMM4H2022kZSW7UHRW4hnAZMd	ADE	14	30	pee way too much	i'm having to pee way too much this drive.. drinking too much water. fuck you 70mg vyvanse and your ability to dehydrate the fuck out of me.
+437	437	SMM4H2022kZSW7UHRW4hnAZMd	ADE	111	120	dehydrate	i'm having to pee way too much this drive.. drinking too much water. fuck you 70mg vyvanse and your ability to dehydrate the fuck out of me.
+438	438	SMM4H2022OGUKd4Q0wJBIFE5d	ADE	5	9	rant	this rant could be #paxil withdrawl...or delayed divorce rage.
+439	439	SMM4H2022OGUKd4Q0wJBIFE5d	ADE	26	35	withdrawl	this rant could be #paxil withdrawl...or delayed divorce rage.
+440	440	SMM4H2022ppi7544AVVGZnuc0	ADE	11	20	addiction	"also, yay addiction. it's drugs i need for living, but it's still dependance. every time i get a ""paxil headache"" i realize this. oh well."
+441	441	SMM4H2022ppi7544AVVGZnuc0	ADE	67	77	dependance	"also, yay addiction. it's drugs i need for living, but it's still dependance. every time i get a ""paxil headache"" i realize this. oh well."
+442	442	SMM4H2022ppi7544AVVGZnuc0	ADE	106	114	headache	"also, yay addiction. it's drugs i need for living, but it's still dependance. every time i get a ""paxil headache"" i realize this. oh well."
+443	443	SMM4H2022XaAWQgLEpvxyryK1	ADE	96	105	depressed	gotta find an alternative to vyvanse, asap. i'd rather be sleepy &amp; happy, than alert &amp; depressed!
+444	444	SMM4H2022GrUL6WTxEGFL5oAg	ADE	24	47	felt like sumo wrestler	@USER______ yeh same bk felt like sumo wrestler on it all time :( think its f****ed me 4life :( ironic as humira is used to treat artheritis
+445	445	SMM4H20221q0l2kkUgIzVMMcs	ADE	48	61	urge to vomit	okay i took the seroquel and i am resisting the urge to vomit it up i feel disgusting but oh well good times good vibes don't be sad
+446	446	SMM4H20221q0l2kkUgIzVMMcs	ADE	70	85	feel disgusting	okay i took the seroquel and i am resisting the urge to vomit it up i feel disgusting but oh well good times good vibes don't be sad
+447	447	SMM4H202273zqs877eP0sxb4Y	ADE	48	73	cleaned my entire kitchen	why not to take vyvanse late in the day: i just cleaned my entire kitchen. it's 3am. #addproblems @USER_______
+448	448	SMM4H202273zqs877eP0sxb4Y	ADE	80	83	3am	why not to take vyvanse late in the day: i just cleaned my entire kitchen. it's 3am. #addproblems @USER_______
+449	449	SMM4H2022OtxIez537Esm9LMb	ADE	57	66	migraines	@USER_________ missing a day of meds is never fun. i get migraines if i don't get my effexor. do you just get super tired?
+450	450	SMM4H2022OtxIez537Esm9LMb	ADE	116	121	tired	@USER_________ missing a day of meds is never fun. i get migraines if i don't get my effexor. do you just get super tired?
+451	451	SMM4H2022wnNbdqMUxiWeywPm	ADE	4	8	high	i'm high af on vyvanse.
+452	452	SMM4H2022NT8MvTeEFiodsFgv	ADE	90	102	pancreatitis	@USER___________ @USER______ re victoza i was prescribed this in 2010 for obesity. caused pancreatitis and digestive problems ever since
+453	453	SMM4H2022NT8MvTeEFiodsFgv	ADE	107	125	digestive problems	@USER___________ @USER______ re victoza i was prescribed this in 2010 for obesity. caused pancreatitis and digestive problems ever since
+454	454	SMM4H2022SPLdFkMPXmESFbQq	ADE	46	54	addicted	@USE when are you going to do true life: i am addicted to vyvanse?
+455	455	SMM4H2022RXWlwwVt6yQyP4fw	ADE	33	41	headache	09.26 day 12 rivaroxaban diary:  headache, right shoulder and neck ache, lower back pain, weak knees, limping when walking.Taken paracetamol
+456	456	SMM4H2022RXWlwwVt6yQyP4fw	ADE	49	57	shoulder	09.26 day 12 rivaroxaban diary:  headache, right shoulder and neck ache, lower back pain, weak knees, limping when walking.Taken paracetamol
+457	457	SMM4H2022RXWlwwVt6yQyP4fw	ADE	62	71	neck ache	09.26 day 12 rivaroxaban diary:  headache, right shoulder and neck ache, lower back pain, weak knees, limping when walking.Taken paracetamol
+458	458	SMM4H2022RXWlwwVt6yQyP4fw	ADE	67	71	ache	09.26 day 12 rivaroxaban diary:  headache, right shoulder and neck ache, lower back pain, weak knees, limping when walking.Taken paracetamol
+459	459	SMM4H2022RXWlwwVt6yQyP4fw	ADE	73	88	lower back pain	09.26 day 12 rivaroxaban diary:  headache, right shoulder and neck ache, lower back pain, weak knees, limping when walking.Taken paracetamol
+460	460	SMM4H2022RXWlwwVt6yQyP4fw	ADE	79	88	back pain	09.26 day 12 rivaroxaban diary:  headache, right shoulder and neck ache, lower back pain, weak knees, limping when walking.Taken paracetamol
+461	461	SMM4H2022RXWlwwVt6yQyP4fw	ADE	90	100	weak knees	09.26 day 12 rivaroxaban diary:  headache, right shoulder and neck ache, lower back pain, weak knees, limping when walking.Taken paracetamol
+462	462	SMM4H2022RXWlwwVt6yQyP4fw	ADE	102	109	limping	09.26 day 12 rivaroxaban diary:  headache, right shoulder and neck ache, lower back pain, weak knees, limping when walking.Taken paracetamol
+463	463	SMM4H2022AemspyQ0a9IPQYXw	ADE	20	29	tourettes	get asked if i have tourettes. nope. just vyvanse #twitchy @USER_______
+464	464	SMM4H2022AemspyQ0a9IPQYXw	ADE	51	58	Twitchy	get asked if i have tourettes. nope. just vyvanse #twitchy @USER_______
+465	465	SMM4H2022QdRrOGi2v3pRbpHE	ADE	91	100	addiction	i don't know whether my vyvanse caused my caffeine addiction or caffeine caused my vyvanse addiction.
+466	466	SMM4H2022zVPXYMJEHYOlQ6Ib	ADE	68	77	addiction	rt @USER_______: i don't know whether my vyvanse caused my caffeine addiction or caffeine caused my vyvanse addiction.
+467	467	SMM4H2022AJAFtU4kMAs2Yqg9	ADE	56	62	hungry	my house smells of bacon &amp; seroquel is making me so hungry i want to tear my own face off &amp; eat it or cry or maybe both at once.
+468	468	SMM4H2022AJAFtU4kMAs2Yqg9	ADE	73	106	tear my own face off &amp; eat it	my house smells of bacon &amp; seroquel is making me so hungry i want to tear my own face off &amp; eat it or cry or maybe both at once.
+469	469	SMM4H2022AJAFtU4kMAs2Yqg9	ADE	110	113	cry	my house smells of bacon &amp; seroquel is making me so hungry i want to tear my own face off &amp; eat it or cry or maybe both at once.
+470	470	SMM4H2022QgR91vo6v6m62Q7o	ADE	51	64	whacks me out	@USER____ yup quetiapine. the normal dose at night whacks me out. i'd have been asleep til friday on double
+471	471	SMM4H2022QgR91vo6v6m62Q7o	ADE	80	86	asleep	@USER____ yup quetiapine. the normal dose at night whacks me out. i'd have been asleep til friday on double
+472	472	SMM4H2022quEKjdHKl010FZVp	ADE	62	65	TMJ	i'm not sure if excedrin is the right way for me to go for my tmj headaches. vyvanse + caffeine is pretty rough. ideas?
+473	473	SMM4H2022quEKjdHKl010FZVp	ADE	66	75	headaches	i'm not sure if excedrin is the right way for me to go for my tmj headaches. vyvanse + caffeine is pretty rough. ideas?
+474	474	SMM4H2022VNoWz2REYRTcFy6o	ADE	71	76	aches	13.08 Day 13 Rivaroxaban diary.  Pracetamol has taken away most of the aches, but still have lower back ache and weak knees.
+475	475	SMM4H2022VNoWz2REYRTcFy6o	ADE	93	108	lower back ache	13.08 Day 13 Rivaroxaban diary.  Pracetamol has taken away most of the aches, but still have lower back ache and weak knees.
+476	476	SMM4H2022VNoWz2REYRTcFy6o	ADE	113	123	weak knees	13.08 Day 13 Rivaroxaban diary.  Pracetamol has taken away most of the aches, but still have lower back ache and weak knees.
+477	477	SMM4H2022GiUloKHmhkRr7RfK	ADE	53	57	sick	@USER______ I don't know that one, but metho made me sick  everyday I took it. I had to stop. Enbrel has worked wonders for me .. so far
+478	478	SMM4H2022dlfE0CN0EQZ8Yycc	ADE	14	22	allergic	@USER____ i'm allergic to enbrel :-( bad reaction
+479	479	SMM4H2022gAqLbjRYmWBB6p2q	ADE	68	72	sick	rt @USER____: @USER______ i don't know that one, but metho made me sick  everyday i took it. i had to stop. enbrel has worked wonders for m'
+480	480	SMM4H2022dh7rJkBPm1DWMRQ3	ADE	40	56	hating the world	just wondering where the side effect of hating the world is stated on vyvanse advertisements?
+481	481	SMM4H202297JG3GRL0r7F3oii	ADE	82	97	steal your soul	"this lamictal shit ain't cuttin the mustard; any ""mood stabilizers"" that don't steal your soul &amp; make u a bloated zombie a la britney?"
+482	482	SMM4H202297JG3GRL0r7F3oii	ADE	113	120	bloated	"this lamictal shit ain't cuttin the mustard; any ""mood stabilizers"" that don't steal your soul &amp; make u a bloated zombie a la britney?"
+483	483	SMM4H202297JG3GRL0r7F3oii	ADE	121	127	zombie	"this lamictal shit ain't cuttin the mustard; any ""mood stabilizers"" that don't steal your soul &amp; make u a bloated zombie a la britney?"
+484	484	SMM4H2022JgPZ75dlpC8C6C3H	ADE	51	70	not working as well	@USER___________ SSRIs were great for me for ages, not working as well now. Thus Seroquel.  I’m also on Clonazepam, makes me sleepy too.
+485	485	SMM4H2022JgPZ75dlpC8C6C3H	ADE	125	131	sleepy	@USER___________ SSRIs were great for me for ages, not working as well now. Thus Seroquel.  I’m also on Clonazepam, makes me sleepy too.
+486	486	SMM4H2022rePGx8abzfugJCVH	ADE	56	78	like taking rat poison	@USER_________ cipro and flagyl are the absolute worst. like taking rat poison.
+487	487	SMM4H2022FLGHUTXktB5H1zIS	ADE	122	136	worsening pain	@USER________ @USER____ I tried Baclofen, another common muscle relaxer, and had too many side-effects from it, including worsening pain.
+488	488	SMM4H2022nWaoQ8tSxj8QFmkG	ADE	53	62	hypomania	@USER___ the Effexor may have been pushing me toward hypomania, so we are trying just an ssri, then see if a mood stabilizer is needed.
+489	489	SMM4H2022Fk2pL4jxbiufAQz2	ADE	22	37	sleep paralysis	seroquel left me with sleep paralysis. abilify left me with occasional muscle spasms. i've been off of both for nearly a decade.
+490	490	SMM4H2022Fk2pL4jxbiufAQz2	ADE	71	84	muscle spasms	seroquel left me with sleep paralysis. abilify left me with occasional muscle spasms. i've been off of both for nearly a decade.
+491	491	SMM4H2022Fk2pL4jxbiufAQz2	ADE	71	84	muscle spasms	seroquel left me with sleep paralysis. abilify left me with occasional muscle spasms. i've been off of both for nearly a decade.
+492	492	SMM4H202229fanYISYc0jXnR2	ADE	47	52	tired	@USER__________ ugh the olanzapine makes me so tired :(
+493	493	SMM4H2022ZoKc24UU9qSskusS	ADE	84	106	blood pressure dropped	@USER______ @USER_____ when i weaned myself off paxil, slower than recommended, my blood pressure dropped so bad i couldn't walk for a week.
+494	494	SMM4H2022ZoKc24UU9qSskusS	ADE	116	129	couldn't walk	@USER______ @USER_____ when i weaned myself off paxil, slower than recommended, my blood pressure dropped so bad i couldn't walk for a week.
+495	495	SMM4H2022oartCOZedxGoF34r	ADE	38	47	sex drive	gimme one reason why i shouldn't have sex drive / libido. i accept this as a part of withdrawal symptoms from venlafaxine. :o
+496	496	SMM4H2022oartCOZedxGoF34r	ADE	50	56	libido	gimme one reason why i shouldn't have sex drive / libido. i accept this as a part of withdrawal symptoms from venlafaxine. :o
+497	497	SMM4H2022oartCOZedxGoF34r	ADE	85	95	withdrawal	gimme one reason why i shouldn't have sex drive / libido. i accept this as a part of withdrawal symptoms from venlafaxine. :o
+498	498	SMM4H2022seOX3nx6bNIH0lhF	ADE	85	94	screaming	i called for my effexor refill on wednesday. i was out. it's sunday and i can't stop screaming and crying
+499	499	SMM4H2022seOX3nx6bNIH0lhF	ADE	99	105	crying	i called for my effexor refill on wednesday. i was out. it's sunday and i can't stop screaming and crying
+500	500	SMM4H2022zoIyzS080QH8bpUP	ADE	1	15	arms stil hurt	arms stil hurt. cipro to tendons is like a razor to rope: cut it partway through, makes it weaker &amp; won't heal ever. damned cipro.
+501	501	SMM4H2022zoIyzS080QH8bpUP	ADE	26	57	tendons is like a razor to rope	arms stil hurt. cipro to tendons is like a razor to rope: cut it partway through, makes it weaker &amp; won't heal ever. damned cipro.
+502	502	SMM4H2022zoIyzS080QH8bpUP	ADE	92	98	weaker	arms stil hurt. cipro to tendons is like a razor to rope: cut it partway through, makes it weaker &amp; won't heal ever. damned cipro.
+503	503	SMM4H2022zoIyzS080QH8bpUP	ADE	105	115	won't heal	arms stil hurt. cipro to tendons is like a razor to rope: cut it partway through, makes it weaker &amp; won't heal ever. damned cipro.
+504	504	SMM4H20221sHBtdZJBsGJ3LwR	ADE	28	33	tired	Eurgh! Last time I was this tired, I was on a four day antidepressant cocktail binge.  #seroxat #sertraline #fluoxitine #lithium
+505	505	SMM4H2022fREh2XI74TWyahQ6	ADE	16	31	lower back pain	rivaroxaban 2/2 lower back pain. not very pc but am crippled by this drug. taking more paracetamols. must ring for 'phone consultation.
+506	506	SMM4H2022fREh2XI74TWyahQ6	ADE	52	60	crippled	rivaroxaban 2/2 lower back pain. not very pc but am crippled by this drug. taking more paracetamols. must ring for 'phone consultation.
+507	507	SMM4H2022TVN7KsMM5gevyWhp	ADE	64	78	neuro problems	@USER_________ i was on enbrel for 8 years have since developed neuro problems (ataxia) wish id never taken it side effects not worth risks
+508	508	SMM4H2022TVN7KsMM5gevyWhp	ADE	80	86	ataxia	@USER_________ i was on enbrel for 8 years have since developed neuro problems (ataxia) wish id never taken it side effects not worth risks
+509	509	SMM4H2022kvYkDcRL5CIlilM5	ADE	24	36	felt nothing	@USER____ I essentially felt nothing on them. Great for anxiety, bad for living. Coming off klonopin and paxil was hell though.
+510	510	SMM4H2022kvYkDcRL5CIlilM5	ADE	81	119	coming off klonopin and paxil was hell	@USER____ I essentially felt nothing on them. Great for anxiety, bad for living. Coming off klonopin and paxil was hell though.
+511	511	SMM4H2022YJppxwANJQSY1m9x	ADE	41	46	dream	@USER____ i think it was an anxiety meds dream. damn quetiapine.
+512	512	SMM4H20223cfivADgM73dcaqE	ADE	122	143	groggy in the morning	@USER_________ quetiapine. very low dose even with increase. helps me get to sleep (&amp; eat in general) but feel really groggy in the morning
+513	513	SMM4H2022iCyAAqhPCL1hN6sz	ADE	106	113	painful	03.00 day 19 rivaroxaban diary. just taken 2 paracetamol. probabably will take 70 minutes to work. a long painful night ahead.
+514	514	SMM4H2022xEKriuQOHMJvxv6S	ADE	17	22	burns	your humira shot burns with the power of a thousand suns #ibdfmlmoments #crohns #ibd #uc
+515	515	SMM4H2022Uha48w7IbkKucWEv	ADE	89	94	hurts	today is the day for my biweekly humira injection, any volunteers to take it for me?  It hurts.
+516	516	SMM4H2022vMG4BOxp9R3ylT60	ADE	61	70	zombified	new dx: dysthymia. start seroquel (which i've had before. it zombified me iirc).
+517	517	SMM4H2022faF270d5ACiHD09X	ADE	37	41	flat	@USER_________ Depakote made me feel flat, but helps many. Zyprexa can cause weight gain, so be very careful. I can't tolerate it.
+518	518	SMM4H2022faF270d5ACiHD09X	ADE	77	88	weight gain	@USER_________ Depakote made me feel flat, but helps many. Zyprexa can cause weight gain, so be very careful. I can't tolerate it.
+519	519	SMM4H2022EyMGRETJHSunPFam	ADE	52	68	messed up dreams	takin anbien &amp;seroquel for bad insomnia gives u messed up dreams doc saids its normal
+520	520	SMM4H2022mvBLdiGdRpznis6F	ADE	83	95	racing heart	been on humira now short period 4 to 6 injections no noticeable change in pain but racing heart and palpitations. mtx at 1ml injection.
+521	521	SMM4H2022mvBLdiGdRpznis6F	ADE	100	112	palpitations	been on humira now short period 4 to 6 injections no noticeable change in pain but racing heart and palpitations. mtx at 1ml injection.
+522	522	SMM4H2022vDOYDgyJZxi3AfWr	ADE	4	16	not sleeping	hey not sleeping. #hotflashes #menopause #effexor
+523	523	SMM4H20223tmTYWiaG5Gx8AXQ	ADE	112	124	messed me up	@USER________ i think it's an snri, i'm not even sure. it's viibryd. but none of my anti-depressants have ever messed me up like this before
+524	524	SMM4H2022jT1k3ZJRIRFr8vdN	ADE	47	52	aches	19.32 day 20 rivaroxaban diary. still residual aches and pains; only had 4 paracetamol today.
+525	525	SMM4H2022jT1k3ZJRIRFr8vdN	ADE	57	62	pains	19.32 day 20 rivaroxaban diary. still residual aches and pains; only had 4 paracetamol today.
+526	526	SMM4H2022mwTwNQe8c7qELvoj	ADE	29	39	withdrawal	i better go to bed.. effexor withdrawal makes me feel kinda terrible ugh.
+527	527	SMM4H2022mwTwNQe8c7qELvoj	ADE	49	68	feel kinda terrible	i better go to bed.. effexor withdrawal makes me feel kinda terrible ugh.
+528	528	SMM4H2022VCg967jaRwauB7M6	ADE	39	51	gained 40lbs	@USER_________ i was on quetiapine and gained 40lbs &lt;wall&gt; so i am not even trying olanzapine. they gave me abilify cause it not supposed to
+529	529	SMM4H2022TVxkoVV8POivz2cg	ADE	102	130	inside i was still screaming	@USER_______ i 'served' 6months of fluoxetine-time around 18 years ago, it put a smile on my face but inside i was still screaming. :(
+530	530	SMM4H2022gdrlP9V98OjgYn1h	ADE	99	121	"metabolic"""" syndrome"	"@USER______ @USER________ what i take is serious. i never was informed ahead of time. i could get ""metabolic"" syndrome from seroquel."
+531	531	SMM4H2022WhYWRNGFEkALdgiB	ADE	17	30	knocks me out	half of seroquel knocks me out so fast and im asleep for at least 10 hours...
+532	532	SMM4H2022UjUoWAcioXwoXrmN	ADE	39	52	muscle spasms	08.55 day 21 rivaroxaban diary strange muscle spasms especially in neck shoulders and legs. no more fluid retention. more mobile.
+533	533	SMM4H2022UjUoWAcioXwoXrmN	ADE	100	115	fluid retention	08.55 day 21 rivaroxaban diary strange muscle spasms especially in neck shoulders and legs. no more fluid retention. more mobile.
+534	534	SMM4H2022UjUoWAcioXwoXrmN	ADE	122	128	mobile	08.55 day 21 rivaroxaban diary strange muscle spasms especially in neck shoulders and legs. no more fluid retention. more mobile.
+535	535	SMM4H2022DtQbxC8jee3yAjEg	ADE	84	88	Rash	#epilepsy is sucktastic. neuro appt monday to discuss a third med after getting the rash with lamotrigine and the glaucoma with topiramate.
+536	536	SMM4H2022DtQbxC8jee3yAjEg	ADE	114	122	Glaucoma	#epilepsy is sucktastic. neuro appt monday to discuss a third med after getting the rash with lamotrigine and the glaucoma with topiramate.
+537	537	SMM4H2022rEAo0MhuRcPQGMcx	ADE	119	135	shot my daughter	@USER________ @USER_________ my step-dad was on Effexer,taking supplements for energy and drinking like a fish when he shot my daughter&me
+538	538	SMM4H2022x224e9kpbUotQ83B	ADE	21	28	lo0o0py	this seroquel got me lo0o0py as helll.  this status took me at least thirty minutes to type i keep waking up without knowing i feel asleep
+539	539	SMM4H2022x224e9kpbUotQ83B	ADE	69	91	thirty minutes to type	this seroquel got me lo0o0py as helll.  this status took me at least thirty minutes to type i keep waking up without knowing i feel asleep
+540	540	SMM4H2022x224e9kpbUotQ83B	ADE	99	138	waking up without knowing I feel asleep	this seroquel got me lo0o0py as helll.  this status took me at least thirty minutes to type i keep waking up without knowing i feel asleep
+541	541	SMM4H2022bRO6gxOfmAidtYpq	ADE	52	57	pains	rivaroxaban diary day 22. am beginning to think all pains from pressure on that part of body are due to fluid retention.
+542	542	SMM4H2022bRO6gxOfmAidtYpq	ADE	104	119	fluid retention	rivaroxaban diary day 22. am beginning to think all pains from pressure on that part of body are due to fluid retention.
+543	543	SMM4H2022MaoNl62q5dfg0X43	ADE	69	83	sleep for days	@USER____ natural don't work for me, try 300mg of seroquel...you'll sleep for days, i have insomnia that's what they give me lol
+544	544	SMM4H2022MaoNl62q5dfg0X43	ADE	69	83	sleep for days	@USER____ natural don't work for me, try 300mg of seroquel...you'll sleep for days, i have insomnia that's what they give me lol
+545	545	SMM4H2022lYwPycpPzTEZeqC9	ADE	37	46	addictive	doc for panic disorders: alprazolam (addictive) and paroxetine (sedating). #psychiatry
+546	546	SMM4H2022lYwPycpPzTEZeqC9	ADE	64	72	sedating	doc for panic disorders: alprazolam (addictive) and paroxetine (sedating). #psychiatry
+547	547	SMM4H2022B1t3y1YzW1o9IXRS	ADE	27	37	physically	@USER_________ dude i feel physically and mentally drained.. thats the paxil i wanted hard at work
+548	548	SMM4H2022B1t3y1YzW1o9IXRS	ADE	42	58	mentally drained	@USER_________ dude i feel physically and mentally drained.. thats the paxil i wanted hard at work
+549	549	SMM4H2022RBeuKIpaZmSt4HSL	ADE	66	96	neck, back, hip, and leg aches	04.46 day 23 rivaroxaban diary. Much better than yesterday. Still neck, back, hip, and leg aches but not so intense.
+550	550	SMM4H2022RBeuKIpaZmSt4HSL	ADE	72	96	back, hip, and leg aches	04.46 day 23 rivaroxaban diary. Much better than yesterday. Still neck, back, hip, and leg aches but not so intense.
+551	551	SMM4H2022RBeuKIpaZmSt4HSL	ADE	78	96	hip, and leg aches	04.46 day 23 rivaroxaban diary. Much better than yesterday. Still neck, back, hip, and leg aches but not so intense.
+552	552	SMM4H2022RBeuKIpaZmSt4HSL	ADE	87	96	leg aches	04.46 day 23 rivaroxaban diary. Much better than yesterday. Still neck, back, hip, and leg aches but not so intense.
+553	553	SMM4H2022nWt7PzfteIMGo4un	ADE	70	79	headaches	@USER_____ smh. lmao paxil was my first, i just stopped effexor (the headaches were a nightmare)
+554	554	SMM4H2022FxnzX8o6akC1A8AC	ADE	79	114	common for apartments to be haunted	the toilet just flushed itself.  my apartment is haunted.  paxil tells me it's common for apartments to be haunted.  send help
+555	555	SMM4H20221RQKhLykLMydtDkw	ADE	110	124	antipsychotics	@USER________ i do have a crisis number, but i'm just going to knock myself out today w/ trazodone and start antipsychotics today too.
+556	556	SMM4H2022WZ6hXqt3P5tmzGQW	ADE	95	105	withdrawal	wish it was monday...seeing doctor tomorrow &amp; want to see if he has any suggestions for my withdrawal. #paroxetine #anxiety #fedup
+557	557	SMM4H20229SZCO8asIBmAO1pd	ADE	33	38	Pains	15.15 rivaroxaban diary day 24.  pains easing all the time. didn't take losartan yesterday. will get bp and hopefully inr checked today.
+558	558	SMM4H2022vRV5fKveap2qzfsJ	ADE	0	42	Feels like one of those 5-cup #coffee days	feels like one of those 5-cup #coffee days - but wait: i'm weaning off #seroquel. aha!
+559	559	SMM4H2022wwloDYCyWIjib2Pb	ADE	106	119	stay in shape	The most upsetting thing about Silver Linings Playbook, is how Bradley Cooper can take Seroquel and still stay in shape.
+560	560	SMM4H2022AQvFCYJIZ75CZT6K	ADE	70	73	ill	then the viibryd it will be the hardest. makes you very ill. hospital ill.
+561	561	SMM4H2022MOFJilJuTfgGcuTL	ADE	26	34	lucidity	effexor dreams, now with lucidity. i grant the power of flight?
+562	562	SMM4H2022LJ7qxW0qCFcTeWuK	ADE	12	33	dreams became vivider	@USER___ my dreams became vivider i think with effexor #bpdchat
+563	563	SMM4H2022OaoS9I9bDMG8rygb	ADE	0	6	Bombed	bombed on olanzapine. work going to be tricky. 5 days of not drinking coming up. i could sleep all the time atm.
+564	564	SMM4H2022OaoS9I9bDMG8rygb	ADE	89	107	sleep all the time	bombed on olanzapine. work going to be tricky. 5 days of not drinking coming up. i could sleep all the time atm.
+565	565	SMM4H20223IJtOyXw7GygaK1v	ADE	42	53	after sting	@USER___ @USER__________ i agree that the after sting is much worse from #humira than #enbrel #rheum
+566	566	SMM4H2022ZTkHtJ9K2fHRHiVH	ADE	62	94	look at my Farrah Fawcett poster	i didn't expect that going off of paxil would make me want to look at my farrah fawcett poster quite so much.
+567	567	SMM4H2022aMpoXKTGKn4VN0L0	ADE	60	70	withdrawal	panic attacking because you cant find your effexor and know withdrawal will set in momentarily  &lt;&lt;&lt;&lt;&lt;&lt;&lt;.
+568	568	SMM4H2022R9V4kSdIi5istPUq	ADE	69	73	sick	@USER_____ I'm not even sure what to request. :/ Sertraline makes me sick now, Venlafaxine made me sick, Reboxetine and Citalopram useless
+569	569	SMM4H2022fgJeGOYO5LdpZuaD	ADE	59	68	egg burps	question time #crohns #ibd #humira does anyone suffer from egg burps? what works for you
+570	570	SMM4H2022C1iYDPNfNKvnS5Mg	ADE	96	114	increase my weight	i'm so fine today. increasing zyprexa,my condisition became so good. it has a side effect that increase my weight. i must care about it.
+571	571	SMM4H2022lXxReHKyHHDjTInF	ADE	47	67	rage breaking things	@USER_ every time i forget seroquel, i end up rage breaking things eg- my laptop *facepalm*
+572	572	SMM4H2022tMlhJfENTacYmpBJ	ADE	6	10	sick	being sick every morning is getting really old. not sure if anxiety or my body getting used to paxil.  anyone know?
+573	573	SMM4H20222vtDinnXG9Q9ai0O	ADE	31	37	nauaea	i can't wait to go get my anti nauaea meds tonight. i feel like shit. humira is definitely kicking my ass but my skin lools great.
+574	574	SMM4H20222vtDinnXG9Q9ai0O	ADE	91	105	kicking my ass	i can't wait to go get my anti nauaea meds tonight. i feel like shit. humira is definitely kicking my ass but my skin lools great.
+575	575	SMM4H20226kdflee3hHSKSLLR	ADE	24	67	can't even get whipped cream out of the can	rt @USER_________: wtf? can't even get whipped cream out of the can? my arms just keep getting worse. damned cipro.
+576	576	SMM4H20226kdflee3hHSKSLLR	ADE	72	101	arms just keep getting worse.	rt @USER_________: wtf? can't even get whipped cream out of the can? my arms just keep getting worse. damned cipro.
+577	577	SMM4H2022PEtV7oJJ4oeGgInX	ADE	84	94	withdrawal	@USER__________ it helped me enormously with seroquel withdrawal but it makes benzo withdrawal much worse.
+578	578	SMM4H2022FsFXsrgZx5McigLW	ADE	9	16	DIZZING	whoah so dizzing.  damn   tamazapam - shld probably wap back to quetiapine if this keeps up! but it makes me feel so ick!
+579	579	SMM4H2022FsFXsrgZx5McigLW	ADE	109	120	feel so Ick	whoah so dizzing.  damn   tamazapam - shld probably wap back to quetiapine if this keeps up! but it makes me feel so ick!
+580	580	SMM4H2022MxVK4Kr3BOKdqyVq	ADE	37	59	doing things difficult	the seroquel the doc gave me, makes doing things difficult. . . but if i don't do something, i'll fall asleep. the catch-22 of crazy.
+581	581	SMM4H2022MxVK4Kr3BOKdqyVq	ADE	99	110	fall asleep	the seroquel the doc gave me, makes doing things difficult. . . but if i don't do something, i'll fall asleep. the catch-22 of crazy.
+582	582	SMM4H2022cyNaBGtN3XzJsezy	ADE	34	58	shooting pains down arms	@USER__________ ffs!! i'm getting shooting pains down arms &amp; legs now &amp; in eve whole body ache #humira is horrible ??
+583	583	SMM4H2022cyNaBGtN3XzJsezy	ADE	34	69	shooting pains down arms &amp; legs	@USER__________ ffs!! i'm getting shooting pains down arms &amp; legs now &amp; in eve whole body ache #humira is horrible ??
+584	584	SMM4H2022cyNaBGtN3XzJsezy	ADE	93	102	body ache	@USER__________ ffs!! i'm getting shooting pains down arms &amp; legs now &amp; in eve whole body ache #humira is horrible ??
+585	585	SMM4H2022dKAzjrSGg5ecoi0S	ADE	68	79	lightweight	screw you paxil! you do wonders for anxiety but you make me a ultra lightweight
+586	586	SMM4H2022lotbVruKigtPwGzr	ADE	42	47	tired	the difference between 'just tired' and 'tired &amp; in a fog' is amazing.  so happy to be done taking levaquin, that stuff is way too strong
+587	587	SMM4H2022lotbVruKigtPwGzr	ADE	54	62	in a fog	the difference between 'just tired' and 'tired &amp; in a fog' is amazing.  so happy to be done taking levaquin, that stuff is way too strong
+588	588	SMM4H20229zMNQ7V95TYkkttX	ADE	14	30	dont get it, sex	@USER_____ i dont get it, sex i mean. the doctors p[ut me on venlafaxin
+589	589	SMM4H2022n7g9BpX0YtrwMNIF	ADE	80	95	slept 13-14 hrs	@USER_______ i'm reducing duloxitine (been on 6 yr) and slowly increasing m but slept 13-14 hrs solid and still feel wasted
+590	590	SMM4H2022n7g9BpX0YtrwMNIF	ADE	112	123	feel wasted	@USER_______ i'm reducing duloxitine (been on 6 yr) and slowly increasing m but slept 13-14 hrs solid and still feel wasted
+591	591	SMM4H202281Eg2d0wun0cK4UH	ADE	22	36	intense dreams	Did you know insanely intense dreams are a known side effect of venlafaxine? It's not an antidepressant, it's my Dream Fuel!
+592	592	SMM4H20223FbV5c7juVUOy8Lu	ADE	82	123	you can check in, but you can never leave	@USER_____ i've been taking venlafaxine since 2007, it's like hotel california - you can check in, but you can never leave.
+593	593	SMM4H2022VSlQdndtUOoYrpWj	ADE	40	50	withdrawal	rt @USER____: @USER_________ does paxil withdrawal take! extremely emotional:( switched to wellbutrin. wanna crawl in a hole.
+594	594	SMM4H2022VSlQdndtUOoYrpWj	ADE	67	76	emotional	rt @USER____: @USER_________ does paxil withdrawal take! extremely emotional:( switched to wellbutrin. wanna crawl in a hole.
+595	595	SMM4H2022VSlQdndtUOoYrpWj	ADE	109	124	crawl in a hole	rt @USER____: @USER_________ does paxil withdrawal take! extremely emotional:( switched to wellbutrin. wanna crawl in a hole.
+596	596	SMM4H2022tG4dILAp3p4ef81P	ADE	40	62	dark night of the soul	rt @USER__________: my journey into the dark night of the soul was launched by an adverse reaction to the drug effexor. taking this... http
+597	597	SMM4H2022cZSFCv9giGkQiTio	ADE	94	105	gastro pain	@USER___________ i've had to reduce the quetiapine back to 400mg. couldn't take the increased gastro pain. was crumpled in a heap crying x
+598	598	SMM4H2022cZSFCv9giGkQiTio	ADE	130	136	crying	@USER___________ i've had to reduce the quetiapine back to 400mg. couldn't take the increased gastro pain. was crumpled in a heap crying x
+599	599	SMM4H202293rUCWHnZXH3Qwzm	ADE	117	127	withdrawal	dissociative fugues &amp; loss of empathy since age 11, serious cardio problems since age 14, almost dying of paxil withdrawal @ 21, that's a-ok
+600	600	SMM4H2022U217mBTbSmjNI27J	ADE	121	133	just woke up	so last night i kept waking up with period pain. took what i thought was ibuprofen 3 times. turned out to be seroquel. i just woke up.
+601	601	SMM4H2022H6m1Wzlz1SRhJ9Vy	ADE	49	64	weight I put on	abilify for 3 weeks has made me lose 1/6 of the weight i put on w/seroquel, and i've been eating like shit. i love you abilify!
+602	602	SMM4H2022ZGyiKVCMmfPa1IxT	ADE	72	86	 carb cravings	@USER_________ partly true but olanzapine is the worst ever for inducing carb cravings for some unfortunate ppl serequel and clozaril a 2nd
+603	603	SMM4H2022ZGyiKVCMmfPa1IxT	ADE	73	86	carb cravings	@USER_________ partly true but olanzapine is the worst ever for inducing carb cravings for some unfortunate ppl serequel and clozaril a 2nd
+604	604	SMM4H2022sVRoF9tnx9cfi5PM	ADE	85	102	shouldn't wake up	gamma-aminobutyric acid+glycine =paralyzing rem neurotransmitters=precisely when you shouldn't wake up=grumpy as fuck  #sciencestrikesagain
+605	605	SMM4H2022g1kUHszcigvBbSjt	ADE	78	85	tremors	@USER_________ fanapt was the only thing that calmed her rages but comes with tremors.   i'm so sorry :(
+606	606	SMM4H2022uTLDGdWyQZoMctLW	ADE	55	66	withdrawals	worked a double shift today while dealing with Effexor withdrawals, I'm a tough bitch; fight me. #badass #sick #withdraws #sicksicksick
+607	607	SMM4H2022uTLDGdWyQZoMctLW	ADE	106	110	sick	worked a double shift today while dealing with Effexor withdrawals, I'm a tough bitch; fight me. #badass #sick #withdraws #sicksicksick
+608	608	SMM4H2022uTLDGdWyQZoMctLW	ADE	112	121	withdraws	worked a double shift today while dealing with Effexor withdrawals, I'm a tough bitch; fight me. #badass #sick #withdraws #sicksicksick
+609	609	SMM4H2022uTLDGdWyQZoMctLW	ADE	123	135	sicksicksick	worked a double shift today while dealing with Effexor withdrawals, I'm a tough bitch; fight me. #badass #sick #withdraws #sicksicksick
+610	610	SMM4H2022GeW2mGArOLmn74V7	ADE	75	80	aches	2/2 blood tests scheduled. BP normal Now have own coaguckek machine. Still aches and pains, legs better. Taking codeine rivaroxaban losartan
+611	611	SMM4H2022GeW2mGArOLmn74V7	ADE	85	90	pains	2/2 blood tests scheduled. BP normal Now have own coaguckek machine. Still aches and pains, legs better. Taking codeine rivaroxaban losartan
+612	612	SMM4H2022wyM8jhDvp5kKKn18	ADE	54	70	Trying to get up	@USER___________ @USER_________ sorry for jumping in. trying to get up for work after night seroquel is a nightmare!
+613	613	SMM4H2022AXnne7yioko9K2GX	ADE	41	44	JCV	@USER_____  nope, i tested positive for jcv.?????? ????????jcv &amp; tysabri = permanent brain damage or sudden death.
+614	614	SMM4H2022AXnne7yioko9K2GX	ADE	60	63	JCV	@USER_____  nope, i tested positive for jcv.?????? ????????jcv &amp; tysabri = permanent brain damage or sudden death.
+615	615	SMM4H2022UA3EbTRs7DQUyOyd	ADE	47	78	hip joints just started hurting	oh. delayed reaction from humira injections-my hip joints just started hurting. haha.
+616	616	SMM4H2022yQphZd7iNCR1ML4S	ADE	44	48	sick	@USER________ that sucks. Humira made me so sick. Remicade helped a but, but then seizures put that out. Now waiting, just prednisone now.
+617	617	SMM4H2022yQphZd7iNCR1ML4S	ADE	82	90	seizures	@USER________ that sucks. Humira made me so sick. Remicade helped a but, but then seizures put that out. Now waiting, just prednisone now.
+618	618	SMM4H2022yQphZd7iNCR1ML4S	ADE	82	90	seizures	@USER________ that sucks. Humira made me so sick. Remicade helped a but, but then seizures put that out. Now waiting, just prednisone now.
+619	619	SMM4H2022MPnEeyOkSclgaOMa	ADE	80	86	bowels	i do baclofen which helps w incontinent urges but don't think it's good for the bowels. (very personal but wtf) anyone have insight for me??
+620	620	SMM4H2022qu8r7A0mHZjaeeTA	ADE	126	136	withdrawal	rt @USER_____: @USER_____ if this is a real question, withdrawal from an antidepressant named effexor was worse than cocaine withdrawal
+621	621	SMM4H2022uWAzmvXiLv4Fe1XW	ADE	97	109	Broken sleep	@USER_____ @USER___________ thinking it might be the baclofen doing it.only on a low dose though.broken sleep is a nightmare.#msfatigue
+622	622	SMM4H2022OQDxH5abIi4FPaUM	ADE	51	61	dehydrates	Oh hey. Much like other anti-convulsants, Lamictal dehydrates you. So much is explained.
+623	623	SMM4H2022Wlusv0Z3YQ6pdgEb	ADE	44	53	depressed	i used to be on paxil but that made me more depressed and prozac made me angry
+624	624	SMM4H2022Wlusv0Z3YQ6pdgEb	ADE	44	53	depressed	i used to be on paxil but that made me more depressed and prozac made me angry
+625	625	SMM4H2022Wlusv0Z3YQ6pdgEb	ADE	73	78	angry	i used to be on paxil but that made me more depressed and prozac made me angry
+626	626	SMM4H2022f6bNqaDOCuYNpi9f	ADE	52	70	Respiratory issues	@USER__________ #humira helped my #crohns but then #respiratory issues ensued &amp; now i can't take anything &amp; have major lung issues
+627	627	SMM4H2022f6bNqaDOCuYNpi9f	ADE	127	138	lung issues	@USER__________ #humira helped my #crohns but then #respiratory issues ensued &amp; now i can't take anything &amp; have major lung issues
+628	628	SMM4H2022G0nM6eplEViEhODF	ADE	86	120	"smelled"""" a pungent solvent odor"	"when i had my infected k stone, hospital put me on cipro - a synthetic antibiotic. i ""smelled"" a pungent solvent odor, i smell it now. why?"
+629	629	SMM4H2022G0nM6eplEViEhODF	ADE	124	129	smell	"when i had my infected k stone, hospital put me on cipro - a synthetic antibiotic. i ""smelled"" a pungent solvent odor, i smell it now. why?"
+630	630	SMM4H20225iIAsodpdgfkrgjQ	ADE	26	31	Chemo	@USER_____ #hcsm i start #chemo on tues b/c of #humira so i know.  it helped but it then destroyed my lungs.
+631	631	SMM4H20225iIAsodpdgfkrgjQ	ADE	89	107	destroyed my lungs	@USER_____ #hcsm i start #chemo on tues b/c of #humira so i know.  it helped but it then destroyed my lungs.
+632	632	SMM4H2022VR1OehNgsG4nFroM	ADE	24	32	headache	bedtime. hopefully  the headache and nausea from the levaquin will be gone leaving me with only the more common side effects of antibiotics.
+633	633	SMM4H2022VR1OehNgsG4nFroM	ADE	37	43	nausea	bedtime. hopefully  the headache and nausea from the levaquin will be gone leaving me with only the more common side effects of antibiotics.
+634	634	SMM4H2022NTISQKWR1U3fBhtV	ADE	13	27	t cell went up	@USER____ my t cell went up w ith humira i also have crohns disease.   i wish u guys had more articles with people like me in it
+635	635	SMM4H2022OeeKl7xKWUdkEe7B	ADE	107	123	hair falling out	off to see the gi consultant this week. hope theres something other than humira to try as not working also hair falling out.
+636	636	SMM4H2022FmgnRRW5LwTZ7zhA	ADE	28	36	eyesight	@USER___________ Watch your eyesight with Lamictal- I went from awesome vision, to wearing glasses full time for the 2 yrs I was on it.
+637	637	SMM4H2022FmgnRRW5LwTZ7zhA	ADE	64	98	awesome vision, to wearing glasses	@USER___________ Watch your eyesight with Lamictal- I went from awesome vision, to wearing glasses full time for the 2 yrs I was on it.
+638	638	SMM4H2022YLjDHQ7Y41LyTqdK	ADE	89	97	insomnia	@USER___________ i have a q..i am taking lamotrigine and wondered if anyone else has had insomnia as a side effect?and what to do about it
+639	639	SMM4H20225dJuVbiYm6nLzpfp	ADE	30	38	cravings	3 weeks sober today. have had cravings but no where near as intense as when i was on antipsychotic seroquel. convinced of connection.
+640	640	SMM4H2022RKhOFHS1knqIexJf	ADE	32	42	alcoholism	when on high dose of seroquel, alcoholism was at it's worst and cravings constant and intense. now off seroquel, cravings occasional.
+641	641	SMM4H2022RKhOFHS1knqIexJf	ADE	65	73	cravings	when on high dose of seroquel, alcoholism was at it's worst and cravings constant and intense. now off seroquel, cravings occasional.
+642	642	SMM4H2022LD9h4EDZHNbAEZXI	ADE	116	122	sleepy	feeling better and much less anxious (i could actually talk to people yesterday) but the fluoxetine makes me sooooo sleepy...
+643	643	SMM4H20222P2BlMXOkd0tHhiL	ADE	53	69	tremors in hands	#schizophrenia #seroquel #sideeffects uncontrollable tremors in hands and legs. body would rock all the time. restlessness. desperation.
+644	644	SMM4H20222P2BlMXOkd0tHhiL	ADE	53	78	tremors in hands and legs	#schizophrenia #seroquel #sideeffects uncontrollable tremors in hands and legs. body would rock all the time. restlessness. desperation.
+645	645	SMM4H20222P2BlMXOkd0tHhiL	ADE	80	95	body would rock	#schizophrenia #seroquel #sideeffects uncontrollable tremors in hands and legs. body would rock all the time. restlessness. desperation.
+646	646	SMM4H20222P2BlMXOkd0tHhiL	ADE	110	122	Restlessness	#schizophrenia #seroquel #sideeffects uncontrollable tremors in hands and legs. body would rock all the time. restlessness. desperation.
+647	647	SMM4H20222P2BlMXOkd0tHhiL	ADE	124	135	Desperation	#schizophrenia #seroquel #sideeffects uncontrollable tremors in hands and legs. body would rock all the time. restlessness. desperation.
+648	648	SMM4H2022O5zYR3Okt9vTPFDG	ADE	57	78	feet are always going	@USER____ my cousin has bipolar she is on seroquel, her feet are always going &amp; she twirls her hair constantly is that a side effect of them
+649	649	SMM4H2022O5zYR3Okt9vTPFDG	ADE	89	115	twirls her hair constantly	@USER____ my cousin has bipolar she is on seroquel, her feet are always going &amp; she twirls her hair constantly is that a side effect of them
+650	650	SMM4H2022elXW4zKRzUELZsez	ADE	33	45	restlessness	@USER____ it all might be due to restlessness. #seroquel did make my legs go too!!
+651	651	SMM4H2022elXW4zKRzUELZsez	ADE	57	76	did make my legs go	@USER____ it all might be due to restlessness. #seroquel did make my legs go too!!
+652	652	SMM4H2022j44ic8nGDBGDrQgX	ADE	1	8	Tremors	#tremors #schizophrenia #seroquel #sideeffects i reflect on the tension in my nerves and all the shaking... meditation helped me a lot.
+653	653	SMM4H2022j44ic8nGDBGDrQgX	ADE	64	84	tension in my nerves	#tremors #schizophrenia #seroquel #sideeffects i reflect on the tension in my nerves and all the shaking... meditation helped me a lot.
+654	654	SMM4H2022j44ic8nGDBGDrQgX	ADE	97	104	shaking	#tremors #schizophrenia #seroquel #sideeffects i reflect on the tension in my nerves and all the shaking... meditation helped me a lot.
+655	655	SMM4H2022d9WMNFhkLRJ11bcF	ADE	39	43	sick	@USER_____ nawh bactrim. cipro made me sick once.
+656	656	SMM4H20226FcS11CpAn6edFWy	ADE	6	15	Nightmare	what! nightmare made me jump awake! not nice at all. thought #quetiapine was supposed to keep me asleep through the night #psychosis #fail
+657	657	SMM4H20226FcS11CpAn6edFWy	ADE	29	34	awake	what! nightmare made me jump awake! not nice at all. thought #quetiapine was supposed to keep me asleep through the night #psychosis #fail
+658	658	SMM4H2022PxVuR1k0KT1fLYoF	ADE	13	24	eh whatever	"@USER____ ""eh whatever"" was me for years on paxil cr, years 14-18. better than ""everything sucks i wanna die"" but i still had days like that"
+659	659	SMM4H2022523JUXzccxY8lrvX	ADE	3	9	wailed	u wailed all night; now y'r disembodied sobbing all damn'd day, ghost? ' effexor-xr'discontinuation syndrome ain't exactly heaven, angel
+660	660	SMM4H2022523JUXzccxY8lrvX	ADE	41	48	sobbing	u wailed all night; now y'r disembodied sobbing all damn'd day, ghost? ' effexor-xr'discontinuation syndrome ain't exactly heaven, angel
+661	661	SMM4H2022523JUXzccxY8lrvX	ADE	85	109	DISCONTINUATION SYNDROME	u wailed all night; now y'r disembodied sobbing all damn'd day, ghost? ' effexor-xr'discontinuation syndrome ain't exactly heaven, angel
+662	662	SMM4H20227bvnu3PeSSDDAu77	ADE	109	118	insomniac	The placebo week of birth control increases blood levels of Lamictal, which in turn makes me a very cheerful insomniac.
+663	663	SMM4H2022ntKZGggLnApGYZ0i	ADE	78	91	night visions	in need of a dream interpreter.. #quetiapine is really having an affect on my night visions.. some fucked up scenarios in my sleep lol :-/
+664	664	SMM4H2022anMoAMt49ADycI5q	ADE	20	36	sleep past 24hrs	just had a marathon sleep past 24hrs on new dose of #duloxetine -hope my liver will be ok on it.woke with stressy tummy pains. #sideeffects
+665	665	SMM4H2022anMoAMt49ADycI5q	ADE	114	125	tummy pains	just had a marathon sleep past 24hrs on new dose of #duloxetine -hope my liver will be ok on it.woke with stressy tummy pains. #sideeffects
+666	666	SMM4H2022REqvQ2dNvQvQKc7n	ADE	106	115	exhausted	promethazine with codein, a tessalon pearl &amp; a trazodone. i'm not coughing anymore but i'm even more exhausted.
+667	667	SMM4H2022XfRAbdvQJ6KI1WpW	ADE	70	84	reduces libido	#seb2013 fluoxetine - prosac - reduces anxiety in humans, but it also reduces libido and causes lethargy
+668	668	SMM4H2022XfRAbdvQJ6KI1WpW	ADE	96	104	lethargy	#seb2013 fluoxetine - prosac - reduces anxiety in humans, but it also reduces libido and causes lethargy
+669	669	SMM4H2022GfmhwnednThsrmgK	ADE	43	54	gain weight	does fluoxetine (anti-depressant) make you gain weight? id rather be sad then be fat :c
+670	670	SMM4H20220jr6eygoqMCyMuH3	ADE	5	13	paranoia	meds paranoia cos my leg is itching #lamictal #bipolar
+671	671	SMM4H20220jr6eygoqMCyMuH3	ADE	21	35	leg is itching	meds paranoia cos my leg is itching #lamictal #bipolar
+672	672	SMM4H2022w1YXGTSIFEMX4Szm	ADE	42	48	zombie	anyone on cymbalta it is making me like a zombie and still hating the world.
+673	673	SMM4H2022w1YXGTSIFEMX4Szm	ADE	59	75	hating the world	anyone on cymbalta it is making me like a zombie and still hating the world.
+674	674	SMM4H20226q123cApd9RXzQXP	ADE	81	86	drunk	there's a point where you know when trazodone has kicked in. it's when you're a drunk, staggering, blurry-eyed, amnesic. yeah. i'm there now
+675	675	SMM4H20226q123cApd9RXzQXP	ADE	88	98	staggering	there's a point where you know when trazodone has kicked in. it's when you're a drunk, staggering, blurry-eyed, amnesic. yeah. i'm there now
+676	676	SMM4H20226q123cApd9RXzQXP	ADE	100	111	blurry-eyed	there's a point where you know when trazodone has kicked in. it's when you're a drunk, staggering, blurry-eyed, amnesic. yeah. i'm there now
+677	677	SMM4H20226q123cApd9RXzQXP	ADE	113	120	amnesic	there's a point where you know when trazodone has kicked in. it's when you're a drunk, staggering, blurry-eyed, amnesic. yeah. i'm there now
+678	678	SMM4H2022wlorJoKQYgYSlDpR	ADE	65	75	drowsiness	20s 8th day with #effexor still experiencing some side effects (drowsiness,sleepiness,gi effects). moderate improvement in mood #depression
+679	679	SMM4H2022wlorJoKQYgYSlDpR	ADE	76	86	sleepiness	20s 8th day with #effexor still experiencing some side effects (drowsiness,sleepiness,gi effects). moderate improvement in mood #depression
+680	680	SMM4H2022wlorJoKQYgYSlDpR	ADE	87	97	GI effects	20s 8th day with #effexor still experiencing some side effects (drowsiness,sleepiness,gi effects). moderate improvement in mood #depression
+681	681	SMM4H20226SwfehHZALk6ykPS	ADE	10	18	Crippled	@USER____ crippled since oct of '09 thanks to just 12 cipro pills here...run for your life! tendon rupture is only the tip of the iceberg.
+682	682	SMM4H20226SwfehHZALk6ykPS	ADE	92	106	Tendon rupture	@USER____ crippled since oct of '09 thanks to just 12 cipro pills here...run for your life! tendon rupture is only the tip of the iceberg.
+683	683	SMM4H2022UEzGwUQC9blv31HP	ADE	89	97	crippled	@USER______  Had my doctor attempted to treat with bactrim prior to Cipro, I wouldn't be crippled today.
+684	684	SMM4H2022KnLsIdz4mQXYohp9	ADE	22	26	sick	&amp; i'm about to be sick af tomorrow because i ran out of paxil #withdrawal
+685	685	SMM4H2022KnLsIdz4mQXYohp9	ADE	67	77	Withdrawal	&amp; i'm about to be sick af tomorrow because i ran out of paxil #withdrawal
+686	686	SMM4H2022Gk5Uxx7TKrtLQPLR	ADE	35	41	HUNGRY	@USER__________ trazodone makes me hungry. prop my eyelids open with toothpicks and drive me to a buffet?
+687	687	SMM4H2022Gk5Uxx7TKrtLQPLR	ADE	43	63	Prop my eyelids open	@USER__________ trazodone makes me hungry. prop my eyelids open with toothpicks and drive me to a buffet?
+688	688	SMM4H2022tk6OK5tX9EobuBUq	ADE	76	93	connective tissue	@USER______ @USE I don't know what that has to do w/ me. Avelox has hurt my connective tissue,lungs and thyroid. I guess I should feel lucky
+689	689	SMM4H2022tk6OK5tX9EobuBUq	ADE	94	99	lungs	@USER______ @USE I don't know what that has to do w/ me. Avelox has hurt my connective tissue,lungs and thyroid. I guess I should feel lucky
+690	690	SMM4H2022tk6OK5tX9EobuBUq	ADE	104	111	thyroid	@USER______ @USE I don't know what that has to do w/ me. Avelox has hurt my connective tissue,lungs and thyroid. I guess I should feel lucky
+691	691	SMM4H2022LS9vUKbTtM9UV85M	ADE	78	84	drowsy	i am never taking baclofen and norflex the same day again. first i felt super drowsy but now i feel extremely high and it's freaking me out.
+692	692	SMM4H2022LS9vUKbTtM9UV85M	ADE	110	114	high	i am never taking baclofen and norflex the same day again. first i felt super drowsy but now i feel extremely high and it's freaking me out.
+693	693	SMM4H2022SrzOoY44VG6Ovm0N	ADE	25	29	high	baclofen gives me a head high but it makes me feel like throwing up after. ugh. #thestruggle
+694	694	SMM4H2022SrzOoY44VG6Ovm0N	ADE	46	67	feel like throwing up	baclofen gives me a head high but it makes me feel like throwing up after. ugh. #thestruggle
+695	695	SMM4H2022LgUOdIeAIlEcYLJ6	ADE	21	27	 burns	the cipro in you eyes burns but works its buffered for your ears seems stupid but if they take your life take it back
+696	696	SMM4H2022WGds4xVyjE9aRqNZ	ADE	41	67	weird &amp; bizarre dreams	rt @USER________: my medication gives me weird &amp; bizarre dreams. not all bad though. last night i had dinner with the rolling stones #cipro'
+697	697	SMM4H2022DIaJVzfIF4MZddQ2	ADE	41	59	anaphylactic shock	@USER________ so true ricky! i went into anaphylactic shock &amp; almost died from taking cipro! dangerous drug - be careful!! take care.
+698	698	SMM4H2022DIaJVzfIF4MZddQ2	ADE	66	77	almost died	@USER________ so true ricky! i went into anaphylactic shock &amp; almost died from taking cipro! dangerous drug - be careful!! take care.
+699	699	SMM4H2022F7U5N00BPS5RFGv6	ADE	15	42	nose feel like its bleeding	cipro makes my nose feel like its bleeding. but it's not. #phantomsangre
+700	700	SMM4H2022Nj9NwBtIxjwnZmcb	ADE	81	85	weak	all i have to say is cipro will mess you up kids. don't get sick! #blagh #gross #weak
+701	701	SMM4H20220gTJWpuG9Zmj5EP6	ADE	69	77	crippled	@USER________ you can say that again!  i trusted my doc and ended up crippled thanks to just 12 cipro pills.  going on 4 years now.
+702	702	SMM4H2022pLd8TRRk804IulMO	ADE	9	21	numb to feel	i'm too numb to feel, blow out the candle, blindness #np #cymbalta
+703	703	SMM4H2022TFhzYBheuUpo2SOB	ADE	63	73	withdrawal	my sim card isn't working aaggh i feel like im having cymbalta withdrawal again aaagh aaaggh
+704	704	SMM4H2022Twd5Qf0A8pjtJeAw	ADE	56	62	sleepy	@USER____ @USER_____ all the things I have just make me sleepy as hell: Cymbalta, Klonopin, Ambien. wait what if I take em all togethhssaagg
+705	705	SMM4H2022d6Kx9hYDGR2GwSSs	ADE	58	65	vertigo	coming off cymbalta cold turkey.. day 4... i think i have vertigo! this is awful.
+706	706	SMM4H2022B3gq6aFZpoMNdMxj	ADE	40	51	with drawls	i feel soo much better today, cymbalta with drawls are going away :))
+707	707	SMM4H2022OmIksUDKaib8BYK2	ADE	31	40	dizziness	@USER___ i had been blaming my dizziness upon standing to my menopause but now on hrt &amp; no more flashes so looked at cymbalta side effs
+708	708	SMM4H2022XT6EWoUyfcWf3PJU	ADE	78	85	wdrawal	@USER________ effexor i found was not so bad. currently on cymbalta &amp;the wdrawals are vile. internet full of horror stories,
+709	709	SMM4H2022HhrEKmhfNJ0XxtZc	ADE	13	17	mood	Cymbalta, my mood has worsened
+710	710	SMM4H2022KqEgit27yTTX3wvk	ADE	107	116	migraines	from jessica i have recently changed anti-depressants from cymbalta to zoloft...does anyone else get daily migraines from taking zoloft?
+711	711	SMM4H2022yXWoUTRpc1Q6NQ4Q	ADE	53	63	nightmares	i swear thia cymbalta is causing me to have horrible nightmares!
+712	712	SMM4H2022vouQhAUckmEEapMV	ADE	77	88	withdrawals	i rilly want to get off cymbalta but i don't want to suffer through terrible withdrawals
+713	713	SMM4H2022424F8MnA4PZrTCWk	ADE	10	19	withdrawl	#effexor #withdrawl is a monster that i have taken by the horns and am wrestling to the ground...this time i am winning! 7thdayfree
+714	714	SMM4H2022NMTK5a7GN1lIj9Gs	ADE	41	47	Vomits	found them. starting back up on effexor. vomits shall ensue!
+715	715	SMM4H20220cp8vZcBcp3C8o83	ADE	0	6	Crying	crying randomly at nothing and everything. sigh. thank you #effexor #withdrawls can you just exit my system already.
+716	716	SMM4H20220cp8vZcBcp3C8o83	ADE	69	79	withdrawls	crying randomly at nothing and everything. sigh. thank you #effexor #withdrawls can you just exit my system already.
+717	717	SMM4H2022x4Y5cYuDVY21jQSW	ADE	28	57	coming off effexor is NOT fun	@USER___________ thank you! coming off effexor is not fun!
+718	718	SMM4H2022ETy3F7uGnSHh7ju4	ADE	22	31	headaches	Effexor side effects; headaches, no appetite.
+719	719	SMM4H2022ETy3F7uGnSHh7ju4	ADE	33	44	no appetite	Effexor side effects; headaches, no appetite.
+720	720	SMM4H2022qXr6EaNu9IJU9FNz	ADE	17	49	coming off Effexor was the worst	@USER___________ coming off effexor was the worst ever. even my doctor was terrified of me doing it but the side effects left me no choice.
+721	721	SMM4H2022wv2Sq3ey6t00Ymur	ADE	117	129	irritability	down to just one tiny dose of effexor each night now. today wasnt too bad in terms of anxiety &amp; depression, but irritability? woosh!! way up
+722	722	SMM4H2022d90hSD4KmfSVX6l9	ADE	101	108	rebound	@USER____ Right, some SSRIs are used for cataplexy, as is Effexor. Can be tricky to wean off without rebound.  #nchat
+723	723	SMM4H2022aCdxcGlAwPr4efds	ADE	49	59	eyes worse	@USER________ enbrel is a miracle but it made my eyes worse :( so couldn't have it anymore :(
+724	724	SMM4H2022GjtgenVOz4mcCjBc	ADE	87	93	weight	@USER___ @USER_______  I was only on 200 mg and was recently switched to 150 mg due to weight. It's still working with enbrel, though.
+725	725	SMM4H2022imGbQ7QLByhuGgyF	ADE	60	63	nap	@USER_____ at the end of most working days! i still have to nap loads just to get through a week. some days better than others #enbrel
+726	726	SMM4H2022GGViPD4UXrpST5lJ	ADE	42	62	zap me of all energy	@USER___________ can reducing fluoxetine zap me of all energy?i've reduced from a high dose, now on standard does &amp; not feeling good at all.
+727	727	SMM4H2022GGViPD4UXrpST5lJ	ADE	121	137	not feeling good	@USER___________ can reducing fluoxetine zap me of all energy?i've reduced from a high dose, now on standard does &amp; not feeling good at all.
+728	728	SMM4H20220EbDlejjO1pA0FnD	ADE	20	30	see shapes	fluoxetine makes me see shapes when i close my eyes
+729	729	SMM4H2022mj8BpnYhNLI1EV1b	ADE	60	88	feel like I can't even stand	don't need any alcohol really when fluoxetine just makes me feel like i can't even stand
+730	730	SMM4H2022GqwvFQAUMJV47yZc	ADE	36	45	zombified	@USER____ fluoxetine and quet combo zombified me...ah, the meds merrygoround #bipolar
+731	731	SMM4H2022JXTsT6SuBHCRC0kT	ADE	100	112	paraesthesia	@USER_______ i've found that it's okay to stop dead with prozac but not fluoxetine - i got terrible paraesthesia; it felt as though i was
+732	732	SMM4H2022X89E6Vz0rCECp5Ao	ADE	20	31	14 hour nap	just woke up from a 14 hour nap thank u fluoxetine
+733	733	SMM4H2022w8pa04oFn9xIFpQx	ADE	13	34	Restless Leg Syndrome	rt @USER___: restless leg syndrome is bad tonight.  damn you fluoxetine.
+734	734	SMM4H2022NPhWMfGzATko7bA0	ADE	41	62	messed up my attitude	you know starting with geodon, the meds messed up my attitude. how odd. it's not just about spirituality. i became a bit mean. that got
+735	735	SMM4H2022NPhWMfGzATko7bA0	ADE	122	126	mean	you know starting with geodon, the meds messed up my attitude. how odd. it's not just about spirituality. i became a bit mean. that got
+736	736	SMM4H2022bsnRXyzWDM7PHPl6	ADE	49	54	tired	the day after my humira jab and as ever i'm mega tired. may have to go back to bed.
+737	737	SMM4H2022t0YfX5dAWRj3Duaf	ADE	60	67	fatigue	@USER___ i never had bleeding or vomiting just alot alot of fatigue and face was pale and lost tons of weight.. #crohns #humira
+738	738	SMM4H2022t0YfX5dAWRj3Duaf	ADE	81	85	pale	@USER___ i never had bleeding or vomiting just alot alot of fatigue and face was pale and lost tons of weight.. #crohns #humira
+739	739	SMM4H2022t0YfX5dAWRj3Duaf	ADE	90	109	lost tons of weight	@USER___ i never had bleeding or vomiting just alot alot of fatigue and face was pale and lost tons of weight.. #crohns #humira
+740	740	SMM4H20227ug9H6x8waIlzsGd	ADE	66	75	fuzziness	@USER_____ @USER__________ not to worry - just a bit of temporary fuzziness. i've been on humira since 2007 &amp; love it.
+741	741	SMM4H2022TPmXseHez2XTpT93	ADE	84	89	flare	@USER__________  nope, was on #enbrel 5yrs &amp; had to get off due to unrelenting flare. been on #humira since dec 2012. #rheum
+742	742	SMM4H2022bwpcf0BhiMUolVhI	ADE	42	46	PAIN	i don't want to take my humira at all the pain is always unbearable and i don't wanna
+743	743	SMM4H2022UfSmRKU2WkbGhqwl	ADE	35	65	like I'm having a heart attack	scared of my #humira. keep feeling like i'm having a heart attack or panic attack. anyone else have these problems? #crohns #ra #help
+744	744	SMM4H2022UfSmRKU2WkbGhqwl	ADE	69	81	panic attack	scared of my #humira. keep feeling like i'm having a heart attack or panic attack. anyone else have these problems? #crohns #ra #help
+745	745	SMM4H2022X26c1oBQIgWDlPOg	ADE	21	32	almost died	fuck some lamictal...almost died. #fuck
+746	746	SMM4H202294jhzmpwqqpgtiws	ADE	38	43	Tired	i take 500mg of lamictal everyday i'm tired leave me alone
+747	747	SMM4H2022RaTYtN5sirUZbLzA	ADE	34	47	wreck my head	lamictal dosage increases kind of wreck my head for a day or two. but they also make me super productive as long as i can do things slowly.
+748	748	SMM4H2022tNlvoYcPIxmdn3PG	ADE	47	54	wt loss	"@USER____ that's what u used to take that has wt loss as a side ""benefit"". tell  ur dr fuck abilify, i want me some lamictal."
+749	749	SMM4H2022nT3FiiqCwZYTgg7o	ADE	96	123	irritating my nerve endings	first day of reduction back down to normal dose of lamotrigine-before i could literally feel it irritating my nerve endings
+750	750	SMM4H2022mSBfVU6VuL6F1RFF	ADE	43	48	yucky	why does tapering down lamotrigine feel as yucky as stepping it up? #soreashell
+751	751	SMM4H2022rvwfV71mHUQV036j	ADE	31	39	lethargy	day 4: the initial lamotrigine lethargy kicked in the day before exams. i tell myself that possible failure is better than possible death.
+752	752	SMM4H2022c59nZliAlD4NM2fB	ADE	57	63	ataxia	it turns out that i can still ride a bike in spite of my ataxia (side effect of lamotrigine) it has been at least 25 years.
+753	753	SMM4H2022epl4cSBedfCBPrE1	ADE	20	43	steven johnson syndrome	lamotrigine causing steven johnson syndrome
+754	754	SMM4H2022jNpo88M3c0HdLuUI	ADE	49	58	addictive	rt @USER___: @USER___ didnt know lamotrigine was addictive stopped as didnt think were helping @USER________ 3 days of hell before realized'
+755	755	SMM4H2022jNpo88M3c0HdLuUI	ADE	109	123	3 days of hell	rt @USER___: @USER___ didnt know lamotrigine was addictive stopped as didnt think were helping @USER________ 3 days of hell before realized'
+756	756	SMM4H2022bOKYZdrMSpsPftQ3	ADE	0	17	allergic reaction	allergic reaction to #lamotrigine. feel free to share &amp; distribute. kill #bigpharma before it kills us. HTTPURL_______________
+757	757	SMM4H20225Eg3QYqWyxCmbDA3	ADE	19	27	poisoned	@USER____ Levaquin poisoned me and ruined my life! Constant pain 24/7! I hate you, Levaquin!
+758	758	SMM4H20225Eg3QYqWyxCmbDA3	ADE	60	64	pain	@USER____ Levaquin poisoned me and ruined my life! Constant pain 24/7! I hate you, Levaquin!
+759	759	SMM4H2022cJW5Cqr4qfNgPmXL	ADE	69	80	hallucinate	@USER___________ @USER_____ @USER______ psssh didn't levaquin make u hallucinate? girl u best stay away from shrooms lol
+760	760	SMM4H2022bOyFZcIPMNYaKcoW	ADE	32	46	stomach cramps	nicotine lozenges are giving me stomach cramps.
+761	761	SMM4H2022MlJMHZdkWv9uVEeM	ADE	38	42	numb	this lozenge is making my whole mouth numb... is that normal?
+762	762	SMM4H2022R4i70l2iAXozSRKJ	ADE	18	22	cold	it can get really cold when you have a halls lozenge
+763	763	SMM4H2022QBVMCBS1YI4zh0Ak	ADE	112	121	addiction	rt @USER_________: it appears that my twitter addiction may have just been a side effect of my nicotine lozenge addiction.
+764	764	SMM4H20229pLHa8d5nXfbveCR	ADE	60	67	sweatin	@USER_______ they are on to you. poppin' metoprolol and she sweatin'.
+765	765	SMM4H2022I2YhiESyPQGn0lD3	ADE	83	94	depression.	a big ol' fuck you to my doctor for not telling me a side effect of metoprolol was depression. just wait until i see you friday -.-
+766	766	SMM4H2022LkDcjtETG3aiXqKt	ADE	15	23	addicted	my nigga dante addicted to that nicotine
+767	767	SMM4H2022oWvVO0JWZtmJphLQ	ADE	41	51	withdrawal	god there is nothing worse than nicotine withdrawal
+768	768	SMM4H2022Y62C1f0ynFV4gNIY	ADE	77	86	addiction	saying goodbye to smoking involves more than physical recovery from nicotine addiction #worldnotobaccoday (1)
+769	769	SMM4H2022tqBo629R6CO1zohF	ADE	24	34	withdrawal	so much for no nicotine withdrawal. think i've about pissed everyone off this week. #needacigarette
+770	770	SMM4H2022CjTU4YFGLiZcN40e	ADE	70	79	nightmare	going to bed with a nicotine patch on... i really hope i don't have a nightmare.......
+771	771	SMM4H2022wd0SA8S6cUOE83Hq	ADE	80	84	pain	@USER______     he has me on ciprofloxacin  and phenazopyride      i had severe pain  that started over the weekend when trying to use
+772	772	SMM4H2022PXMK2lEZZiPjgOxu	ADE	33	51	sick to my stomach	this levofloxacin got me feeling sick to my stomach!! ugh!!
+773	773	SMM4H2022Qc31bHt7GyjCdTKy	ADE	77	115	like wading through treacle getting up	time for my commute. wondering if i'm going to cope with this everyday. it's like wading through treacle getting up so early on olanzapine
+774	774	SMM4H2022GzhxjHqRvTdxh1OU	ADE	64	79	hunger inducing	on today's ride i burnt 1119 calories. take that olanzapine you hunger inducing bastard!!!
+775	775	SMM4H20229zeILvCYxlyXrzbd	ADE	93	100	zombies	Actually it was more like a prison but with nurses instead of guards, olanzapine pill n IM= #zombies
+776	776	SMM4H20222SDHhLymMmB4n5HQ	ADE	46	59	knocks me out	evening dose of lithium and olanzapine really knocks me out. in bed at 10.30pm on a friday night. rock and roll...#mylife
+777	777	SMM4H2022J7DeFd8sjatYkHmx	ADE	56	65	dry mouth	@USER___________ i take olanzapine and have a permanent dry mouth what can i do to help it
+778	778	SMM4H2022ClU9qCD20MzEXueH	ADE	50	61	gain weight	olanzapine together. olanzapine is causing me to gain weight because i binge eat on it, normally in the evening. also sick of the joint pain
+779	779	SMM4H2022ClU9qCD20MzEXueH	ADE	72	77	binge	olanzapine together. olanzapine is causing me to gain weight because i binge eat on it, normally in the evening. also sick of the joint pain
+780	780	SMM4H2022ClU9qCD20MzEXueH	ADE	131	141	joint pain	olanzapine together. olanzapine is causing me to gain weight because i binge eat on it, normally in the evening. also sick of the joint pain
+781	781	SMM4H2022IEMT94lrH6Ua0rbq	ADE	108	119	weight gain	Although my bitching about being fat did look a but comical next to my brother, with his olanzapine induced weight gain.
+782	782	SMM4H2022LY83e0DUzMUUps0t	ADE	36	50	olanzapine lbs	@USER__________ I can relate to the olanzapine lbs, but you'll be great!
+783	783	SMM4H20229YbdxHzOfJvJfg5A	ADE	103	116	gained 3stone	@USER____ best of luck man! and they do suck :/ i was on olanzapine (abilify didnt work)...was awful, gained 3stone. off it nw n doin gud!
+784	784	SMM4H2022q6dX2pO2yUP8IXHL	ADE	34	45	gain 20 lbs	@USER________ olanzapine made me gain 20 lbs in a few months, plus it gave me bad acne breakouts. had to beg my old shrink to take me off it
+785	785	SMM4H2022q6dX2pO2yUP8IXHL	ADE	83	87	acne	@USER________ olanzapine made me gain 20 lbs in a few months, plus it gave me bad acne breakouts. had to beg my old shrink to take me off it
+786	786	SMM4H2022EgD8AFPidiMnf97e	ADE	10	18	headache	throbbing headache from not having my pills. 2 pills left i need to save. this sucks :( #paroxetine #socialanxiety
+787	787	SMM4H20223xbslKtOxYd4tNql	ADE	52	62	withdrawls	@USER____ my friends are annoying me and i'm having withdrawls from the paxil because american healthcare is a joke :(
+788	788	SMM4H2022Hhv7Jd6WQBMewmjR	ADE	6	16	withdrawal	paxil withdrawal is nasty. do not like.
+789	789	SMM4H2022ioDFQSOm7DoJBAEY	ADE	22	39	impossible to cry	paxil makes it nearly impossible to cry.
+790	790	SMM4H2022i3Hv5AABXzZk2L8f	ADE	64	68	slow	@USER_____ @USER_____ amil isnt so bad, paxil makes everything slow and haldol is ok, and haldol  .. i dunno how to explain what it does
+791	791	SMM4H2022dhm1xAAVSI78AaPs	ADE	110	119	tolerance	i've been on paxil for 10 years for depression/anxiety and at first it used to help but i guess i've built up tolerance and i come too fast.
+792	792	SMM4H2022dhm1xAAVSI78AaPs	ADE	126	139	come too fast	i've been on paxil for 10 years for depression/anxiety and at first it used to help but i guess i've built up tolerance and i come too fast.
+793	793	SMM4H2022H2y7tIWTfGW2hSPA	ADE	20	32	PEE SO OFTEN	this paxil makes me pee so often omg #sorrynotsorry
+794	794	SMM4H20224nVWoTr0t5jhAOWB	ADE	79	93	feel like crap	@USER_____ my doctor gave me paxil, which i think is similar but it's made me feel like crap.
+795	795	SMM4H2022K6HmHdLrmOTP8kLu	ADE	52	62	forgetting	Promise, brownies honor I'm not stupid, i have been forgetting everything lately #paxil
+796	796	SMM4H2022SS3CH0ZtRq3Iylul	ADE	70	79	impotency	what i lack in money and personality, i make up for in paxil induced impotency
+797	797	SMM4H2022syeOpqTNcCojbIKL	ADE	74	84	withdrawal	Things which are the Spawn of Satin: mosquitoes, bananas, Facebook, Paxil withdrawal symptoms. #BewareOfSatin
+798	798	SMM4H2022DSXTJ9dadWv42b8p	ADE	85	95	withdrawal	@USER__ Yeah, Pristiq is a different formulation or something of Effexor. So similar withdrawal stuff :(
+799	799	SMM4H2022dyJQ8uRcERIeig3X	ADE	83	105	don't feel fully human	@USER_______ @USER___________ I'm with you. Even though the Pristiq works, I still don't feel fully human.
+800	800	SMM4H2022ALmDT6c4USZ5YtXk	ADE	3	8	sleep	my sleep schedule is all fucked up and pristiq is making me gain weight and i don't like this
+801	801	SMM4H2022ALmDT6c4USZ5YtXk	ADE	60	71	gain weight	my sleep schedule is all fucked up and pristiq is making me gain weight and i don't like this
+802	802	SMM4H2022CfQKFwnnrCM7Nv5t	ADE	10	21	no appetite	i've had no appetite since i started on prozac, i guess that's a good thing
+803	803	SMM4H2022fbLWEdM10jNNhadr	ADE	13	18	hyper	i am way too hyper to go home and do nothing tonight :( damn prozac &gt;.&lt;
+804	804	SMM4H2022fkNPin1wPBKDWLJW	ADE	28	39	never sleep	Rules of Prozac: 1: You can never sleep, ever again. NEVER EVER 2: No you may NOT switch your brain off. Ever. 3: Exhaustion is your friend.
+805	805	SMM4H2022fkNPin1wPBKDWLJW	ADE	74	103	may NOT switch your brain off	Rules of Prozac: 1: You can never sleep, ever again. NEVER EVER 2: No you may NOT switch your brain off. Ever. 3: Exhaustion is your friend.
+806	806	SMM4H2022fkNPin1wPBKDWLJW	ADE	114	124	Exhaustion	Rules of Prozac: 1: You can never sleep, ever again. NEVER EVER 2: No you may NOT switch your brain off. Ever. 3: Exhaustion is your friend.
+807	807	SMM4H2022HZorlDAQJpMis0BF	ADE	61	65	sick	whenever i drink and im on prozac i always feel a little bit sick and twice as drunk as i usually would
+808	808	SMM4H2022HZorlDAQJpMis0BF	ADE	70	84	twice as drunk	whenever i drink and im on prozac i always feel a little bit sick and twice as drunk as i usually would
+809	809	SMM4H2022VMsOVD2YeNm0mbtr	ADE	23	29	energy	food doesn't help for energy, not sure how to get some get up and go! #newmeds #quetiapine #bipolar
+810	810	SMM4H2022EKRwimbgcDYzeQdU	ADE	42	47	tired	my increase of quetiapine is making me so tired #sleepy
+811	811	SMM4H2022EKRwimbgcDYzeQdU	ADE	49	55	sleepy	my increase of quetiapine is making me so tired #sleepy
+812	812	SMM4H2022JntsE2UVvCXCwZpq	ADE	75	85	bad dreams	@USER______ been thailand so many time it's lovely but always seem to have bad dreams every since i been on quetiapine x
+813	813	SMM4H2022km5fGAOne9TFs27r	ADE	27	38	withdrawals	@USER__________ quetiapine withdrawals.
+814	814	SMM4H2022Yy2trmjsiA89iyQ4	ADE	0	15	Just about dead	Just about dead, think it's bedtime.. Fuck you quetiapine
+815	815	SMM4H20223iksFjCXDsnLK63a	ADE	24	30	weight	@USER___________ I lost weight in the past but it was much easier. Like 2 steps forward, one step back on the quetiapine.
+816	816	SMM4H2022Uxgvy7afbQQnAYbG	ADE	62	71	tiiiiired	took a quetiapine it's been a while and I'm ready for bed, so tiiiiired
+817	817	SMM4H2022WQin04z4gzP4CHBl	ADE	70	81	weight gain	i think i'm gong to speak my gp about reducing quetiapine dosage. the weight gain from it is scaring the hell out of me.
+818	818	SMM4H2022ozEQkjYmwBBky9J7	ADE	0	21	Sleeping my life away	sleeping my life away on #quetiapine. fine by me.
+819	819	SMM4H2022TUGT2g7fAPHTookA	ADE	68	76	Numbness	In other news, I've got my first weird side effect from quetiapine. Numbness and tingling in my fingertips.
+820	820	SMM4H2022TUGT2g7fAPHTookA	ADE	81	89	tingling	In other news, I've got my first weird side effect from quetiapine. Numbness and tingling in my fingertips.
+821	821	SMM4H2022ZMWP7uu8DDee5rj5	ADE	129	135	drowsy	@USER_________ i know. i just realised with everything else - i haven't taken the sodding quetiapine yet!! wondered why i wasn't drowsy doh!
+822	822	SMM4H2022tMEm1ZAVS83hBkbV	ADE	17	22	dizzy	feeling a little dizzy from the quetiapine i just popped!
+823	823	SMM4H2022JNpcKWvImHDtO8d7	ADE	73	81	sedating	@USER_________ please tell me that wasn't quetiapine! that stuff is sooo sedating...
+824	824	SMM4H2022FD41kTlV0Pa2rups	ADE	42	63	portions Prob too big	@USER__________ not eating that badly but portions prob too big. quetiapine a factor. think i'd be ok with gentle exercise but not vigorous
+825	825	SMM4H2022C8kbNoRGaV0Utawz	ADE	75	91	heart arrhythmia	erm my pdoc wants me to go back on quetiapine. pointed out it had caused a heart arrhythmia last time. going back to gp to look at my ecg
+826	826	SMM4H20225v9pLL9CGYKArBXx	ADE	28	32	haze	having a serious quetiapine haze this morning...
+827	827	SMM4H2022RLrjIm7fzglqh3Ij	ADE	25	31	zombie	Hello, world! Quetiapine zombie this morning and I have a work call in about 45 minutes. Perfect combination.
+828	828	SMM4H2022N8ZAaLlNfYnWq3zi	ADE	45	49	sick	#quetiapine is not doing me any favors #ifeelsick
+829	829	SMM4H20224HuhE0LeKyc1byX8	ADE	45	54	tiredness	@USER________ am on 300mg quetiapine. mainly tiredness it causes with me.
+830	830	SMM4H2022pB7uOkY2vK6u6r70	ADE	43	49	hungry	i hate my new medication. it makes me feel hungry :-( #quetiapine
+831	831	SMM4H2022WI8nfux1aOZdZniT	ADE	32	40	Headache	01.10 day 13 rivaroxaban diary. headache over right side of head; lower back pain. wrote letter to my gp &amp; his colleague outlining problems
+832	832	SMM4H2022WI8nfux1aOZdZniT	ADE	72	81	back pain	01.10 day 13 rivaroxaban diary. headache over right side of head; lower back pain. wrote letter to my gp &amp; his colleague outlining problems
+833	833	SMM4H2022QGum4mwFq0oV1OwP	ADE	32	41	Neck ache	03.25 day 13 rivaroxaban diary. neck ache and right shoulder ache. lower back pain.
+834	834	SMM4H2022QGum4mwFq0oV1OwP	ADE	52	65	shoulder ache	03.25 day 13 rivaroxaban diary. neck ache and right shoulder ache. lower back pain.
+835	835	SMM4H2022QGum4mwFq0oV1OwP	ADE	73	82	back pain	03.25 day 13 rivaroxaban diary. neck ache and right shoulder ache. lower back pain.
+836	836	SMM4H202219OvcgsUmSN1NSYH	ADE	103	112	back pain	20.12 day 15 rivaroxaban diary. haven't yet taken today's tablet. will when i eat. still intense lower back pain from yesterday's tablet.
+837	837	SMM4H2022nnKZ38b67fiFNqTm	ADE	44	56	pain in neck	05.00 day 17 Rivaroxaban diary. Woken up by pain in neck, hips and legs.
+838	838	SMM4H2022nnKZ38b67fiFNqTm	ADE	58	62	hips	05.00 day 17 Rivaroxaban diary. Woken up by pain in neck, hips and legs.
+839	839	SMM4H2022nnKZ38b67fiFNqTm	ADE	67	71	legs	05.00 day 17 Rivaroxaban diary. Woken up by pain in neck, hips and legs.
+840	840	SMM4H20225A5ixo4fUvDfinqa	ADE	127	132	aches	"14.11 day 17 rivaroxaban diary. still waiting for doctor to phone me ""around lunchtime"". taken more paracetamol to dull the aches."
+841	841	SMM4H2022S8i2bZCVQF3z8VCv	ADE	32	37	Aches	21.19 day 17 Rivaroxaban diary. Aches are related to pressure on my body, e.g. If sitting then in back, buttoocks and legs 1/2
+842	842	SMM4H2022uMS9VCaK3us1aB3d	ADE	18	28	nightmares	seroquel gives me nightmares every fucking night but i take it anyway
+843	843	SMM4H2022tDmnc4MB0Th0A0r7	ADE	48	54	crabby	i don't like taking seroquel at night. makes me crabby the whole time the following day. something about feeling sluggish and groggy. aargh.
+844	844	SMM4H2022tDmnc4MB0Th0A0r7	ADE	113	132	sluggish and groggy	i don't like taking seroquel at night. makes me crabby the whole time the following day. something about feeling sluggish and groggy. aargh.
+845	845	SMM4H2022H0gMTonqCL6N3bbA	ADE	87	92	dizzy	So, I lasted 16 days on Seroquel. I couldn't handle the awful side effects. Constantly dizzy and lightheadeded & a myriad of other bad stuff
+846	846	SMM4H2022H0gMTonqCL6N3bbA	ADE	97	110	lightheadeded	So, I lasted 16 days on Seroquel. I couldn't handle the awful side effects. Constantly dizzy and lightheadeded & a myriad of other bad stuff
+847	847	SMM4H2022Bl9QQzATn43c1Yy6	ADE	14	24	gain 18 kg	well i didn't gain 18 kg in 24 hrs. seroquel gained it for me over 8 months. ffffffffffuuuuuuu
+848	848	SMM4H2022FBp9RJQIOciE7mMb	ADE	56	76	get the horn my life	@USER_______ i take way too much zoloft and seroquel to get the horn my life is a lie
+849	849	SMM4H2022j1554hA8K0YRJe81	ADE	43	53	withdrawal	@USER_________ ooh. i was on seroquel. and withdrawal is a bitch. i'm not even fully off it yet either.
+850	850	SMM4H20221sEuriQTlAf7iaHf	ADE	26	32	sleepy	popped a seroquel now i'm sleepy
+851	851	SMM4H2022Kww3YHEoJMqyMD1D	ADE	23	27	pain	have been in a lot of pain all day though and i feel and look like a zombie. seroquel is quite an annoying medication, ugh. -.-
+852	852	SMM4H2022Kww3YHEoJMqyMD1D	ADE	70	76	zombie	have been in a lot of pain all day though and i feel and look like a zombie. seroquel is quite an annoying medication, ugh. -.-
+853	853	SMM4H2022fgCGEtUqn8nmFUDy	ADE	60	75	sleeping 15 hrs	just took seroquel. now i'm freaking out that i will end up sleeping 15 hrs and miss my 12pm appt tomorrow

@@ -25,12 +25,23 @@ def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_g
         ids = batch['input_ids'].to(device, dtype = torch.long)
         mask = batch['attention_mask'].to(device, dtype = torch.long)
         labels = batch['labels'].to(device, dtype = torch.long)
+        begin = batch['begin'].to(device, dtype = torch.long)
+        end = batch['end'].to(device, dtype = torch.long)
+        print("Begin: \n")
+        print(begin)
+        
+        print("End: \n")
+        print(end)
+        print("\n")
 
         if (idx + 1) % 20 == 0:
             print('FINSIHED BATCH:', idx, 'of', len(training_loader))
 
         #loss, tr_logits = model(input_ids=ids, attention_mask=mask, labels=labels)
-        output = model(input_ids=ids, attention_mask=mask, labels=labels)
+        output = model(input_ids=ids, attention_mask=mask, labels=labels, start_positions=begin, end_positions=end)
+        print("Printing output \n")
+        print(output)
+        
         tr_loss += output[0]
 
         nb_tr_steps += 1
@@ -139,7 +150,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
     initialization_input = (max_len, batch_size)
 
     #Reading datasets and initializing data loaders
-    dataset_location = '../Datasets/TASK7/'
+    dataset_location = '../Datasets/Subtask_1b/training/'
 
     train_data = read_task7(dataset_location , split = 'train')
     dev_data = read_task7(dataset_location , split = 'dev')

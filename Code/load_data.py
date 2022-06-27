@@ -17,6 +17,9 @@ class dataset(Dataset):
         sentence = self.data[index][0]
         joined_sentnece = ' '.join(sentence)
         input_label = self.data[index][1]
+        begin = int(self.data[index][2])
+        end = int(self.data[index][3])
+        #span = self.data[index][4]
 
         # step 2: use tokenizer to encode sentence (includes padding/truncation up to max length)
         # BertTokenizerFast provides a handy "return_offsets_mapping" functionality for individual tokens
@@ -26,12 +29,28 @@ class dataset(Dataset):
                              truncation=True, 
                              max_length=self.max_len)
 
+#         span_encoding = self.tokenizer(span,
+#                              return_offsets_mapping=True, 
+#                              padding='max_length', 
+#                              truncation=True, 
+#                              max_length=self.max_len)
+       
+                                       
         labels = self.labels_to_ids[input_label]
 
         # step 4: turn everything into PyTorch tensors
         item = {key: torch.as_tensor(val) for key, val in encoding.items()}
+        
+        
         item['labels'] = torch.as_tensor(labels)
-
+        item['begin'] = torch.as_tensor(begin)
+        item['end'] = torch.as_tensor(end)
+        
+        print("Printing item")
+        print(item)
+        
+        #print("Printing Tokenizer Item")
+        #print(item)
         return item
 
   def __len__(self):
