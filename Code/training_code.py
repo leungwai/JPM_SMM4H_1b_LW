@@ -5,13 +5,15 @@ from torch import cuda
 from torch.utils.data import Dataset, DataLoader
 from transformers import pipeline
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from transformers import BertForTokenClassification
 from sklearn.metrics import accuracy_score, classification_report
 from load_data import initialize_data
 from reading_datasets import read_task7
 from labels_to_ids import task7_labels_to_ids
 import time
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]="0"
+os.environ["CUDA_VISIBLE_DEVICES"]="1"
+os.environ["CUDA_LAUNCH_BLOCKING"]="1"
 
 def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_grad_norm = 10):
     tr_loss, tr_accuracy = 0, 0
@@ -25,20 +27,24 @@ def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_g
         ids = batch['input_ids'].to(device, dtype = torch.long)
         mask = batch['attention_mask'].to(device, dtype = torch.long)
         labels = batch['labels'].to(device, dtype = torch.long)
-        begin = batch['begin'].to(device, dtype = torch.long)
-        end = batch['end'].to(device, dtype = torch.long)
-        print("Begin: \n")
-        print(begin)
+        # begin = batch['begin'].to(device, dtype = torch.long)
+        # end = batch['end'].to(device, dtype = torch.long)
+        target = batch['target'].to(device, dtype = torch.long)
         
-        print("End: \n")
-        print(end)
-        print("\n")
+        print("Printing ids: \n")
+        print(ids)
+        print("\n length of id")
+        print(len(ids))
+        print("Printing target: \n")
+        print(target)
+        print("\n length of target: \n")
+        print(len(target))
 
         if (idx + 1) % 20 == 0:
             print('FINSIHED BATCH:', idx, 'of', len(training_loader))
 
         #loss, tr_logits = model(input_ids=ids, attention_mask=mask, labels=labels)
-        output = model(input_ids=ids, attention_mask=mask, labels=labels, start_positions=begin, end_positions=end)
+        output = model(input_ids=ids, attention_mask=mask, labels=target)
         print("Printing output \n")
         print(output)
         
@@ -100,9 +106,10 @@ def testing(model, testing_loader, labels_to_ids, device):
             ids = batch['input_ids'].to(device, dtype = torch.long)
             mask = batch['attention_mask'].to(device, dtype = torch.long)
             labels = batch['labels'].to(device, dtype = torch.long)
-            
+            target = batch['target'].to(device, dtype = torch.long)
+
             #loss, eval_logits = model(input_ids=ids, attention_mask=mask, labels=labels)
-            output = model(input_ids=ids, attention_mask=mask, labels=labels)
+            output = model(input_ids=ids, attention_mask=mask, labels=target)
 
             eval_loss += output['loss'].item()
 
@@ -162,10 +169,10 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
     device = 'cuda' if cuda.is_available() else 'cpu' #save the processing time
     if model_load_flag:
         tokenizer = AutoTokenizer.from_pretrained(model_load_location)
-        model = AutoModelForSequenceClassification.from_pretrained(model_load_location)
+        model = BertForTokenClassification.from_pretrained(model_load_location)
     else: 
         tokenizer =  AutoTokenizer.from_pretrained(model_name, add_prefix_space=True)
-        model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=len(labels_to_ids))
+        model = BertForTokenClassification.from_pretrained(model_name, num_labels=len(labels_to_ids))
     optimizer = torch.optim.Adam(params=model.parameters(), lr=learning_rate)
     model.to(device)
 

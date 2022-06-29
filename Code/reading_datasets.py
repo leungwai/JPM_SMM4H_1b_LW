@@ -22,7 +22,7 @@ def read_task7(location, split = 'train'):
                 end = row[5]
                 span = row[6]
                 label = row[3]
-                data.append((sentence, label, begin, end))
+                data.append((sentence, label, begin, end, span))
 
     return data
 
