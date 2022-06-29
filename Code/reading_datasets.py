@@ -8,7 +8,7 @@ def load_data(filename):
     a_file.close()
     return output
 
-def read_task7(location, split = 'train'):
+def read_task(location, split = 'train'):
     filename = location + split + '.tsv'
 
     data = []
@@ -31,10 +31,10 @@ if __name__ == '__main__':
     location = '../Datasets/Subtask_1b/training/'
     split = 'train'
     
-    data = read_task7(location, split)
+    data = read_task(location, split)
     print(len(data))
 
-    data = read_task7(location, 'dev')
+    data = read_task(location, 'dev')
     print(len(data))
 
     
