@@ -173,6 +173,8 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
     else: 
         tokenizer =  AutoTokenizer.from_pretrained(model_name, add_prefix_space=True)
         model = BertForTokenClassification.from_pretrained(model_name, num_labels=len(labels_to_ids))
+
+
     optimizer = torch.optim.Adam(params=model.parameters(), lr=learning_rate)
     model.to(device)
 

@@ -14,12 +14,16 @@ class dataset(Dataset):
   def __getitem__(self, index):
         # step 1: get the sentence and word labels 
         sentence = self.data[index][0]
-        joined_sentnece = ' '.join(sentence)
+        #joined_sentnece = ' '.join(sentence)
         input_label = self.data[index][1]
         begin = int(self.data[index][2])
         end = int(self.data[index][3])
         span = self.data[index][4]
 
+        # add [SPAN] at the beginning and end of the sentence
+        
+        
+        # span classification - like a normal classification
         # step 2: use tokenizer to encode sentence (includes padding/truncation up to max length)
         # BertTokenizerFast provides a handy "return_offsets_mapping" functionality for individual tokens
         encoding = self.tokenizer(sentence,
@@ -47,11 +51,13 @@ class dataset(Dataset):
       #   print(label_match)
 
         combine_results = combine_labels(encoding.input_ids, span_encoding.input_ids, label_match, matched_keywords)
-
+        
         label_match = combine_results[0]
         matched_keywords = combine_results[1]
       #   print("After label matching: \n")
       #   print(label_match)
+
+      
       #   print("\n Matched Keywords: \n")
       #   print(matched_keywords)
                
@@ -75,9 +81,18 @@ class dataset(Dataset):
         item['target'] = torch.as_tensor(final_match_label)
         
 
+        print("Encoding Input IDs: ")
+        print(encoding.input_ids)
+
+        print("\n Label Matched IDs:")
+        print(final_match_label)
+        quit()
+        
+
       #   print("Final dataloader: \n")
       #   print(item)
       #   print("\n --------------------------------------------- \n")
+      #   quit()
         return item
 
   def __len__(self):
