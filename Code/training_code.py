@@ -12,8 +12,7 @@ from reading_datasets import read_task
 from labels_to_ids import task7_labels_to_ids
 import time
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]="1"
-os.environ["CUDA_LAUNCH_BLOCKING"]="1"
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_grad_norm = 10):
     tr_loss, tr_accuracy = 0, 0
@@ -27,26 +26,13 @@ def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_g
         ids = batch['input_ids'].to(device, dtype = torch.long)
         mask = batch['attention_mask'].to(device, dtype = torch.long)
         labels = batch['labels'].to(device, dtype = torch.long)
-        # begin = batch['begin'].to(device, dtype = torch.long)
-        # end = batch['end'].to(device, dtype = torch.long)
-        target = batch['target'].to(device, dtype = torch.long)
         
-        print("Printing ids: \n")
-        print(ids)
-        print("\n length of id")
-        print(len(ids))
-        print("Printing target: \n")
-        print(target)
-        print("\n length of target: \n")
-        print(len(target))
 
         if (idx + 1) % 20 == 0:
             print('FINSIHED BATCH:', idx, 'of', len(training_loader))
 
         #loss, tr_logits = model(input_ids=ids, attention_mask=mask, labels=labels)
-        output = model(input_ids=ids, attention_mask=mask, labels=target)
-        print("Printing output \n")
-        print(output)
+        output = model(input_ids=ids, attention_mask=mask, labels=labels)
         
         tr_loss += output[0]
 
@@ -106,10 +92,9 @@ def testing(model, testing_loader, labels_to_ids, device):
             ids = batch['input_ids'].to(device, dtype = torch.long)
             mask = batch['attention_mask'].to(device, dtype = torch.long)
             labels = batch['labels'].to(device, dtype = torch.long)
-            target = batch['target'].to(device, dtype = torch.long)
 
             #loss, eval_logits = model(input_ids=ids, attention_mask=mask, labels=labels)
-            output = model(input_ids=ids, attention_mask=mask, labels=target)
+            output = model(input_ids=ids, attention_mask=mask, labels=labels)
 
             eval_loss += output['loss'].item()
 
