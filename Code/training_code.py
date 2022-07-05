@@ -348,13 +348,13 @@ if __name__ == '__main__':
             print('Running loop', loop_index)
             print()
 
-            model_save_location = '../saved_models_1a/' + model_name + '/' + str(loop_index) + '/' 
+            model_save_location = '../saved_models_1b/' + model_name + '/' + str(loop_index) + '/' 
             model_load_location = None
 
-            epoch_save_location = '../saved_epoch_1a/' + model_name + '/' + str(loop_index) + '/' 
+            epoch_save_location = '../saved_epoch_1b/' + model_name + '/' + str(loop_index) + '/' 
             epoch_save_name = epoch_save_location + '/epoch_info.tsv'
 
-            result_save_location = '../saved_data_1a/' + model_name + '/' + str(loop_index) + '/'
+            result_save_location = '../saved_data_1b/' + model_name + '/' + str(loop_index) + '/'
 
             unformatted_result_save_location = result_save_location + 'unformatted_result.tsv'
             formatted_result_save_location = result_save_location + 'formatted_result.tsv'
