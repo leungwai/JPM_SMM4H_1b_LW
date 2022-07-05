@@ -37,12 +37,15 @@ class dataset(Dataset):
       #   print(span_encoding)
 
         # Creating an array for the combined label 
-        label_match = np.array(['O'] * len(encoding.input_ids))
+        label_match = np.array([0] * len(encoding.input_ids))
         matched_keywords = 0
 
         combine_results = combine_labels(encoding.input_ids, span_encoding.input_ids, label_match, matched_keywords)
         
         label_match = combine_results[0]
+        print("Label match")
+        print(label_match)
+        quit()
         matched_keywords = combine_results[1]
       #   print("After label matching: \n")
       #   print(label_match)
@@ -69,20 +72,21 @@ class dataset(Dataset):
 
 
 def combine_labels(encoding, span_encoding, label_match, matched_keywords):
-      end = 0
-      for x in range(len(encoding)):
-            if encoding[x] == 102:
-                  end = 1
-                  continue
-            if end == 1:
-                label_match[x] = "P"
+      # end = 0
+      # for x in range(len(encoding)):
+      #       if encoding[x] == 102:
+      #             end = 1
+      #             continue
+      #       if end == 1:
+      #           label_match[x] = "P"
                   
-
       for i in range(len(span_encoding)):
             for j in range(len(encoding)):
                   if span_encoding[i] == encoding[j] and encoding[j] != 0 and span_encoding[i] != 101 and span_encoding[i] != 102:
                         k = i
                         l = j
+
+                        # check if the span detection is one single phrase - if the word does not match before 
                         in_single_phrase = 1
                         while span_encoding[k] != 102:
                               if encoding[l] != span_encoding[k]:
@@ -94,7 +98,7 @@ def combine_labels(encoding, span_encoding, label_match, matched_keywords):
                         m = 0
                         if in_single_phrase == 1:
                               while span_encoding[i + m] != 102:
-                                    label_match[j + m] = 'B'
+                                    label_match[j + m] = 1
                                     matched_keywords+=1
                                     m+=1
                               
