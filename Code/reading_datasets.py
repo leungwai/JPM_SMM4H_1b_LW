@@ -16,14 +16,13 @@ def read_task(location, split = 'train'):
         csv_reader = csv.reader(csv_file, delimiter='\t')
         for i, row in enumerate(csv_reader):
             if i > 0:
-                tweet_id = row[2]
-                sentence = row[7].strip()
-                begin = row[4]
-                end = row[5]
-                span = row[6]
-                label = row[3]
-                data.append((sentence, label, begin, end, span))
-
+                tweet_id = row[0]
+                class_label = row[1]
+                begin = row[2]
+                end = row[3]
+                span = row[4]
+                sentence = row[5].strip()
+                data.append((tweet_id, class_label, begin, end, span, sentence))
     return data
 
 
