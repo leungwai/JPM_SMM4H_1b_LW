@@ -75,7 +75,7 @@ def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_g
     return model
 
 
-def testing(model, testing_loader, labels_to_ids, device, tokenizer):
+def validate(model, testing_loader, labels_to_ids, device, tokenizer):
     # put model in evaluation mode
     model.eval()
     
@@ -101,7 +101,6 @@ def testing(model, testing_loader, labels_to_ids, device, tokenizer):
             # to attach back to prediction data later 
             tweet_ids = batch['tweet_id']
             orig_sentences = batch['orig_sentence']
-            class_labels = batch['class_label']
             begin_values = batch['begin']
             end_values = batch['end']
             orig_spans = batch['orig_span']
@@ -109,17 +108,31 @@ def testing(model, testing_loader, labels_to_ids, device, tokenizer):
             #loss, eval_logits = model(input_ids=ids, attention_mask=mask, labels=labels)
             output = model(input_ids=ids, attention_mask=mask, labels=labels)
 
+            eval_loss += output['loss'].item()
+
+            nb_eval_steps += 1
+            nb_eval_examples += labels.size(0)
+        
+            if idx % 100==0:
+                loss_step = eval_loss/nb_eval_steps
+                print(f"Validation loss per 100 evaluation steps: {loss_step}")
+            
+            # compute evaluation accuracy
+            flattened_targets = labels.view(-1) # shape (batch_size * seq_len,)
+            active_logits = output[1].view(-1, model.num_labels) # shape (batch_size * seq_len, num_labels)
+            flattened_predictions = torch.argmax(active_logits, axis=1) # shape (batch_size * seq_len,)
+            
+            # only compute accuracy at active labels
+            active_accuracy = labels.view(-1) != -100 # shape (batch_size, seq_len)
+        
+            labels = torch.masked_select(flattened_targets, active_accuracy)
+            predictions = torch.masked_select(flattened_predictions, active_accuracy)
+            
+            eval_labels.extend(labels)
+            eval_preds.extend(predictions)
 
             output_array = output[1].cpu().numpy()
 
-            argmax_output_array = []
-
-            for sentence in range(len(output_array)):
-                tmp_sentence = []
-                for word in range(len(output_array[sentence])):
-                    tmp_sentence.append(np.argmax(output_array[sentence][word]))
-                
-                argmax_output_array.append(tmp_sentence)
         
             labels_formatted = []
 

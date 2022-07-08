@@ -1,6 +1,6 @@
 task7_labels_to_ids = {
-    'ADE' : 0, 
-    'NoADE' : 1
+    'noADE' : 0, 
+    'ADE' : 1
 }
 
 task1b_combined_enum = {
