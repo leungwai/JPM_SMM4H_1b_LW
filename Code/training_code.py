@@ -12,6 +12,7 @@ from reading_datasets import read_task
 from labels_to_ids import task7_labels_to_ids
 import time
 import os
+import re
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 os.environ["CUDA_LAUNCH_BLOCKING"]="1"
 
@@ -41,14 +42,24 @@ def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_g
             nb_tr_examples += labels.size(0)
             
             # compute training accuracy
-            flattened_predictions = torch.argmax(output.logits, axis=2) # shape (batch_size * seq_len,)
+            predictions = torch.argmax(output.logits, axis=2) # shape (batch_size * seq_len,)
             
+            labels_formatted = labels.detach().cpu().numpy().tolist()
+            predictions_formatted = predictions.detach().cpu().numpy().tolist()
+
+            tmp_batch_accuracy = 0
+
+            for sentence in range(len(labels_formatted)):
+                tmp_batch_accuracy += accuracy_score(labels_formatted[sentence], predictions_formatted[sentence])
+                
+            tmp_tr_accuracy = tmp_batch_accuracy / len(labels_formatted)
+            
+            tr_accuracy += tmp_tr_accuracy
             # only compute accuracy at active labels
             # active_accuracy = labels.view(-1) != -100 # shape (batch_size, seq_len)
             #active_labels = torch.where(active_accuracy, labels.view(-1), torch.tensor(-100).type_as(labels))
             
-            predictions = flattened_predictions
-        
+            
             tr_labels.extend(labels)
             tr_preds.extend(predictions)
 
@@ -87,6 +98,7 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
     eval_tweet_ids, eval_orig_sentences, eval_class_labels = [], [], []
     eval_begin_values, eval_end_values, eval_orig_spans = [], [], []
     eval_original_converted_spans, eval_predicted_converted_spans = [], []
+    eval_predicted_begin, eval_predicted_end = [], []
     
     ids_to_labels = dict((v,k) for k,v in labels_to_ids.items())
 
@@ -106,8 +118,7 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
 
             #loss, eval_logits = model(input_ids=ids, attention_mask=mask, labels=labels)
             output = model(input_ids=ids, token_type_ids=None, attention_mask=mask, labels=labels)
-            print("Output logits")
-            print(output.logits)
+      
             eval_loss += output['loss'].item()
 
             nb_eval_steps += 1
@@ -117,50 +128,32 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
                 loss_step = eval_loss/nb_eval_steps
                 print(f"Validation loss per 100 evaluation steps: {loss_step}")
             
-            # compute evaluation accuracy
-            # flattened_targets = labels.view(-1) # shape (batch_size * seq_len,)
-            # active_logits = output[1].view(-1, model.num_labels) # shape (batch_size * seq_len, num_labels)
             predictions = torch.argmax(output.logits, axis=2) # shape (batch_size * seq_len,)
             
-            # only compute accuracy at active labels
-            # active_accuracy = labels.view(-1) != -100 # shape (batch_size, seq_len)
-        
-            # labels = torch.masked_select(flattened_targets, active_accuracy)
-            # predictions = torch.masked_select(flattened_predictions, active_accuracy)
-            print(predictions)
             
             # extending the original labels
             eval_labels.extend(labels)
             eval_preds.extend(predictions)
 
+            # Getting the formatted labels
             labels_formatted = labels.detach().cpu().numpy().tolist()
             predictions_formatted = predictions.detach().cpu().numpy().tolist()
 
 
-            # # Getting the results
-            # for sentence in range(len(labels)):
-            #     labels_formatted.append(list(labels.cpu().numpy()))
 
-            # for sentence in range(len(predictions)):
-            #     predictions_formatted.append(list(predictions[sentence].cpu().numpy()))
+            # gettng the span values
+            batch_prediction_data = pd.DataFrame(zip(ids.cpu().numpy(), labels_formatted, predictions_formatted, orig_sentences), columns=['id', 'label', 'prediction', 'orig_sentence'])
 
-            print("Labels formatted")
-            print(labels_formatted)
+            # finding the matching token
+            original_label_span, prediction_label_span, prediction_begin, prediction_end = find_matching_token(batch_prediction_data, tokenizer)
 
-            print("Predictions formatted")
-            print(predictions_formatted)
-
-            # # gettng the span values
-            # batch_prediction_data = pd.DataFrame(zip(ids.cpu().numpy(), labels, predictions), columns=['id', 'label', 'prediction'])
-            
-            # original_label_span, prediction_label_span = find_matching_token(batch_prediction_data, tokenizer)
-
-            
             eval_labels.extend(labels)
             eval_preds.extend(predictions)
-            # eval_original_converted_spans.extend(original_label_span)
-            # eval_predicted_converted_spans.extend(prediction_label_span)
-
+            eval_original_converted_spans.extend(original_label_span)
+            eval_predicted_converted_spans.extend(prediction_label_span)
+            eval_predicted_begin.extend(prediction_begin)
+            eval_predicted_end.extend(prediction_end)
+            
             # eval_class_labels.extend(class_labels)
             eval_begin_values.extend(begin_values)
             eval_end_values.extend(end_values)
@@ -168,21 +161,27 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
             eval_tweet_ids.extend(tweet_ids)
             eval_orig_sentences.extend(orig_sentences)
 
-            tmp_eval_accuracy = accuracy_score(labels.cpu().numpy(), predictions.cpu().numpy())
+            tmp_batch_accuracy = 0
+
+            for sentence in range(len(labels_formatted)):
+                tmp_batch_accuracy += accuracy_score(labels_formatted[sentence], predictions_formatted[sentence])
+                
+            tmp_eval_accuracy = tmp_batch_accuracy / len(labels_formatted)
+            
             eval_accuracy += tmp_eval_accuracy
 
-    # print("Eval labels")
-    # print(eval_labels)
+    print("Eval labels")
+    print(eval_labels)
 
-    # print("Eval preds")
-    # print(eval_preds)
+    print("Eval preds")
+    print(eval_preds)
   
     # labels = [id.item() for id in eval_labels]
     # predictions = [ids_to_labels[id.item()] for id in eval_preds]
 
     # Concatenating all data together into a single table
-    overall_prediction_data = pd.DataFrame(zip(eval_tweet_ids, eval_orig_sentences, eval_class_labels, eval_begin_values, eval_end_values, eval_orig_spans, eval_original_converted_spans, eval_predicted_converted_spans), columns=['id', 'text', 'class', 'begin', 'end', 'Orig', 'Label_convert', 'Span_convert'])
-    print(overall_prediction_data)
+    overall_prediction_data = pd.DataFrame(zip(eval_tweet_ids, eval_orig_sentences, eval_class_labels, eval_begin_values, eval_end_values, eval_orig_spans, eval_original_converted_spans, eval_predicted_converted_spans, eval_predicted_begin, eval_predicted_end), columns=['id', 'text', 'class', 'begin', 'end', 'Orig', 'Label_convert', 'Span_convert', 'begin', 'end'])
+    
     overall_prediction_data.to_csv("test_result.tsv", sep='\t')
     
     eval_loss = eval_loss / nb_eval_steps
@@ -196,24 +195,63 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
 def find_matching_token(batch_prediction_df, tokenizer):
     token_original_output = []
     token_prediction_output = []
+    token_prediction_begin = []
+    token_prediction_end = []
     for index, row in batch_prediction_df.iterrows():
         tmp_token_original = []
         tmp_token_prediction = []
+    
         for j in range(len(row['id'])):
-            if row['label'][j] == 1: 
+            if row['label'][j] == 1 and row['id'][j] != 2: 
                 tmp_token_original.append(row['id'][j])
+
         for j in range(len(row['id'])):
-            if row['prediction'][j] == 1: 
-                    tmp_token_prediction.append(row['id'][j])
+            if row['prediction'][j] == 1 and row['id'][j] != 2: 
+                tmp_token_prediction.append(row['id'][j])
 
         # converting token to string 
-        original_span_string = tokenizer.convert_tokens_to_string(tokenizer.convert_ids_to_tokens(tmp_token_original))
-        predicted_span_string = tokenizer.convert_tokens_to_string(tokenizer.convert_ids_to_tokens(tmp_token_prediction))
+        original_span_token = tokenizer.convert_ids_to_tokens(tmp_token_original)
+        predicted_span_token = tokenizer.convert_ids_to_tokens(tmp_token_prediction)
 
-        token_original_output.append(original_span_string)
-        token_prediction_output.append(predicted_span_string)
+        original_span_string = tokenizer.convert_tokens_to_string(original_span_token)
+        predicted_span_string = tokenizer.convert_tokens_to_string(predicted_span_token)
+
+        print("Original span token")
+        print(original_span_token)
+        print("Predicted span token")
+        print(predicted_span_token)
+
+        print("Original span string")
+        print(original_span_string)
+        print("Predicted span string")
+        print(predicted_span_string)
         
-    return token_original_output, token_prediction_output  
+        # if prediction came out to no result
+        if predicted_span_token == []:
+            token_prediction_begin.append(0)
+            token_prediction_end.append(0)
+            token_original_output.append(original_span_string)
+            token_prediction_output.append("")
+        else: # if prediction came out to some word
+            # append the original sentence to the list
+            token_original_output.append(original_span_string)
+            token_prediction_output.append(predicted_span_string)
+            all_words_in_span = predicted_span_string.split()
+            first_word_in_predicted_span_token = all_words_in_span[0]
+            last_word_in_predicted_span_token = all_words_in_span[-1]
+
+            original_sentence = row['orig_sentence']
+            span_begin = re.search(first_word_in_predicted_span_token, original_sentence)
+            token_prediction_begin.append(span_begin.start())
+
+            rest_of_sentence = original_sentence[span_begin.start():]
+            span_end = re.search(last_word_in_predicted_span_token, rest_of_sentence)
+            token_prediction_end.append(span_end.end())
+            
+
+    print("Finished parsing everything")
+        
+    return token_original_output, token_prediction_output, token_prediction_begin, token_prediction_end
 
             
 
@@ -270,12 +308,11 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
         #train model
         model = train(epoch, train_loader, model, optimizer, device, grad_step)
         print("Finished training")
-  
         
         #testing and logging
         dev_overall_prediction, labels_dev, predictions_dev, dev_accuracy, dev_f1, dev_precision, dev_recall = validate(model, dev_loader, labels_to_ids, device, tokenizer)
         print("Finished evaluating")
-        quit()
+
         print('DEV ACC:', dev_accuracy)
         print('DEV F1:', dev_f1)
         print('DEV PRECISION:', dev_precision)

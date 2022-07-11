@@ -46,7 +46,7 @@ class dataset(Dataset):
 
             # Creating an array for the combined label (with letter representation O/B/P)
             label_match = np.array(['O'] * len(encoding.input_ids))
-            span_label = combine_labels_old(encoding.input_ids, span_encoding.input_ids, label_match)
+            span_label = combine_labels(encoding.input_ids, span_encoding.input_ids, label_match)
     
             # Converting it to number representation (0, 1, 2)
             span_label = convert_labels(span_label)
@@ -69,33 +69,6 @@ class dataset(Dataset):
 
 
 def combine_labels(encoding, span_encoding, label_match):
-    for i in range(len(span_encoding)):
-        for j in range(len(encoding)):
-            if span_encoding[i] == encoding[j] and encoding[j] != 0 and span_encoding[i] != 101 and span_encoding[i] != 102:
-                k = i
-                l = j
-
-                # check if the span detection is one single phrase - if the word does not match before
-                in_single_phrase = 1
-                while span_encoding[k] != 102:
-                    if encoding[l] != span_encoding[k]:
-                        in_single_phrase = 0
-                        break
-                    k += 1
-                    l += 1
-
-                m = 0
-                if in_single_phrase == 1:
-                    while span_encoding[i + m] != 102:
-                        label_match[j + m] = 1
-                        m += 1
-
-                    return label_match
-
-    return label_match
-
-
-def combine_labels_old(encoding, span_encoding, label_match):
     end = 0
     for x in range(len(encoding)):
         if encoding[x] == 102:
