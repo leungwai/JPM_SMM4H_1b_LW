@@ -13,6 +13,7 @@ from labels_to_ids import task7_labels_to_ids
 import time
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
+os.environ["CUDA_LAUNCH_BLOCKING"]="1"
 
 def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_grad_norm = 10):
     tr_loss, tr_accuracy = 0, 0
@@ -24,7 +25,7 @@ def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_g
     
     for idx, batch in enumerate(training_loader):
         if batch:
-            ids = batch['input_ids'].to(device, dtype = torch.long)
+            ids = batch['new_input_ids'].to(device, dtype = torch.long)
             mask = batch['attention_mask'].to(device, dtype = torch.long)
             labels = batch['labels'].to(device, dtype = torch.long)
             
@@ -32,29 +33,27 @@ def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_g
                 print('FINSIHED BATCH:', idx, 'of', len(training_loader))
 
             #loss, tr_logits = model(input_ids=ids, attention_mask=mask, labels=labels)
-            output = model(input_ids=ids, attention_mask=mask, labels=labels)
+            output = model(input_ids=ids, token_type_ids=None, attention_mask=mask, labels=labels)
+    
             tr_loss += output[0]
 
             nb_tr_steps += 1
             nb_tr_examples += labels.size(0)
             
             # compute training accuracy
-            flattened_targets = labels.view(-1) # shape (batch_size * seq_len,)
-            active_logits = output[1].view(-1, model.num_labels) # shape (batch_size * seq_len, num_labels)
-            flattened_predictions = torch.argmax(active_logits, axis=1) # shape (batch_size * seq_len,)
+            flattened_predictions = torch.argmax(output.logits, axis=2) # shape (batch_size * seq_len,)
             
             # only compute accuracy at active labels
-            active_accuracy = labels.view(-1) != -100 # shape (batch_size, seq_len)
+            # active_accuracy = labels.view(-1) != -100 # shape (batch_size, seq_len)
             #active_labels = torch.where(active_accuracy, labels.view(-1), torch.tensor(-100).type_as(labels))
             
-            labels = torch.masked_select(flattened_targets, active_accuracy)
-            predictions = torch.masked_select(flattened_predictions, active_accuracy)
-
+            predictions = flattened_predictions
+        
             tr_labels.extend(labels)
             tr_preds.extend(predictions)
 
-            tmp_tr_accuracy = accuracy_score(labels.cpu().numpy(), predictions.cpu().numpy())
-            tr_accuracy += tmp_tr_accuracy
+            # tmp_tr_accuracy = accuracy_score(labels.detach().cpu().numpy().tolist(), predictions.detach().cpu().numpy().tolist())
+            # tr_accuracy += tmp_tr_accuracy
         
             # gradient clipping
             torch.nn.utils.clip_grad_norm_(
@@ -68,7 +67,7 @@ def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_g
                 optimizer.zero_grad()
 
         epoch_loss = tr_loss / nb_tr_steps
-        tr_accuracy = tr_accuracy / nb_tr_steps
+        # tr_accuracy = tr_accuracy / nb_tr_steps
         #print(f"Training loss epoch: {epoch_loss}")
         #print(f"Training accuracy epoch: {tr_accuracy}")
 
@@ -94,7 +93,7 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
     with torch.no_grad():
         for idx, batch in enumerate(testing_loader):
             
-            ids = batch['input_ids'].to(device, dtype = torch.long)
+            ids = batch['new_input_ids'].to(device, dtype = torch.long)
             mask = batch['attention_mask'].to(device, dtype = torch.long)
             labels = batch['labels'].to(device, dtype = torch.long)
 
@@ -106,8 +105,9 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
             orig_spans = batch['orig_span']
 
             #loss, eval_logits = model(input_ids=ids, attention_mask=mask, labels=labels)
-            output = model(input_ids=ids, attention_mask=mask, labels=labels)
-
+            output = model(input_ids=ids, token_type_ids=None, attention_mask=mask, labels=labels)
+            print("Output logits")
+            print(output.logits)
             eval_loss += output['loss'].item()
 
             nb_eval_steps += 1
@@ -118,28 +118,31 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
                 print(f"Validation loss per 100 evaluation steps: {loss_step}")
             
             # compute evaluation accuracy
-            flattened_targets = labels.view(-1) # shape (batch_size * seq_len,)
-            active_logits = output[1].view(-1, model.num_labels) # shape (batch_size * seq_len, num_labels)
-            flattened_predictions = torch.argmax(active_logits, axis=1) # shape (batch_size * seq_len,)
+            # flattened_targets = labels.view(-1) # shape (batch_size * seq_len,)
+            # active_logits = output[1].view(-1, model.num_labels) # shape (batch_size * seq_len, num_labels)
+            predictions = torch.argmax(output.logits, axis=2) # shape (batch_size * seq_len,)
             
             # only compute accuracy at active labels
-            active_accuracy = labels.view(-1) != -100 # shape (batch_size, seq_len)
+            # active_accuracy = labels.view(-1) != -100 # shape (batch_size, seq_len)
         
-            labels = torch.masked_select(flattened_targets, active_accuracy)
-            predictions = torch.masked_select(flattened_predictions, active_accuracy)
+            # labels = torch.masked_select(flattened_targets, active_accuracy)
+            # predictions = torch.masked_select(flattened_predictions, active_accuracy)
+            print(predictions)
             
+            # extending the original labels
             eval_labels.extend(labels)
             eval_preds.extend(predictions)
 
-            labels_formatted = [] 
-            predictions_formatted = [] 
+            labels_formatted = labels.detach().cpu().numpy().tolist()
+            predictions_formatted = predictions.detach().cpu().numpy().tolist()
 
-            # Getting the results
-            for sentence in range(len(labels)):
-                labels_formatted.append(list(labels[sentence].cpu().numpy()))
 
-            for sentence in range(len(predictions)):
-                predictions_formatted.append(list(predictions[sentence].cpu().numpy()))
+            # # Getting the results
+            # for sentence in range(len(labels)):
+            #     labels_formatted.append(list(labels.cpu().numpy()))
+
+            # for sentence in range(len(predictions)):
+            #     predictions_formatted.append(list(predictions[sentence].cpu().numpy()))
 
             print("Labels formatted")
             print(labels_formatted)
@@ -147,26 +150,26 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
             print("Predictions formatted")
             print(predictions_formatted)
 
-            # gettng the span values
-            batch_prediction_data = pd.DataFrame(zip(ids.cpu().numpy(), labels, predictions), columns=['id', 'label', 'prediction'])
+            # # gettng the span values
+            # batch_prediction_data = pd.DataFrame(zip(ids.cpu().numpy(), labels, predictions), columns=['id', 'label', 'prediction'])
             
-            original_label_span, prediction_label_span = find_matching_token(batch_prediction_data, tokenizer)
+            # original_label_span, prediction_label_span = find_matching_token(batch_prediction_data, tokenizer)
 
             
             eval_labels.extend(labels)
             eval_preds.extend(predictions)
-            eval_original_converted_spans.extend(original_label_span)
-            eval_predicted_converted_spans.extend(prediction_label_span)
+            # eval_original_converted_spans.extend(original_label_span)
+            # eval_predicted_converted_spans.extend(prediction_label_span)
 
-            eval_class_labels.extend(class_labels)
+            # eval_class_labels.extend(class_labels)
             eval_begin_values.extend(begin_values)
             eval_end_values.extend(end_values)
             eval_orig_spans.extend(orig_spans)
             eval_tweet_ids.extend(tweet_ids)
             eval_orig_sentences.extend(orig_sentences)
 
-            # tmp_eval_accuracy = accuracy_score(labels.cpu().numpy(), predictions.cpu().numpy())
-            # eval_accuracy += tmp_eval_accuracy
+            tmp_eval_accuracy = accuracy_score(labels.cpu().numpy(), predictions.cpu().numpy())
+            eval_accuracy += tmp_eval_accuracy
 
     # print("Eval labels")
     # print(eval_labels)
@@ -238,14 +241,13 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
         model = BertForTokenClassification.from_pretrained(model_load_location)
     else: 
         tokenizer = AutoTokenizer.from_pretrained(model_name, add_prefix_space=True)
-        model = BertForTokenClassification.from_pretrained(model_name, num_labels=len(labels_to_ids))
+        model = BertForTokenClassification.from_pretrained(model_name, num_labels=3)
     optimizer = torch.optim.Adam(params=model.parameters(), lr=learning_rate)
     model.to(device)
 
     #Get dataloaders
     train_loader = initialize_data(tokenizer, initialization_input, train_data, labels_to_ids, shuffle = True)
     dev_loader = initialize_data(tokenizer, initialization_input, dev_data, labels_to_ids, shuffle = True)
-
 
     best_dev_acc = 0
     best_test_acc = 0
@@ -267,9 +269,13 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
 
         #train model
         model = train(epoch, train_loader, model, optimizer, device, grad_step)
+        print("Finished training")
+  
         
         #testing and logging
         dev_overall_prediction, labels_dev, predictions_dev, dev_accuracy, dev_f1, dev_precision, dev_recall = validate(model, dev_loader, labels_to_ids, device, tokenizer)
+        print("Finished evaluating")
+        quit()
         print('DEV ACC:', dev_accuracy)
         print('DEV F1:', dev_f1)
         print('DEV PRECISION:', dev_precision)
@@ -320,7 +326,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
 
 if __name__ == '__main__':
     train_val_start_time = time.time()
-    n_epochs = 1
+    n_epochs = 2
     models = ['bert-base-uncased']
     
     #model saving parameters
@@ -383,11 +389,12 @@ if __name__ == '__main__':
             print("\n Prediction results")
             print(best_prediction_result)
 
-            formatted_prediction_result = best_prediction_result.drop(columns=['Orig', 'text'])
+            # formatted_prediction_result = best_prediction_result.drop(columns=['Orig', 'text'])
+            formatted_prediction_result = best_prediction_result
 
-            os.makedirs(result_save_location, exist_ok=True)
-            best_prediction_result.to_csv(unformatted_result_save_location, sep='\t', index=False)
-            formatted_prediction_result.to_csv(formatted_result_save_location, sep='\t', index=False, header=False)
+            # os.makedirs(result_save_location, exist_ok=True)
+            # best_prediction_result.to_csv(unformatted_result_save_location, sep='\t', index=False)
+            # formatted_prediction_result.to_csv(formatted_result_save_location, sep='\t', index=False, header=False)
 
             print("Result files saved")
 
