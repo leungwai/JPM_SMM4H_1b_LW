@@ -27,7 +27,8 @@ class dataset(Dataset):
 
         # step 3: turn everything into PyTorch tensors
         item = {key: torch.as_tensor(val) for key, val in encoding.items()}
-
+        item['orig_sentence'] = sentence
+        
         # step 4: if it is for training, get input labels as well
         if self.for_training:
             
@@ -51,7 +52,7 @@ class dataset(Dataset):
             item['begin'] = begin
             item['end'] = end
             item['orig_span'] = span
-            item['orig_sentence'] = sentence
+            
 
         return item
 

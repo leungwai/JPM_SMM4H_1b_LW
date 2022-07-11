@@ -131,41 +131,27 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
             eval_labels.extend(labels)
             eval_preds.extend(predictions)
 
-            output_array = output[1].cpu().numpy()
-
-        
             labels_formatted = [] 
+            predictions_formatted = [] 
 
+            # Getting the results
             for sentence in range(len(labels)):
                 labels_formatted.append(list(labels[sentence].cpu().numpy()))
-                
-            labels = labels_formatted
-            predictions = argmax_output_array
+
+            for sentence in range(len(predictions)):
+                predictions_formatted.append(list(predictions[sentence].cpu().numpy()))
+
+            print("Labels formatted")
+            print(labels_formatted)
+
+            print("Predictions formatted")
+            print(predictions_formatted)
 
             # gettng the span values
             batch_prediction_data = pd.DataFrame(zip(ids.cpu().numpy(), labels, predictions), columns=['id', 'label', 'prediction'])
             
             original_label_span, prediction_label_span = find_matching_token(batch_prediction_data, tokenizer)
 
-            # eval_loss += output['loss'].item()
-
-            # nb_eval_steps += 1
-            # nb_eval_examples += labels.size(0)
-        
-            # if idx % 100==0:
-            #     loss_step = eval_loss/nb_eval_steps
-            #     print(f"Validation loss per 100 evaluation steps: {loss_step}")
-            
-            # # compute evaluation accuracy
-            # flattened_targets = labels.view(-1) # shape (batch_size * seq_len,)
-            # active_logits = output[1].view(-1, model.num_labels) # shape (batch_size * seq_len, num_labels)
-            # flattened_predictions = torch.argmax(active_logits, axis=1) # shape (batch_size * seq_len,)
-            
-            # # only compute accuracy at active labels
-            # active_accuracy = labels.view(-1) != -100 # shape (batch_size, seq_len)
-        
-            # labels = torch.masked_select(flattened_targets, active_accuracy)
-            # predictions = torch.masked_select(flattened_predictions, active_accuracy)
             
             eval_labels.extend(labels)
             eval_preds.extend(predictions)
@@ -195,7 +181,6 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
     overall_prediction_data = pd.DataFrame(zip(eval_tweet_ids, eval_orig_sentences, eval_class_labels, eval_begin_values, eval_end_values, eval_orig_spans, eval_original_converted_spans, eval_predicted_converted_spans), columns=['id', 'text', 'class', 'begin', 'end', 'Orig', 'Label_convert', 'Span_convert'])
     print(overall_prediction_data)
     overall_prediction_data.to_csv("test_result.tsv", sep='\t')
-    quit()
     
     eval_loss = eval_loss / nb_eval_steps
     eval_accuracy = eval_accuracy / nb_eval_steps
@@ -229,7 +214,7 @@ def find_matching_token(batch_prediction_df, tokenizer):
 
             
 
-def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_flag, model_load_location):
+def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_flag, model_load_location, report_result_save_location):
     #Initialization training parameters
     max_len = 256
     batch_size = 32
@@ -242,7 +227,6 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
 
     train_data = read_task(dataset_location , split = 'train')
     dev_data = read_task(dataset_location , split = 'dev')
-    #test_data = read_task(dataset_location , split = 'dev')#load test set
 
     labels_to_ids = task7_labels_to_ids
     input_data = (train_data, dev_data, labels_to_ids)
@@ -262,7 +246,6 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
     train_loader = initialize_data(tokenizer, initialization_input, train_data, labels_to_ids, shuffle = True)
     dev_loader = initialize_data(tokenizer, initialization_input, dev_data, labels_to_ids, shuffle = True)
 
-    #test_loader = initialize_data(tokenizer, initialization_input, test_data, labels_to_ids, shuffle = True)#create test loader
 
     best_dev_acc = 0
     best_test_acc = 0
@@ -286,7 +269,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
         model = train(epoch, train_loader, model, optimizer, device, grad_step)
         
         #testing and logging
-        dev_overall_prediction, labels_dev, predictions_dev, dev_accuracy, dev_f1, dev_precision, dev_recall = testing(model, dev_loader, labels_to_ids, device, tokenizer)
+        dev_overall_prediction, labels_dev, predictions_dev, dev_accuracy, dev_f1, dev_precision, dev_recall = validate(model, dev_loader, labels_to_ids, device, tokenizer)
         print('DEV ACC:', dev_accuracy)
         print('DEV F1:', dev_f1)
         print('DEV PRECISION:', dev_precision)
@@ -298,8 +281,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
         all_epoch_data.at[epoch, 'dev_precision'] = dev_precision
         all_epoch_data.at[epoch, 'dev_recall'] = dev_recall
 
-        #labels_test, predictions_test, test_accuracy = testing(model, test_loader, labels_to_ids, device)
-        #print('TEST ACC:', test_accuracy)
+        report_result_save_location = report_result_save_location + '/epoch_' + str(epoch) + '/'
 
         #saving model
         if dev_accuracy > best_dev_acc:
@@ -324,6 +306,9 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
 
         now = time.time()
         print('BEST ACCURACY --> ', 'DEV:', round(best_dev_acc, 5))
+        print('BEST F1 --> ', 'DEV:', best_f1)
+        print('BEST PRECISION --> ', 'DEV:', best_precision)
+        print('BEST RECALL --> ', 'DEV:',  best_recall)
         print('TIME PER EPOCH:', (now-start)/60 )
         print()
 
@@ -334,6 +319,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
 
 
 if __name__ == '__main__':
+    train_val_start_time = time.time()
     n_epochs = 1
     models = ['bert-base-uncased']
     
@@ -369,10 +355,12 @@ if __name__ == '__main__':
 
             result_save_location = '../saved_data_1b/' + model_name + '/' + str(loop_index) + '/'
 
+            report_result_save_location = '../saved_report_1b/' + model_name + '/' + str(loop_index)
+
             unformatted_result_save_location = result_save_location + 'unformatted_result.tsv'
             formatted_result_save_location = result_save_location + 'formatted_result.tsv'
 
-            best_prediction_result, best_dev_acc, best_test_acc, best_tb_acc, best_epoch, best_tb_epoch, best_f1_score, best_precision, best_recall, epoch_data = main(n_epochs, model_name, model_save_flag, model_save_location, model_load_flag, model_load_location)
+            best_prediction_result, best_dev_acc, best_test_acc, best_tb_acc, best_epoch, best_tb_epoch, best_f1_score, best_precision, best_recall, epoch_data = main(n_epochs, model_name, model_save_flag, model_save_location, model_load_flag, model_load_location, report_result_save_location)
 
             # Getting accuracy
             all_best_dev_acc.at[loop_index, model_name] = best_dev_acc
@@ -417,13 +405,17 @@ if __name__ == '__main__':
 
     #saving all results into tsv
 
-    os.makedirs('../results/', exist_ok=True)
-    all_best_dev_acc.to_csv('../results/all_best_dev_acc.tsv', sep='\t')
-    all_best_f1_score.to_csv('../results/all_best_f1_score.tsv', sep='\t')
-    all_best_precision.to_csv('../results/all_best_precision.tsv', sep='\t')
-    all_best_recall.to_csv('../results/all_best_recall.tsv', sep='\t')
+    os.makedirs('../validating_statistics/', exist_ok=True)
+    all_best_dev_acc.to_csv('../validating_statistics/all_best_dev_acc.tsv', sep='\t')
+    all_best_f1_score.to_csv('../validating_statistics/all_best_f1_score.tsv', sep='\t')
+    all_best_precision.to_csv('../validating_statistics/all_best_precision.tsv', sep='\t')
+    all_best_recall.to_csv('../validating_statistics/all_best_recall.tsv', sep='\t')
 
+    train_val_end_time = time.time()
+
+    total_time = (train_val_end_time - train_val_start_time) / 60
     print("Everything successfully completed")
+    print("Time to complete:", total_time)
 
 
 
