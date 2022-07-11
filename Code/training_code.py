@@ -134,7 +134,7 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
             output_array = output[1].cpu().numpy()
 
         
-            labels_formatted = []
+            labels_formatted = [] 
 
             for sentence in range(len(labels)):
                 labels_formatted.append(list(labels[sentence].cpu().numpy()))
