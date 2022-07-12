@@ -339,7 +339,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
     best_precision = 0
     best_recall = 0
 
-    all_epoch_data = pd.DataFrame(index=[range(n_epochs)], columns=['dev_accuracy', 'dev_f1', 'dev_precision', 'dev_recall'])
+    all_epoch_data = pd.DataFrame(index=range(n_epochs), columns=['dev_accuracy', 'dev_f1', 'dev_precision', 'dev_recall'])
 
     best_overall_prediction_data = []
 
@@ -370,6 +370,10 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
         all_epoch_data.at[epoch, 'dev_recall'] = dev_recall
 
         report_result_save_location = report_result_save_location + '/epoch_' + str(epoch) + '/'
+        
+        os.makedirs(report_result_save_location, exist_ok=True)
+        epoch_result_location = report_result_save_location + 'unformatted_result.tsv'
+        dev_overall_prediction.to_csv(epoch_result_location, sep='\t')
 
         #saving model
         if dev_accuracy > best_dev_acc:
@@ -408,8 +412,8 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
 
 if __name__ == '__main__':
     train_val_start_time = time.time()
-    n_epochs = 2
-    n_rounds = 1
+    n_epochs = 15
+    n_rounds = 5
     models = ['bert-base-uncased']
     
     #model saving parameters
@@ -418,9 +422,9 @@ if __name__ == '__main__':
 
     # setting up the arrays to save data for all loops, models, and epochs
     # accuracy
-    all_best_dev_acc = pd.DataFrame(index=[range(n_rounds)], columns=models)
-    all_best_test_acc = pd.DataFrame(index=[range(n_rounds)], columns=models)
-    all_best_tb_acc = pd.DataFrame(index=[range(n_rounds)], columns=models)
+    all_best_dev_acc = pd.DataFrame(index=range(n_rounds), columns=models)
+    all_best_test_acc = pd.DataFrame(index=range(n_rounds), columns=models)
+    all_best_tb_acc = pd.DataFrame(index=range(n_rounds), columns=models)
     
     # epoch
     all_best_epoch = pd.DataFrame(index=[range(n_rounds)], columns=models)
@@ -436,15 +440,15 @@ if __name__ == '__main__':
             print('Running loop', loop_index)
             print()
 
-            model_save_location = '../saved_models_1b/' + model_name + '/' + str(loop_index) + '/' 
+            model_save_location = '../bert-base/saved_models_1b/' + model_name + '/' + str(loop_index) + '/' 
             model_load_location = None
 
-            epoch_save_location = '../saved_epoch_1b/' + model_name + '/' + str(loop_index) + '/' 
+            epoch_save_location = '../bert-base/saved_epoch_1b/' + model_name + '/' + str(loop_index) + '/' 
             epoch_save_name = epoch_save_location + '/epoch_info.tsv'
 
-            result_save_location = '../saved_data_1b/' + model_name + '/' + str(loop_index) + '/'
+            result_save_location = '../bert-base/saved_data_1b/' + model_name + '/' + str(loop_index) + '/'
 
-            report_result_save_location = '../saved_report_1b/' + model_name + '/' + str(loop_index)
+            report_result_save_location = '../bert-base/saved_report_1b/' + model_name + '/' + str(loop_index)
 
             unformatted_result_save_location = result_save_location + 'unformatted_result.tsv'
             formatted_result_save_location = result_save_location + 'formatted_result.tsv'
@@ -495,17 +499,22 @@ if __name__ == '__main__':
 
     #saving all results into tsv
 
-    os.makedirs('../validating_statistics/', exist_ok=True)
-    all_best_dev_acc.to_csv('../validating_statistics/all_best_dev_acc.tsv', sep='\t')
-    all_best_f1_score.to_csv('../validating_statistics/all_best_f1_score.tsv', sep='\t')
-    all_best_precision.to_csv('../validating_statistics/all_best_precision.tsv', sep='\t')
-    all_best_recall.to_csv('../validating_statistics/all_best_recall.tsv', sep='\t')
+    os.makedirs('../bert-base/validating_statistics/', exist_ok=True)
+    all_best_dev_acc.to_csv('../bert-base/validating_statistics/all_best_dev_acc.tsv', sep='\t')
+    all_best_f1_score.to_csv('../bert-base/validating_statistics/all_best_f1_score.tsv', sep='\t')
+    all_best_precision.to_csv('../bert-base/validating_statistics/all_best_precision.tsv', sep='\t')
+    all_best_recall.to_csv('../bert-base/validating_statistics/all_best_recall.tsv', sep='\t')
 
     train_val_end_time = time.time()
 
     total_time = (train_val_end_time - train_val_start_time) / 60
     print("Everything successfully completed")
     print("Time to complete:", total_time)
+
+    with open('../bert-base/validating_statistics/time.txt', 'w') as file:
+        file.write("Time to complete: ")
+        file.write(str(total_time))
+        file.write(" mins")
 
 
 
