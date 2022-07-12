@@ -142,19 +142,24 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
 
 
             # gettng the span values
-            batch_prediction_data = pd.DataFrame(zip(ids.cpu().numpy(), labels_formatted, predictions_formatted, orig_sentences), columns=['id', 'label', 'prediction', 'orig_sentence'])
+            batch_prediction_data = pd.DataFrame(zip(ids.cpu().numpy(), labels_formatted, predictions_formatted, orig_sentences, orig_spans), columns=['id', 'label', 'prediction', 'orig_sentence', 'orig_span'])
 
             # finding the matching token
             original_label_span, prediction_label_span, prediction_begin, prediction_end = find_matching_token(batch_prediction_data, tokenizer)
 
+            # extending the original 0/1/2 labels
             eval_labels.extend(labels)
             eval_preds.extend(predictions)
+            
+            # extending the guesses for the PROCESSED original label span and the predicted label span
             eval_original_converted_spans.extend(original_label_span)
             eval_predicted_converted_spans.extend(prediction_label_span)
+
+            # extending the predicted indices for the begin and end span
             eval_predicted_begin.extend(prediction_begin)
             eval_predicted_end.extend(prediction_end)
             
-            # eval_class_labels.extend(class_labels)
+            # extending all of the original values 
             eval_begin_values.extend(begin_values)
             eval_end_values.extend(end_values)
             eval_orig_spans.extend(orig_spans)
@@ -169,20 +174,12 @@ def validate(model, testing_loader, labels_to_ids, device, tokenizer):
             tmp_eval_accuracy = tmp_batch_accuracy / len(labels_formatted)
             
             eval_accuracy += tmp_eval_accuracy
-
-    print("Eval labels")
-    print(eval_labels)
-
-    print("Eval preds")
-    print(eval_preds)
   
     # labels = [id.item() for id in eval_labels]
     # predictions = [ids_to_labels[id.item()] for id in eval_preds]
 
     # Concatenating all data together into a single table
-    overall_prediction_data = pd.DataFrame(zip(eval_tweet_ids, eval_orig_sentences, eval_class_labels, eval_begin_values, eval_end_values, eval_orig_spans, eval_original_converted_spans, eval_predicted_converted_spans, eval_predicted_begin, eval_predicted_end), columns=['id', 'text', 'class', 'begin', 'end', 'Orig', 'Label_convert', 'Span_convert', 'begin', 'end'])
-    
-    overall_prediction_data.to_csv("test_result.tsv", sep='\t')
+    overall_prediction_data = pd.DataFrame(zip(eval_tweet_ids, eval_orig_sentences, eval_begin_values, eval_end_values, eval_orig_spans, eval_original_converted_spans, eval_predicted_converted_spans, eval_predicted_begin, eval_predicted_end), columns=['id', 'text', 'orig_begin', 'orig_end', 'orig_span', 'orig_span_convert', 'predict_span', 'predict_begin', 'predict_end'])    
     
     eval_loss = eval_loss / nb_eval_steps
     eval_accuracy = eval_accuracy / nb_eval_steps
@@ -215,6 +212,8 @@ def find_matching_token(batch_prediction_df, tokenizer):
 
         original_span_string = tokenizer.convert_tokens_to_string(original_span_token)
         predicted_span_string = tokenizer.convert_tokens_to_string(predicted_span_token)
+        
+        original_span = row['orig_span']
 
         print("Original span token")
         print(original_span_token)
@@ -234,20 +233,63 @@ def find_matching_token(batch_prediction_df, tokenizer):
             token_prediction_output.append("")
         else: # if prediction came out to some word
             # append the original sentence to the list
-            token_original_output.append(original_span_string)
-            token_prediction_output.append(predicted_span_string)
-            all_words_in_span = predicted_span_string.split()
-            first_word_in_predicted_span_token = all_words_in_span[0]
-            last_word_in_predicted_span_token = all_words_in_span[-1]
+            
+                
+            first_word_in_predicted_span_token = predicted_span_token[0]
+            last_word_in_predicted_span_token = predicted_span_token[-1]
 
             original_sentence = row['orig_sentence']
-            span_begin = re.search(first_word_in_predicted_span_token, original_sentence)
-            token_prediction_begin.append(span_begin.start())
+            span_begin = ""
+            if first_word_in_predicted_span_token[0:2] == '##':
+                first_word_in_predicted_span_token = first_word_in_predicted_span_token[2:]
+                span_begin = re.search(r"\w*%s\b"%first_word_in_predicted_span_token, original_sentence)
+            else:
+                span_begin = re.search(first_word_in_predicted_span_token, original_sentence)
 
-            rest_of_sentence = original_sentence[span_begin.start():]
-            span_end = re.search(last_word_in_predicted_span_token, rest_of_sentence)
-            token_prediction_end.append(span_end.end())
+            span_predict_begin = span_begin.start() 
             
+            # accounting for if the span is one word only
+            if first_word_in_predicted_span_token == last_word_in_predicted_span_token:
+                
+                span_predict_end = span_begin.end()
+                predicted_span = original_sentence[span_predict_begin:span_predict_end]
+                
+                token_original_output.append(original_span_string)
+                token_prediction_output.append(predicted_span)
+                token_prediction_begin.append(span_predict_begin)
+                token_prediction_end.append(span_predict_end) 
+            else:
+                # if the span is more than one word
+                rest_of_sentence = original_sentence[span_predict_begin:]
+                span_end = ""
+
+                if last_word_in_predicted_span_token[0:2] == '##':
+                    last_word_in_predicted_span_token = last_word_in_predicted_span_token[2:]
+                    span_end = re.search(r"\w*%s\b"%last_word_in_predicted_span_token, rest_of_sentence)
+                else:
+                    span_end = re.search(last_word_in_predicted_span_token, rest_of_sentence)
+                    
+                span_predict_end = span_end.end() + span_predict_begin
+                
+                # checking if the predicted span is much greater than actual span
+                predicted_span = original_sentence[span_predict_begin:span_predict_end]
+
+                # while the predicted span is much more than the predicted span string, find the next
+                # equal word and keep shrinking until it is the same length
+                # while len(predicted_span) > len(predicted_span_string) + 10:
+                #     span_begin = re.search(first_word_in_predicted_span_token, rest_of_sentence)
+                #     span_predict_begin = span_begin.start()
+                #     rest_of_sentence = original_sentence[span_predict_begin:]
+                #     span_end = re.search(last_word_in_predicted_span_token, rest_of_sentence)
+                #     span_predict_end = span_end.end() + span_predict_begin
+                #     predicted_span = original_sentence[span_predict_begin:span_predict_end]
+
+                # once the predicted span and the original span are the same length, then, 
+                token_original_output.append(original_span_string)
+                token_prediction_output.append(predicted_span)
+                token_prediction_begin.append(span_predict_begin)
+                token_prediction_end.append(span_predict_end)
+                                
 
     print("Finished parsing everything")
         
@@ -313,6 +355,9 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
         dev_overall_prediction, labels_dev, predictions_dev, dev_accuracy, dev_f1, dev_precision, dev_recall = validate(model, dev_loader, labels_to_ids, device, tokenizer)
         print("Finished evaluating")
 
+        print("DEV OVERALL PREDICTION")
+        print(dev_overall_prediction)
+
         print('DEV ACC:', dev_accuracy)
         print('DEV F1:', dev_f1)
         print('DEV PRECISION:', dev_precision)
@@ -336,7 +381,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
             #best_test_acc = test_accuracy
             best_epoch = epoch
             
-            best_overall_prediction_data = dev_overall_prediction
+            # best_overall_prediction_data = dev_overall_prediction
             
             if model_save_flag:
                 os.makedirs(model_save_location, exist_ok=True)
@@ -346,7 +391,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
         '''if best_tb_acc < test_accuracy_tb:
             best_tb_acc = test_accuracy_tb
             best_tb_epoch = epoch'''
-
+        best_overall_prediction_data = dev_overall_prediction
         now = time.time()
         print('BEST ACCURACY --> ', 'DEV:', round(best_dev_acc, 5))
         print('BEST F1 --> ', 'DEV:', best_f1)
@@ -363,7 +408,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
 
 if __name__ == '__main__':
     train_val_start_time = time.time()
-    n_epochs = 2
+    n_epochs = 5
     models = ['bert-base-uncased']
     
     #model saving parameters
@@ -429,10 +474,10 @@ if __name__ == '__main__':
             # formatted_prediction_result = best_prediction_result.drop(columns=['Orig', 'text'])
             formatted_prediction_result = best_prediction_result
 
-            # os.makedirs(result_save_location, exist_ok=True)
-            # best_prediction_result.to_csv(unformatted_result_save_location, sep='\t', index=False)
-            # formatted_prediction_result.to_csv(formatted_result_save_location, sep='\t', index=False, header=False)
-
+            os.makedirs(result_save_location, exist_ok=True)
+            best_prediction_result.to_csv(unformatted_result_save_location, sep='\t', index=False)
+            formatted_prediction_result.to_csv(formatted_result_save_location, sep='\t', index=False, header=False)
+            
             print("Result files saved")
 
     print("\n All best dev acc")
