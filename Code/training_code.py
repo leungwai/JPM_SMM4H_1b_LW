@@ -339,7 +339,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
     best_precision = 0
     best_recall = 0
 
-    all_epoch_data = pd.DataFrame(index=[range(0, n_epochs)], columns=['dev_accuracy', 'dev_f1', 'dev_precision', 'dev_recall'])
+    all_epoch_data = pd.DataFrame(index=[range(n_epochs)], columns=['dev_accuracy', 'dev_f1', 'dev_precision', 'dev_recall'])
 
     best_overall_prediction_data = []
 
@@ -408,8 +408,8 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
 
 if __name__ == '__main__':
     train_val_start_time = time.time()
-    n_epochs = 10
-    n_rounds = 5
+    n_epochs = 2
+    n_rounds = 1
     models = ['bert-base-uncased']
     
     #model saving parameters
@@ -418,18 +418,18 @@ if __name__ == '__main__':
 
     # setting up the arrays to save data for all loops, models, and epochs
     # accuracy
-    all_best_dev_acc = pd.DataFrame(index=[range(0, n_rounds)], columns=models)
-    all_best_test_acc = pd.DataFrame(index=[range(0, n_rounds)], columns=models)
-    all_best_tb_acc = pd.DataFrame(index=[range(0, n_rounds)], columns=models)
+    all_best_dev_acc = pd.DataFrame(index=[range(n_rounds)], columns=models)
+    all_best_test_acc = pd.DataFrame(index=[range(n_rounds)], columns=models)
+    all_best_tb_acc = pd.DataFrame(index=[range(n_rounds)], columns=models)
     
     # epoch
-    all_best_epoch = pd.DataFrame(index=[range(0, n_rounds)], columns=models)
-    all_best_tb_epoch = pd.DataFrame(index=[range(0, n_rounds)], columns=models)
+    all_best_epoch = pd.DataFrame(index=[range(n_rounds)], columns=models)
+    all_best_tb_epoch = pd.DataFrame(index=[range(n_rounds)], columns=models)
 
     # factors to calculate final f1 performance metric
-    all_best_f1_score = pd.DataFrame(index=[range(0, n_rounds)], columns=models)
-    all_best_precision = pd.DataFrame(index=[range(0, n_rounds)], columns=models)
-    all_best_recall = pd.DataFrame(index=[range(0, n_rounds)], columns=models)
+    all_best_f1_score = pd.DataFrame(index=[range(n_rounds)], columns=models)
+    all_best_precision = pd.DataFrame(index=[range(n_rounds)], columns=models)
+    all_best_recall = pd.DataFrame(index=[range(n_rounds)], columns=models)
 
     for loop_index in range(n_rounds):
         for model_name in models:
