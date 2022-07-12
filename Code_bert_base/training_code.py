@@ -412,7 +412,7 @@ def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_
 
 if __name__ == '__main__':
     train_val_start_time = time.time()
-    n_epochs = 15
+    n_epochs = 20
     n_rounds = 5
     models = ['bert-base-uncased']
     
@@ -440,15 +440,15 @@ if __name__ == '__main__':
             print('Running loop', loop_index)
             print()
 
-            model_save_location = '../bert-base/saved_models_1b/' + model_name + '/' + str(loop_index) + '/' 
+            model_save_location = '../bert-base/20_epochs_baseline/saved_models_1b/' + model_name + '/' + str(loop_index) + '/' 
             model_load_location = None
 
-            epoch_save_location = '../bert-base/saved_epoch_1b/' + model_name + '/' + str(loop_index) + '/' 
+            epoch_save_location = '../bert-base/20_epochs_baseline/saved_epoch_1b/' + model_name + '/' + str(loop_index) + '/' 
             epoch_save_name = epoch_save_location + '/epoch_info.tsv'
 
-            result_save_location = '../bert-base/saved_data_1b/' + model_name + '/' + str(loop_index) + '/'
+            result_save_location = '../bert-base/20_epochs_baseline/saved_data_1b/' + model_name + '/' + str(loop_index) + '/'
 
-            report_result_save_location = '../bert-base/saved_report_1b/' + model_name + '/' + str(loop_index)
+            report_result_save_location = '../bert-base/20_epochs_baseline/saved_report_1b/' + model_name + '/' + str(loop_index)
 
             unformatted_result_save_location = result_save_location + 'unformatted_result.tsv'
             formatted_result_save_location = result_save_location + 'formatted_result.tsv'
@@ -499,11 +499,11 @@ if __name__ == '__main__':
 
     #saving all results into tsv
 
-    os.makedirs('../bert-base/validating_statistics/', exist_ok=True)
-    all_best_dev_acc.to_csv('../bert-base/validating_statistics/all_best_dev_acc.tsv', sep='\t')
-    all_best_f1_score.to_csv('../bert-base/validating_statistics/all_best_f1_score.tsv', sep='\t')
-    all_best_precision.to_csv('../bert-base/validating_statistics/all_best_precision.tsv', sep='\t')
-    all_best_recall.to_csv('../bert-base/validating_statistics/all_best_recall.tsv', sep='\t')
+    os.makedirs('../bert-base/20_epochs_baseline/validating_statistics/', exist_ok=True)
+    all_best_dev_acc.to_csv('../bert-base/20_epochs_baseline/validating_statistics/all_best_dev_acc.tsv', sep='\t')
+    all_best_f1_score.to_csv('../bert-base/20_epochs_baseline/validating_statistics/all_best_f1_score.tsv', sep='\t')
+    all_best_precision.to_csv('../bert-base/20_epochs_baseline/validating_statistics/all_best_precision.tsv', sep='\t')
+    all_best_recall.to_csv('../bert-base/20_epochs_baseline/validating_statistics/all_best_recall.tsv', sep='\t')
 
     train_val_end_time = time.time()
 
@@ -511,7 +511,7 @@ if __name__ == '__main__':
     print("Everything successfully completed")
     print("Time to complete:", total_time)
 
-    with open('../bert-base/validating_statistics/time.txt', 'w') as file:
+    with open('../bert-base/20_epochs_baseline/validating_statistics/time.txt', 'w') as file:
         file.write("Time to complete: ")
         file.write(str(total_time))
         file.write(" mins")
