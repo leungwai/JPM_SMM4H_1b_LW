@@ -16,7 +16,7 @@ import re
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 os.environ["CUDA_LAUNCH_BLOCKING"]="1"
 
-def train(epoch, training_loader, model, optimizer, device, grad_step = 1, max_grad_norm = 10):
+def train(epoch, training_loader, model, optimizer, device, grad_step = 4, max_grad_norm = 10):
     tr_loss, tr_accuracy = 0, 0
     nb_tr_examples, nb_tr_steps = 0, 0
     tr_preds, tr_labels = [], []
@@ -301,8 +301,8 @@ def find_matching_token(batch_prediction_df, tokenizer):
 def main(n_epochs, model_name, model_save_flag, model_save_location, model_load_flag, model_load_location, report_result_save_location):
     #Initialization training parameters
     max_len = 256
-    batch_size = 32
-    grad_step = 1
+    batch_size = 8
+    grad_step = 4
     learning_rate = 1e-05
     initialization_input = (max_len, batch_size)
 
