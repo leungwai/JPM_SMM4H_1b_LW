@@ -253,6 +253,7 @@ def find_matching_token(batch_prediction_df, tokenizer):
                 
                 span_predict_end = span_begin.end()
                 predicted_span = original_sentence[span_predict_begin:span_predict_end]
+                predicted_span = re.sub('[^A-Za-z0-9]+', ' ', str(predicted_span))
                 
                 token_original_output.append(original_span_string)
                 token_prediction_output.append(predicted_span)
@@ -273,7 +274,7 @@ def find_matching_token(batch_prediction_df, tokenizer):
                 
                 # checking if the predicted span is much greater than actual span
                 predicted_span = original_sentence[span_predict_begin:span_predict_end]
-
+                predicted_span = re.sub('[^A-Za-z0-9]+', ' ', str(predicted_span))
                 # while the predicted span is much more than the predicted span string, find the next
                 # equal word and keep shrinking until it is the same length
                 # while len(predicted_span) > len(predicted_span_string) + 10:
@@ -414,7 +415,7 @@ if __name__ == '__main__':
     train_val_start_time = time.time()
     n_epochs = 20
     n_rounds = 5
-    models = ['bert-base-uncased']
+    models = ['bert-large-uncased']
     
     #model saving parameters
     model_save_flag = True
@@ -440,15 +441,15 @@ if __name__ == '__main__':
             print('Running loop', loop_index)
             print()
 
-            model_save_location = '../bert-base/20_epochs_baseline/saved_models_1b/' + model_name + '/' + str(loop_index) + '/' 
+            model_save_location = '../bert-large/20_epochs_baseline/saved_models_1b/' + model_name + '/' + str(loop_index) + '/' 
             model_load_location = None
 
-            epoch_save_location = '../bert-base/20_epochs_baseline/saved_epoch_1b/' + model_name + '/' + str(loop_index) + '/' 
+            epoch_save_location = '../bert-large/20_epochs_baseline/saved_epoch_1b/' + model_name + '/' + str(loop_index) + '/' 
             epoch_save_name = epoch_save_location + '/epoch_info.tsv'
 
-            result_save_location = '../bert-base/20_epochs_baseline/saved_data_1b/' + model_name + '/' + str(loop_index) + '/'
+            result_save_location = '../bert-large/20_epochs_baseline/saved_data_1b/' + model_name + '/' + str(loop_index) + '/'
 
-            report_result_save_location = '../bert-base/20_epochs_baseline/saved_report_1b/' + model_name + '/' + str(loop_index)
+            report_result_save_location = '../bert-large/20_epochs_baseline/saved_report_1b/' + model_name + '/' + str(loop_index)
 
             unformatted_result_save_location = result_save_location + 'unformatted_result.tsv'
             formatted_result_save_location = result_save_location + 'formatted_result.tsv'
@@ -499,11 +500,11 @@ if __name__ == '__main__':
 
     #saving all results into tsv
 
-    os.makedirs('../bert-base/20_epochs_baseline/validating_statistics/', exist_ok=True)
-    all_best_dev_acc.to_csv('../bert-base/20_epochs_baseline/validating_statistics/all_best_dev_acc.tsv', sep='\t')
-    all_best_f1_score.to_csv('../bert-base/20_epochs_baseline/validating_statistics/all_best_f1_score.tsv', sep='\t')
-    all_best_precision.to_csv('../bert-base/20_epochs_baseline/validating_statistics/all_best_precision.tsv', sep='\t')
-    all_best_recall.to_csv('../bert-base/20_epochs_baseline/validating_statistics/all_best_recall.tsv', sep='\t')
+    os.makedirs('../bert-large/20_epochs_baseline/validating_statistics/', exist_ok=True)
+    all_best_dev_acc.to_csv('../bert-large/20_epochs_baseline/validating_statistics/all_best_dev_acc.tsv', sep='\t')
+    all_best_f1_score.to_csv('../bert-large/20_epochs_baseline/validating_statistics/all_best_f1_score.tsv', sep='\t')
+    all_best_precision.to_csv('../bert-large/20_epochs_baseline/validating_statistics/all_best_precision.tsv', sep='\t')
+    all_best_recall.to_csv('../bert-large/20_epochs_baseline/validating_statistics/all_best_recall.tsv', sep='\t')
 
     train_val_end_time = time.time()
 
@@ -511,7 +512,7 @@ if __name__ == '__main__':
     print("Everything successfully completed")
     print("Time to complete:", total_time)
 
-    with open('../bert-base/20_epochs_baseline/validating_statistics/time.txt', 'w') as file:
+    with open('../bert-large/20_epochs_baseline/validating_statistics/time.txt', 'w') as file:
         file.write("Time to complete: ")
         file.write(str(total_time))
         file.write(" mins")
