@@ -247,7 +247,10 @@ def find_matching_token(batch_prediction_df, tokenizer):
             else:
                 span_begin = re.search(first_word_in_predicted_span_token, original_sentence)
 
-            span_predict_begin = span_begin.start() 
+            if span_begin == None:
+                span_predict_begin = 0
+            else:
+                span_predict_begin = span_begin.start() 
             
             # accounting for if the span is one word only
             if first_word_in_predicted_span_token == last_word_in_predicted_span_token:
@@ -271,7 +274,10 @@ def find_matching_token(batch_prediction_df, tokenizer):
                 else:
                     span_end = re.search(last_word_in_predicted_span_token, rest_of_sentence)
                     
-                span_predict_end = span_end.end() + span_predict_begin
+                if span_end == None:
+                    span_predict_end = span_predict_begin
+                else:
+                    span_predict_end = span_end.end() + span_predict_begin
                 
                 # checking if the predicted span is much greater than actual span
                 predicted_span = original_sentence[span_predict_begin:span_predict_end]
