@@ -239,7 +239,7 @@ def find_matching_token(batch_prediction_df, tokenizer):
             last_word_in_predicted_span_token = predicted_span_token[-1]
 
             original_sentence = row['orig_sentence']
-            original_sentence = re.sub('[^A-Za-z0-9]+', ' ', str(original_sentence))
+            original_sentence = re.sub('[^A-Za-z0-9]+', ' ', str(original_sentence).lower())
             span_begin = ""
             if first_word_in_predicted_span_token[0:2] == '##':
                 first_word_in_predicted_span_token = first_word_in_predicted_span_token[2:]
