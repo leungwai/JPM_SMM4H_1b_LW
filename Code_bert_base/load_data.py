@@ -30,6 +30,10 @@ class dataset(Dataset):
         item = {key: torch.as_tensor(val) for key, val in encoding.items()}
         item['orig_sentence'] = sentence
         item['tweet_id'] = tweet_id
+
+        # Replacing the original input id tokens with 2 as well for padding
+        new_input_ids = convert_initial_tokens(encoding.input_ids)
+        item['new_input_ids'] = torch.as_tensor(new_input_ids)
         
         # step 4: if it is for training, get input labels as well
         if self.for_training:
@@ -52,11 +56,7 @@ class dataset(Dataset):
             # Converting it to number representation (0, 1, 2)
             span_label = convert_labels(span_label)
 
-            # Replacing the original input id tokens with 2 as well for padding
-            new_input_ids = convert_initial_tokens(encoding.input_ids)
-
             item['labels'] = torch.as_tensor(span_label)
-            item['new_input_ids'] = torch.as_tensor(new_input_ids)
             
             # Storing everything else to dataset
             item['begin'] = begin
@@ -145,6 +145,21 @@ def initialize_data(tokenizer, initialization_input, input_data, labels_to_ids, 
 
     loader = DataLoader(data_split, **params)
     
+    return loader
+
+
+def initialize_eval_test(tokenizer, initialization_input, input_data, labels_to_ids, shuffle = False):
+    max_len, batch_size = initialization_input
+    data_split = dataset(input_data, tokenizer, labels_to_ids, max_len, True)
+
+
+    params = {'batch_size': batch_size,
+                'shuffle': shuffle,
+                'num_workers': 4
+                }
+
+    loader = DataLoader(data_split, **params)
+
     return loader
 
 
