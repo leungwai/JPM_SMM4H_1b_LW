@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
             model_load_location = '../bert-large/20_epochs_baseline/saved_models_1b/' + model_name + '/' + str(loop_index) + '/' 
             
-            result_save_location = '../bert-large/20_epochs_baseline/saved_test_result_1b_2/' + model_name + '/' + str(loop_index) + '/'
+            result_save_location = '../bert-large/20_epochs_baseline/saved_test_result_1b_5/' + model_name + '/' + str(loop_index) + '/'
 
             unformatted_result_save_location = result_save_location + 'unformatted_test_result.tsv'
             formatted_result_save_location = result_save_location + 'formatted_test_result.tsv'
