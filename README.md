@@ -27,7 +27,7 @@ Unlike classification tasks, post-processing was required for this span detectio
 **Overlapping Performance Metrics for Subtask 1b** 
 | Task | F1-Score | Precision | Recall | 
 | ---: | :---: | :---: | :---: |
-| Task 1a | 0.568 | 0.671 | 0.492 | 
+| Task 1b | 0.568 | 0.671 | 0.492 | 
 
 > Placed **7th** of 14 submissions
 
