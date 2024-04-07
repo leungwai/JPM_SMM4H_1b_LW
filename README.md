@@ -21,6 +21,8 @@ The datasets were trained on variants top of the BERT language model \(Devlin et
 
 The model ensembling code is adapted from \(Jayanthi and Gupta, 2021\) method of model ensembling. Various methods of ensembling were experimented, including majority-vote, weighted and unweighted. Ultimately, a majority ensemble of RoBERTa<sub>LARGE</sub> models were used. 
 
+Unlike classification tasks, post-process was required for span detection to convert predicted tokens to a predicted span string. 
+
 ## Results 
 **Overlapping Performance Metrics for Subtask 1b** 
 | Task | F1-Score | Precision | Recall | 
